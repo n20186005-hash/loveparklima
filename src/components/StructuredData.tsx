@@ -6,7 +6,7 @@ import { useLang } from "@/components/LangProvider";
 export function StructuredData() {
   const { t, locale } = useLang();
 
-  const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "lovepark.com"}`;
+  const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "loveparklima.com"}`;
 
   const touristAttractionSchema = {
     "@context": "https://schema.org",
