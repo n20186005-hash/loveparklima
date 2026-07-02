@@ -100,6 +100,10 @@ function Nav() {
       <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>
         <div className="nav-links">
           <a href="#about">{t.nav.about}</a>
+          <a href="#geography">{t.nav.geography}</a>
+          <a href="#art">{t.nav.art}</a>
+          <a href="#ecology">{t.nav.ecology}</a>
+          <a href="#photography">{t.nav.photography}</a>
           <a href="#visiting">{t.nav.visiting}</a>
           <a href="#transportation">{t.nav.transportation}</a>
           <a href="#tips">{t.nav.tips}</a>
@@ -177,6 +181,123 @@ function About() {
   );
 }
 
+function Geography() {
+  const { t } = useLang();
+  if (!t.geography) return null;
+  return (
+    <section id="geography" className="section">
+      <ScrollReveal>
+        <p className="section-label">02</p>
+        <h2 className="section-title">{t.geography.title}</h2>
+        <p className="section-subtitle">{t.geography.subtitle}</p>
+        <div className="section-divider" />
+      </ScrollReveal>
+      <ScrollReveal>
+        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "2rem" }}>{t.geography.content}</p>
+        <div style={{ padding: "1.5rem", background: "#f8f9fa", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.05)" }}>
+          <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
+            {t.geography.climate.title}
+          </h3>
+          <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.geography.climate.content}</p>
+        </div>
+      </ScrollReveal>
+    </section>
+  );
+}
+
+function Art() {
+  const { t } = useLang();
+  if (!t.art) return null;
+  return (
+    <section id="art" style={{ background: "linear-gradient(180deg, var(--color-cream) 0%, #eee8dd 100%)" }}>
+      <div className="section">
+        <ScrollReveal>
+          <p className="section-label">03</p>
+          <h2 className="section-title">{t.art.title}</h2>
+          <div className="section-divider" />
+        </ScrollReveal>
+        <ScrollReveal>
+          <div style={{ marginBottom: "3rem" }}>
+            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
+              {t.art.sculpture.title}
+            </h3>
+            <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.art.sculpture.content}</p>
+          </div>
+          <div>
+            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
+              {t.art.mosaic.title}
+            </h3>
+            <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.art.mosaic.content}</p>
+          </div>
+        </ScrollReveal>
+      </div>
+    </section>
+  );
+}
+
+function Ecology() {
+  const { t } = useLang();
+  if (!t.ecology) return null;
+  return (
+    <section id="ecology" className="section">
+      <ScrollReveal>
+        <p className="section-label">04</p>
+        <h2 className="section-title">{t.ecology.title}</h2>
+        <div className="section-divider" />
+      </ScrollReveal>
+      <ScrollReveal>
+        <div style={{ display: "grid", gap: "2rem", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
+          <div style={{ padding: "1.5rem", background: "#f8f9fa", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.05)" }}>
+            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
+              {t.ecology.flora.title}
+            </h3>
+            <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.ecology.flora.content}</p>
+          </div>
+          <div style={{ padding: "1.5rem", background: "#f8f9fa", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.05)" }}>
+            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
+              {t.ecology.fauna.title}
+            </h3>
+            <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.ecology.fauna.content}</p>
+          </div>
+        </div>
+      </ScrollReveal>
+    </section>
+  );
+}
+
+function Photography() {
+  const { t } = useLang();
+  if (!t.photography) return null;
+  return (
+    <section id="photography" style={{ background: "linear-gradient(180deg, var(--color-cream) 0%, #eee8dd 100%)" }}>
+      <div className="section">
+        <ScrollReveal>
+          <p className="section-label">05</p>
+          <h2 className="section-title">{t.photography.title}</h2>
+          <div className="section-divider" />
+        </ScrollReveal>
+        <ScrollReveal>
+          <div style={{ marginTop: "2rem" }}>
+            <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1.5rem" }}>
+              {t.photography.spots.title}
+            </h3>
+            <div style={{ display: "grid", gap: "1.5rem", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}>
+              {t.photography.spots.items.map((spot: { name: string; description: string }, i: number) => (
+                <div key={i} style={{ padding: "1.25rem", background: "rgba(0,0,0,0.03)", borderRadius: "6px", borderLeft: "3px solid var(--color-gold)" }}>
+                  <h4 style={{ fontFamily: "var(--font-display)", fontSize: "1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "0.75rem" }}>
+                    {spot.name}
+                  </h4>
+                  <p style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.6" }}>{spot.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </ScrollReveal>
+      </div>
+    </section>
+  );
+}
+
 function Visiting() {
   const { t } = useLang();
   const cards = [
@@ -189,7 +310,7 @@ function Visiting() {
     <section id="visiting" style={{ background: "linear-gradient(180deg, var(--color-cream) 0%, #eee8dd 100%)" }}>
       <div className="section">
         <ScrollReveal>
-          <p className="section-label">02</p>
+          <p className="section-label">06</p>
           <h2 className="section-title">{t.visiting.title}</h2>
           <div className="section-divider" />
         </ScrollReveal>
@@ -225,58 +346,119 @@ function Visiting() {
 
 function Transportation() {
   const { t } = useLang();
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(0);
+
+  const sections = [
+    {
+      icon: "✈️",
+      title: t.transportation.airport.title,
+      content: t.transportation.airport.content,
+      options: t.transportation.airport.options
+    },
+    ...(t.transportation.publicTransport ? [{
+      icon: "🚌",
+      title: t.transportation.publicTransport.title,
+      content: t.transportation.publicTransport.content,
+      options: t.transportation.publicTransport.options
+    }] : []),
+    ...(t.transportation.cycling ? [{
+      icon: "🚲",
+      title: t.transportation.cycling.title,
+      content: t.transportation.cycling.content,
+      options: []
+    }] : []),
+    ...(t.transportation.localTransport ? [{
+      icon: "🚐",
+      title: t.transportation.localTransport.title,
+      content: t.transportation.localTransport.description || t.transportation.localTransport.content,
+      steps: t.transportation.localTransport.steps
+    }] : []),
+    {
+      icon: "🚶",
+      title: t.transportation.city.title,
+      content: t.transportation.city.content,
+      steps: t.transportation.city.steps
+    }
+  ];
 
   return (
     <section id="transportation" className="section">
       <ScrollReveal>
-        <p className="section-label">03</p>
+        <p className="section-label">07</p>
         <h2 className="section-title">{t.transportation.title}</h2>
         <div className="section-divider" />
       </ScrollReveal>
       <ScrollReveal>
-        <div style={{ display: "grid", gap: "2rem", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}>
-          
-          <div className="transport-card">
-            <div className="transport-icon">✈️</div>
-            <h3 className="transport-title">{t.transportation.airport.title}</h3>
-            <p className="transport-content" style={{ marginBottom: "1rem" }}>{t.transportation.airport.content}</p>
-            <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-              {t.transportation.airport.options.map((opt: { name: string; price: string; time: string; steps: string[] }, i: number) => (
-                <div key={i} style={{ padding: "1.25rem", background: "rgba(0,0,0,0.03)", borderRadius: "6px" }}>
-                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.5rem" }}>
-                    <strong style={{ color: "var(--color-deep)", fontSize: "1.05rem" }}>{opt.name}</strong>
-                  </div>
-                  <div style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", display: "flex", gap: "1rem", marginBottom: "1rem" }}>
-                    <span style={{ color: "var(--color-gold)", fontWeight: 600 }}>{opt.price}</span>
-                    <span>⏱️ {opt.time}</span>
-                  </div>
-                  <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-                    {opt.steps.map((step: string, j: number) => (
-                      <div key={j} style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>
-                        {step}
-                      </div>
-                    ))}
-                  </div>
+        <div className="faq-list">
+          {sections.map((sec, i) => (
+            <div className={`faq-item ${expandedIndex === i ? "expanded" : ""}`} key={i}>
+              <button
+                className="faq-question"
+                onClick={() => setExpandedIndex(expandedIndex === i ? null : i)}
+              >
+                <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
+                  <span style={{ fontSize: "1.5rem" }}>{sec.icon}</span>
+                  <span style={{ color: "var(--color-deep)", fontWeight: 600 }}>{sec.title}</span>
                 </div>
-              ))}
-            </div>
-          </div>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  className={`faq-icon ${expandedIndex === i ? "rotated" : ""}`}
+                >
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </button>
+              {expandedIndex === i && (
+                <div className="faq-answer">
+                  <p style={{ whiteSpace: "pre-line", marginBottom: "1.5rem" }}>{sec.content}</p>
+                  
+                  {sec.options && sec.options.length > 0 && (
+                    <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+                      {sec.options.map((opt: any, j: number) => (
+                        <div key={j} style={{ padding: "1.25rem", background: "rgba(0,0,0,0.03)", borderRadius: "6px" }}>
+                          <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.5rem" }}>
+                            <strong style={{ color: "var(--color-deep)", fontSize: "1.05rem" }}>{opt.name}</strong>
+                          </div>
+                          {(opt.price || opt.time) && (
+                            <div style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", display: "flex", gap: "1rem", marginBottom: "1rem" }}>
+                              {opt.price && <span style={{ color: "var(--color-gold)", fontWeight: 600 }}>{opt.price}</span>}
+                              {opt.time && <span>⏱️ {opt.time}</span>}
+                            </div>
+                          )}
+                          {opt.description && (
+                            <p style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", marginBottom: "0.5rem" }}>{opt.description}</p>
+                          )}
+                          {opt.steps && opt.steps.length > 0 && (
+                            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                              {opt.steps.map((step: string, k: number) => (
+                                <div key={k} style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>
+                                  • {step}
+                                </div>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
 
-          <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
-            <div className="transport-card">
-              <div className="transport-icon">🚶</div>
-              <h3 className="transport-title">{t.transportation.city.title}</h3>
-              <p className="transport-content" style={{ marginBottom: "1rem" }}>{t.transportation.city.content}</p>
-              <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", background: "rgba(0,0,0,0.02)", padding: "1.25rem", borderRadius: "6px" }}>
-                {t.transportation.city.steps.map((step: string, i: number) => (
-                  <div key={i} style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>
-                    {step}
-                  </div>
-                ))}
-              </div>
+                  {sec.steps && sec.steps.length > 0 && (
+                    <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", background: "rgba(0,0,0,0.02)", padding: "1.25rem", borderRadius: "6px" }}>
+                      {sec.steps.map((step: string, j: number) => (
+                        <div key={j} style={{ fontSize: "0.9rem", color: "var(--color-earth-soft)", lineHeight: "1.5" }}>
+                          • {step}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
-          </div>
-
+          ))}
         </div>
       </ScrollReveal>
     </section>
@@ -289,7 +471,7 @@ function Tips() {
     <section id="tips" style={{ background: "linear-gradient(180deg, var(--color-cream) 0%, #e8e2d6 100%)" }}>
       <div className="section">
         <ScrollReveal>
-          <p className="section-label">04</p>
+          <p className="section-label">08</p>
           <h2 className="section-title">{t.tips.title}</h2>
           <div className="section-divider" />
         </ScrollReveal>
@@ -337,7 +519,7 @@ function Gallery() {
   return (
     <section id="gallery" className="section">
       <ScrollReveal>
-        <p className="section-label">05</p>
+        <p className="section-label">09</p>
         <h2 className="section-title">{t.gallery.title}</h2>
         <div className="section-divider" />
       </ScrollReveal>
@@ -395,7 +577,7 @@ function Reviews() {
   return (
     <section id="reviews" className="section">
       <ScrollReveal>
-        <p className="section-label">06</p>
+        <p className="section-label">10</p>
         <h2 className="section-title">{t.reviews.title}</h2>
         <p className="section-subtitle">{t.reviews.subtitle}</p>
         <div className="section-divider" />
@@ -449,7 +631,7 @@ function FAQ() {
     <section id="faq" className="section">
       <div className="section">
         <ScrollReveal>
-        <p className="section-label">07</p>
+        <p className="section-label">11</p>
         <h2 className="section-title">{t.faq.title}</h2>
           <p className="section-subtitle">{t.faq.subtitle}</p>
           <div className="section-divider" />
@@ -496,7 +678,7 @@ function Location() {
   return (
     <section id="location" className="section">
       <ScrollReveal>
-        <p className="section-label">08</p>
+        <p className="section-label">12</p>
         <h2 className="section-title">{t.location.title}</h2>
         <div className="section-divider" />
       </ScrollReveal>
@@ -570,6 +752,10 @@ export default function Home(props: { params: Promise<{ locale: string }> }) {
       <Nav />
       <Hero />
       <About />
+      <Geography />
+      <Art />
+      <Ecology />
+      <Photography />
       <Visiting />
       <Transportation />
       <Tips />
