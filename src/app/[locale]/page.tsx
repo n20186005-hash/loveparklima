@@ -35,6 +35,51 @@ function ScrollReveal({ children, className = "" }: { children: React.ReactNode;
   return <div ref={ref} className={`reveal ${className}`}>{children}</div>;
 }
 
+function renderFormattedLine(line: string) {
+  return line.split(/(\*\*.+?\*\*)/g).filter(Boolean).map((segment, index) => {
+    if (segment.startsWith("**") && segment.endsWith("**")) {
+      return <strong key={index}>{segment.slice(2, -2)}</strong>;
+    }
+
+    return <React.Fragment key={index}>{segment}</React.Fragment>;
+  });
+}
+
+function RichText({
+  text,
+  className,
+  style,
+}: {
+  text: string;
+  className?: string;
+  style?: React.CSSProperties;
+}) {
+  const paragraphs = text.split("\n\n");
+  const { marginBottom, ...baseStyle } = style ?? {};
+
+  return (
+    <>
+      {paragraphs.map((paragraph, paragraphIndex) => (
+        <p
+          key={paragraphIndex}
+          className={className}
+          style={{
+            ...baseStyle,
+            marginBottom: paragraphIndex === paragraphs.length - 1 ? marginBottom : "1rem",
+          }}
+        >
+          {paragraph.split("\n").map((line, lineIndex) => (
+            <React.Fragment key={lineIndex}>
+              {lineIndex > 0 && <br />}
+              {renderFormattedLine(line)}
+            </React.Fragment>
+          ))}
+        </p>
+      ))}
+    </>
+  );
+}
+
 function ThemeToggle() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -174,8 +219,8 @@ function About() {
         </div>
       </ScrollReveal>
       <ScrollReveal>
-        <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.about.p1}</p>
-        <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.about.p2}</p>
+        <RichText className="about-text" style={{ whiteSpace: "pre-line" }} text={t.about.p1} />
+        <RichText className="about-text" style={{ whiteSpace: "pre-line" }} text={t.about.p2} />
       </ScrollReveal>
     </section>
   );
@@ -193,12 +238,12 @@ function Geography() {
         <div className="section-divider" />
       </ScrollReveal>
       <ScrollReveal>
-        <p className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "2rem" }}>{t.geography.content}</p>
+        <RichText className="about-text" style={{ whiteSpace: "pre-line", marginBottom: "2rem" }} text={t.geography.content} />
         <div style={{ padding: "1.5rem", background: "#f8f9fa", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.05)" }}>
           <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
             {t.geography.climate.title}
           </h3>
-          <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.geography.climate.content}</p>
+          <RichText className="about-text" style={{ whiteSpace: "pre-line" }} text={t.geography.climate.content} />
         </div>
       </ScrollReveal>
     </section>
@@ -221,13 +266,13 @@ function Art() {
             <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
               {t.art.sculpture.title}
             </h3>
-            <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.art.sculpture.content}</p>
+            <RichText className="about-text" style={{ whiteSpace: "pre-line" }} text={t.art.sculpture.content} />
           </div>
           <div>
             <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
               {t.art.mosaic.title}
             </h3>
-            <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.art.mosaic.content}</p>
+            <RichText className="about-text" style={{ whiteSpace: "pre-line" }} text={t.art.mosaic.content} />
           </div>
         </ScrollReveal>
       </div>
@@ -251,13 +296,13 @@ function Ecology() {
             <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
               {t.ecology.flora.title}
             </h3>
-            <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.ecology.flora.content}</p>
+            <RichText className="about-text" style={{ whiteSpace: "pre-line" }} text={t.ecology.flora.content} />
           </div>
           <div style={{ padding: "1.5rem", background: "#f8f9fa", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.05)" }}>
             <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
               {t.ecology.fauna.title}
             </h3>
-            <p className="about-text" style={{ whiteSpace: "pre-line" }}>{t.ecology.fauna.content}</p>
+            <RichText className="about-text" style={{ whiteSpace: "pre-line" }} text={t.ecology.fauna.content} />
           </div>
         </div>
       </ScrollReveal>
@@ -414,7 +459,7 @@ function Transportation() {
               </button>
               {expandedIndex === i && (
                 <div className="faq-answer">
-                  <p style={{ whiteSpace: "pre-line", marginBottom: "1.5rem" }}>{sec.content}</p>
+                  <RichText style={{ whiteSpace: "pre-line", marginBottom: "1.5rem" }} text={sec.content} />
                   
                   {sec.options && sec.options.length > 0 && (
                     <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
@@ -659,9 +704,7 @@ function FAQ() {
                 </button>
                 {expandedIndex === i && (
                   <div className="faq-answer">
-                    {item.answer.split("\n\n").map((paragraph: string, j: number) => (
-                      <p key={j}>{paragraph}</p>
-                    ))}
+                    <RichText text={item.answer} />
                   </div>
                 )}
               </div>
