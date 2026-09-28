@@ -6,8 +6,7 @@
     "predev": "node scripts/generate-gallery.js",
     "dev": "next dev --webpack",
     "prebuild": "node scripts/generate-gallery.js",
-    "build": "next build --webpack",
-    "postbuild": "node scripts/fix-html-lang.js",
+    "build": "next build --webpack && node scripts/fix-html-lang.js && opennextjs-cloudflare build --skipNextBuild",
     "start": "next start",
     "lint": "eslint"
   },
@@ -18,6 +17,7 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.20.6",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

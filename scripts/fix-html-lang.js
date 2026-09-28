@@ -1,7 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 
-const outDir = path.resolve(__dirname, '..', 'out');
+// Prerendered HTML lives in `.next/server/app` for `output: "standalone"`
+// (used by @opennextjs/cloudflare); fall back to `out` for `output: "export"`.
+const candidates = [
+  path.resolve(__dirname, '..', '.next', 'server', 'app'),
+  path.resolve(__dirname, '..', 'out'),
+];
+const outDir = candidates.find((dir) => fs.existsSync(dir)) || candidates[0];
 
 // Map of locale to HTML lang attribute value
 const langMap = {
@@ -12,6 +18,10 @@ const langMap = {
 };
 
 function walkDir(dir, callback) {
+  if (!fs.existsSync(dir)) {
+    console.log(`⚠ Directory not found: ${dir} (skipping)`);
+    return;
+  }
   const files = fs.readdirSync(dir, { withFileTypes: true });
   for (const file of files) {
     const fullPath = path.join(dir, file.name);
