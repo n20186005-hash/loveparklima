@@ -415,7 +415,7 @@ function Transportation() {
     ...(t.transportation.localTransport ? [{
       icon: "🚐",
       title: t.transportation.localTransport.title,
-      content: t.transportation.localTransport.description || t.transportation.localTransport.content,
+      content: t.transportation.localTransport.description || t.transportation.localTransport.content || "",
       steps: t.transportation.localTransport.steps
     }] : []),
     {
