@@ -124,6 +124,12 @@ const details: Record<string, { hours?: Localized; admission?: Localized; notes?
 
 export function visitDetails(slug: string, locale: AttractionLocale, source: string) {
   const place = details[slug];
+  if (locale === "qu") return {
+    hours: "Kichana pachata kamachiqkunawan chiqaqchay.",
+    admission: "Yaykuna qullqita manaraq riyta qallarispa tapuy.",
+    source: place?.source ?? source,
+    notes: undefined,
+  };
   const isOutdoor = outdoors.has(slug);
   return {
     hours: (place?.hours ?? (isOutdoor ? publicAccess : confirmAccess))[index[locale]],
@@ -146,6 +152,9 @@ const stays = {
 } satisfies Record<string, Localized>;
 
 export function stayAdvice(locale: AttractionLocale, category: Attraction["category"]) {
+  if (locale === "qu") return category === "barranco"
+    ? "Barranco chawpipi samana wasita maskay, Grau ñan qayllanpi."
+    : "Miraflorespi Kennedy pampa utaq Larco ñan qayllanpi samana wasita maskay.";
   return stays[category === "barranco" ? "barranco" : category === "coast" ? "coast" : "center"][index[locale]];
 }
 
@@ -153,4 +162,5 @@ export const visitLabels = {
   es: { walkPhoto: "En el malecón superior, encuadra el puente Villena Rey y la Costa Verde desde un punto ancho del paseo. Deja libre la acera del puente.", intro: "Explora este lugar", discover: "Descubre el lugar", route: "Recorrido recomendado", notes: "Antes de la visita", stay: "Dónde alojarse", location: "Dirección y mapa", officialName: "Nombre local", district: "Distrito", verify: "Consultar horarios y condiciones", heritage: "Respeta las zonas delimitadas y consulta las reglas de fotografía antes de entrar.", weather: "En el malecón puede haber viento o neblina. Usa los senderos abiertos y mantente detrás de las barandas." },
   en: { walkPhoto: "Frame Villena Rey Bridge and the Costa Verde from a wide spot on the upper promenade. Keep the bridge sidewalk clear.", intro: "Explore this place", discover: "Discover the site", route: "Suggested route", notes: "Before you go", stay: "Where to stay", location: "Address and map", officialName: "Local name", district: "District", verify: "Check access, hours and admission", heritage: "Stay within marked areas and check photography rules before entering.", weather: "The coastal promenade can be windy or foggy. Use open paths and stay behind the railings." },
   zh: { walkPhoto: "在上层步道较宽处把比列纳雷伊桥与绿海岸纳入同一画面，留出桥上人行道供行人通行。", intro: "探索景点", discover: "发现景点魅力", route: "建议游览路线", notes: "游览须知", stay: "住宿建议", location: "交通指南与地图", officialName: "当地名称", district: "行政区", verify: "核对开放时间及入场规定", heritage: "请遵守景点划定的参观区域，入内前核对拍摄规定。", weather: "海滨步道有时风大或起雾，请走开放小径，并留在栏杆内侧。" },
+  qu: { walkPhoto: "Hanaq ñanmanta Villena Rey chakata, Costa Verdetapas rikch'aypi hurquy. Purina ñanta saqiy.", intro: "Kay watukuyta riqsiy", discover: "Kay k'uchupa kawsayninta yachay", route: "Purina ñan", notes: "Manaraq rispa", stay: "Maypi samay", location: "Maypi, mapa", officialName: "Llaqtapi sutin", district: "Llaqta", verify: "Kichana pacha, yaykuna qullqita chiqaqchay", heritage: "Saqisqa ñanllata puriy. Rikch'ayta manaraq hurquspa tapuy.", weather: "Mama qucha patapi wayra, phuyupas kan. Kichasqa ñanllata puriy." },
 };

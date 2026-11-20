@@ -1219,3 +1219,30 @@ body {
   list-style: decimal;
   padding-inline-start: 1.75rem;
 }
+
+.travel-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.travel-hero {
+  margin-inline: calc((100% - 100vw) / 2);
+  min-height: min(76svh, 52rem);
+  padding: 7rem max(1.5rem, calc((100vw - 64rem) / 2)) 3rem;
+  background: #1a2e1a;
+}
+
+.travel-hero-bg img { object-fit: cover; }
+.travel-hero .hero-title { font-size: clamp(2.4rem, 7vw, 6rem); line-height: 1; }
+.travel-hero .hero-subtitle,
+.travel-hours { color: #fff; }
+.travel-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.travel-photo-credit { position: relative; z-index: 2; align-self: end; margin-top: 1rem; font-size: .85rem; }
+.travel-page .travel-photo-credit, .travel-page .travel-hero a.travel-review { color: #fff; }
+.travel-page .travel-nav a { color: #fff; }
+.travel-page .travel-hero .hero-cta { text-decoration: none; }
+.travel-page { padding-top: 0; }
+.travel-page .travel-hero .travel-review { background: #1a2e1a; border: 1px solid #fff8; }
+.travel-page .travel-hero a.hero-cta:not(.travel-review) { color: #1a2e1a; }
+.travel-hero .hero-cta { overflow-wrap: anywhere; padding-inline: 1.25rem; }
+.policy-list { list-style: disc; padding-inline-start: 1.5rem; }

@@ -20,10 +20,12 @@ export function LanguageSwitcher() {
           className={`lang-btn ${locale === l ? "active" : ""}`}
           onClick={() => {
             if (l !== locale) {
-              window.location.href = `/${l}${window.location.hash}`;
+              window.location.href = window.location.pathname.replace(/^\/(zh|en|es|qu)(?=\/|$)/, `/${l}`) + window.location.search + window.location.hash;
             }
           }}
-          aria-label={`Switch to ${l}`}
+          lang={l}
+          aria-pressed={locale === l}
+          aria-label={{ zh: "中文", en: "English", es: "Español", qu: "Runasimi" }[l]}
         >
           {LANG_LABELS[l]}
         </button>

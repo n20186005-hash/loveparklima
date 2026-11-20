@@ -2,6 +2,11 @@ import type { AttractionLocale } from "./attractions";
 
 type Localized = readonly [string, string, string];
 const language = { es: 0, en: 1, zh: 2 } as const;
+const quCategory = {
+  outdoor: "Hawa watukuy", shore: "Costa Verde mama qucha pata", ruins: "Ñawpa wak'a",
+  museum: "Rikuchina wasi", venue: "Takina wasi", nature: "Sallqa purina ñan",
+  church: "Yupaychana wasi", civic: "Llaqta kawsay wasi", shopping: "Qhatu wasi", library: "Ñawinchana wasi",
+};
 
 const entries: Record<string, readonly [category: keyof typeof categories, minutes: string, observation?: Localized]> = {
   "parque-kennedy": ["outdoor", "20–40"],
@@ -88,6 +93,7 @@ export function visitorContext(slug: string, locale: AttractionLocale) {
   const entry = entries[slug];
   if (!entry) return undefined;
   const [category, minutes, observation] = entry;
+  if (locale === "qu") return { category: quCategory[category], observation: undefined, duration: minutes && `yaqa ${minutes} minuta` };
   const i = language[locale];
   return { category: categories[category][i], observation: observation?.[i], duration: minutes && (locale === "zh" ? `约 ${minutes} 分钟` : `≈ ${minutes} min`) };
 }
@@ -117,4 +123,5 @@ export const visitorLabels = {
       city: "住科隆大道一带，便于步行串联博览会公园周边博物馆。若还要去普韦布洛利夫雷或马格达莱纳，订房前请分别估算这两段交通。",
     } as Partial<Record<string, string>>,
   },
+  qu: { category: "Watukuy laya", duration: "Hayk'a unay", start: "Qallariy k'uchu", observation: "Ima qhawanapaq", stays: {} as Partial<Record<string, string>> },
 };

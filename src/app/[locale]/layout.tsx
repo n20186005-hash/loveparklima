@@ -54,7 +54,7 @@ export async function generateMetadata({
           : locale === "zh"
           ? "爱情公园 — 利马米拉弗洛雷斯"
           : locale === "qu"
-          ? "Love Park — Lima, Piruw"
+          ? "Munakuy pampa — Lima, Piruw"
           : "Love Park — Miraflores, Lima, Peru",
       template:
         locale === "es"
@@ -62,7 +62,7 @@ export async function generateMetadata({
           : locale === "zh"
           ? "%s | 爱情公园"
           : locale === "qu"
-          ? "%s | Love Park"
+          ? "%s | Munakuy pampa"
           : "%s | Love Park",
     },
     description:
@@ -71,18 +71,12 @@ export async function generateMetadata({
         : locale === "zh"
         ? "爱情公园旅行指南——探索利马米拉弗洛雷斯的浪漫地标，欣赏太平洋美景。"
         : locale === "qu"
-        ? "Love Park rikuy, Lima, Piruw. Romantic park."
+        ? "Munakuy pampata watukuy, Lima, Piruw. Pacífico mama qucha patapi."
         : "A travel guide to Love Park in Miraflores, Lima, Peru. The romantic park with Pacific Ocean view.",
-    keywords: [
-      "Love Park",
-      "Parque del Amor",
-      "Miraflores",
-      "Lima tourism",
-      "Peru tourism",
-      "Romantic park",
-      "Pacific Ocean view",
-      "Kiss Sculpture",
-    ],
+    keywords: locale === "zh" ? ["爱情公园", "米拉弗洛雷斯", "利马旅游", "亲吻雕塑"]
+      : locale === "es" ? ["Parque del Amor", "Miraflores", "turismo en Lima", "escultura El Beso"]
+      : locale === "qu" ? ["Munakuy pampa", "Miraflores", "Limapi watukuy", "El Beso rikch’ay"]
+      : ["Love Park", "Miraflores", "Lima tourism", "Kiss Sculpture"],
     authors: [{ name: "Love Park Travel Guide" }],
     creator: "Love Park Travel Guide",
     publisher: "Love Park Travel Guide",
@@ -106,7 +100,7 @@ export async function generateMetadata({
           : locale === "zh"
           ? "爱情公园 — 利马米拉弗洛雷斯"
           : locale === "qu"
-          ? "Love Park — Lima, Piruw"
+          ? "Munakuy pampa — Lima, Piruw"
           : "Love Park — Miraflores, Lima, Peru",
       description:
         locale === "es"
@@ -114,7 +108,7 @@ export async function generateMetadata({
           : locale === "zh"
           ? "爱情公园旅行指南——探索利马的浪漫地标。"
           : locale === "qu"
-          ? "Love Park rikuy, Lima."
+          ? "Munakuy pampata watukuy, Lima."
           : "A travel guide to Love Park in Miraflores, Lima, Peru.",
       siteName:
         locale === "es"
@@ -122,7 +116,7 @@ export async function generateMetadata({
           : locale === "zh"
           ? "爱情公园旅行指南"
           : locale === "qu"
-          ? "Love Park rikuy"
+          ? "Munakuy pampata watukuy"
           : "Love Park Travel Guide",
       images: [
         {
@@ -135,7 +129,7 @@ export async function generateMetadata({
               : locale === "zh"
               ? "爱情公园 - 利马米拉弗洛雷斯"
               : locale === "qu"
-              ? "Love Park - Lima, Piruw"
+              ? "Munakuy pampa - Lima, Piruw"
               : "Love Park - Miraflores, Lima, Peru",
         },
       ],
@@ -148,7 +142,7 @@ export async function generateMetadata({
           : locale === "zh"
           ? "爱情公园 — 利马米拉弗洛雷斯"
           : locale === "qu"
-          ? "Love Park — Lima, Piruw"
+          ? "Munakuy pampa — Lima, Piruw"
           : "Love Park — Miraflores, Lima, Peru",
       description:
         locale === "es"
@@ -156,7 +150,7 @@ export async function generateMetadata({
           : locale === "zh"
           ? "爱情公园旅行指南——探索利马的浪漫地标。"
           : locale === "qu"
-          ? "Love Park rikuy, Lima."
+          ? "Munakuy pampata watukuy, Lima."
           : "A travel guide to Love Park in Miraflores, Lima, Peru.",
       images: ["/gallery/love-park (1).jpg"],
     },

@@ -1,4 +1,4 @@
-export const guideLocales = ["es", "en", "zh"] as const;
+export const guideLocales = ["es", "en", "zh", "qu"] as const;
 export const guideSlugs = ["el-beso", "miraflores-walk"] as const;
 export const parkMap = "https://maps.app.goo.gl/f3hGnVCU134Ugba38";
 export const municipalRoutes = "https://www.miraflores.gob.pe/los-servicios/cultura-y-turismo/turismo/rutas-turisticas/";
@@ -8,6 +8,7 @@ export const guideLabels = {
   es: { heading: "Guías de Miraflores", home: "Parque del Amor", map: "Abrir en Google Maps", source: "Municipalidad de Miraflores", photo: "Parque del Amor en el malecón de Miraflores" },
   en: { heading: "Miraflores travel guides", home: "Love Park", map: "Open in Google Maps", source: "Municipality of Miraflores", photo: "Love Park on the Miraflores waterfront" },
   zh: { heading: "米拉弗洛雷斯游览指南", home: "爱情公园", map: "在 Google 地图中打开", source: "米拉弗洛雷斯区政府", photo: "米拉弗洛雷斯海滨的爱情公园" },
+  qu: { heading: "Miraflorespi purina ñankuna", home: "Munakuy pampa", map: "Google Maps nisqapi kichay", source: "Miraflores llaqta kamachiq", photo: "Munakuy pampa Miraflores mama qucha patapi" },
 };
 
 type Guide = { title: string; intro: string; sections: [string, string][] };
@@ -82,6 +83,30 @@ export const guides: Record<(typeof guideLocales)[number], Record<(typeof guideS
         ["3. 到拉尔科马尔结束", "沿海滨向南，经比列纳雷伊桥走向保护区海滨步道，可从上层步道俯瞰绿海岸。"],
         ["怎样缩短路线", "时间有限可从爱情公园直接走到拉尔科马尔。有海雾时可多留时间看彩砖和园景，临崖一带海风较明显。"],
         ["需要走到海滩吗？", "这条路线全程走米拉弗洛雷斯上层步道。过马路时使用标示路口。若另有下到绿海岸的计划，先在地图上核对下行通道。"],
+      ],
+    },
+  },
+  qu: {
+    "el-beso": {
+      title: "El Beso rikch'ay, Munakuy pampapa mosaiconkuna",
+      intro: "Malecón Cisnerospi Víctor Delfínpa rurasqanta, llimp'iyuq tiyanakunata, mama quchatapas qhaway.",
+      sections: [
+        ["Pampapa ñawpa kawsaynin", "14 febrero 1993 watapi Munakuy pampa kichakurqa. Víctor Delfín iskay runa marq'anakusqankuta El Beso nisqapi ruwarqa."],
+        ["Ima qhawanapaq", "Rikch'ayta muyuriy, chaymanta muyu tiyanakunapi qillqakunata ñawinchay. Hanaq ñanmanta mama quchata qhaway."],
+        ["Maypi, imayna chayankichik", "Miraflorespi Malecón Cisneros hanaq ñanpi puriy. Taxipi Parque del Amor, Malecón Cisneros nispa willay."],
+        ["Maymanta rikch'ayta hurquy", "Ñanpa uku k'uchunmanta rikch'ayta mama quchawan kuska hurquy. Phuyu kaptin, mosaico llimp'inkunaman asuykuy. Purina ñanta saqiy."],
+        ["Hayk'a unaypi rikuy?", "20–30 minutukunata rikch'aypaq, tiyanakunapaq, mama qucha qhawanapaq rakiy. Aswan unaypaq Larcomarman ñanta qatipay."],
+      ],
+    },
+    "miraflores-walk": {
+      title: "Miraflorespi chakillawan: Kennedy, Munakuy pampa, Larcomar",
+      intro: "Miraflores chawpimanta mama qucha qhawanakunaman puriy, Munakuy pampapi samaspa.",
+      sections: [
+        ["Kennedy pampamanta qallariy", "Parque Centralmanta José Larco hatun ñanta mama quchaman qatipay. Qhatukuna, ñan tinkuykunapas kan."],
+        ["Munakuy pampata qhaway", "Malecón Cisnerosman riy. El Besota, mosaico tiyanakunata qhaway, chaymanta hanaq ñanman kutiy."],
+        ["Larcomarpi tukuy", "Villena Rey chakata chimpay, Malecón de la Reservanta puriy. Hanaq ñanmanta Costa Verdeta qhaway."],
+        ["Puriyta haykumanta qallariy", "Pisi pacha kaptin, Munakuy pampamanta Larcomarkama puriy. Phuyu kaptin mosaico, chakrakunapi samay. Mama qucha patapi wayra kan."],
+        ["Mama qucha pataman uraynachu?", "Hatun ñanqa Miraflores hanaq patallapi kachkan. Urayta munaspa, mapapi kichasqa uray ñanta maskay."],
       ],
     },
   },

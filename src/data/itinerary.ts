@@ -41,5 +41,8 @@ const stops: Record<string, [string, string, string]> = {
 };
 
 export function itinerary(slug: string, locale: AttractionLocale) {
+  if (locale === "qu") return slug === "el-beso"
+    ? ["Malecón Cisnerosmanta yaykuy", "El Beso rikch'ayta muyuriy", "Mosaico tiyanakunata qhaway"]
+    : ["Kennedy pampamanta qallariy", "Munakuy pampapi samay", "Villena Rey chakata chimpaspa Larcomarman riy"];
   return stops[slug][{ es: 0, en: 1, zh: 2 }[locale]].split(" › ");
 }

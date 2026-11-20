@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import TravelFooter from "@/components/TravelFooter";
+import TravelHero from "@/components/TravelHero";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { attractionAddress, attractionCopy, attractionLabels, attractionMap, attractions } from "@/data/attractions";
@@ -58,28 +59,14 @@ export default async function AttractionPage({ params }: Props) {
   });
   const related = attractions.filter((place) => place.category === attraction.category && place.slug !== attraction.slug).slice(0, 3);
   return (
-    <main className="section attraction-page">
-      <nav className="attraction-nav" aria-label={labels.nearby}>
-        <Link href={`/${locale}#nearby`}>{labels.home} · {labels.nearby}</Link>
-        {guideLocales.filter((language) => language !== locale).map((language) => (
-          <Link key={language} href={`/${language}/explore/${attraction.slug}`} hrefLang={language}>
-            {{ es: "Español", en: "English", zh: "中文" }[language]}
-          </Link>
-        ))}
-      </nav>
+    <>
+    <main className="section attraction-page travel-page">
+      <TravelHero locale={locale} path={`/explore/${attraction.slug}`} home={labels.home}
+        title={copy.name} subtitle={tagline} region={`${attraction.district} · Lima`}
+        hours={details.hours} map={map} mapLabel={labels.map} reviewMap={map}
+        reviews={`${labels.reviews} · Google Maps`} image={attraction.image} alt={copy.name}
+        photoSource={attraction.imageSource} photoLabel={labels.photoSource} />
       <article>
-        <header>
-          <p className="section-label">{attraction.district} · Lima</p>
-          <h1 className="section-title">{copy.name}</h1>
-          <p className="about-text">{tagline}</p>
-          <p>{details.hours}</p>
-          <p className="attraction-actions"><a href={map}>{labels.map}</a><a href={map}>{labels.reviews} · Google Maps</a></p>
-          <figure>
-            <Image src={attraction.image} alt={copy.name} width={attraction.width} height={attraction.height}
-              unoptimized className="attraction-photo" />
-            <figcaption><a href={attraction.imageSource}>{labels.photoSource}</a></figcaption>
-          </figure>
-        </header>
         <section className="attraction-block">
           <h2>{sections.intro}</h2>
           <p>{copy.extra?.intro ?? orientation(attraction.slug, locale)}</p>
@@ -179,5 +166,7 @@ export default async function AttractionPage({ params }: Props) {
         ))}</ul>
       </aside>
     </main>
+    <TravelFooter locale={locale} />
+    </>
   );
 }
