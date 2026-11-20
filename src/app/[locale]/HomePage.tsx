@@ -128,7 +128,7 @@ function ThemeToggle() {
   );
 }
 
-function Nav() {
+function Nav({ nearby }: { nearby?: string }) {
   const { t } = useLang();
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
@@ -157,6 +157,7 @@ function Nav() {
           <a href="#reviews">{t.nav.reviews}</a>
           <a href="#faq">{t.nav.faq}</a>
           <a href="#location">{t.nav.location}</a>
+          {nearby && <a href="#nearby">{nearby}</a>}
         </div>
         <ThemeToggle />
         <LanguageSwitcher />
@@ -801,12 +802,12 @@ function Footer({ locale }: { locale: string }) {
   );
 }
 
-export default function Home(props: { params: Promise<{ locale: string }> }) {
+export default function Home(props: { params: Promise<{ locale: string }>; nearby?: React.ReactNode; nearbyLabel?: string }) {
   const params = React.use(props.params);
   return (
     <LangProvider initialLocale={params.locale as "en" | "zh" | "es" | "qu"}>
       <StructuredData />
-      <Nav />
+      <Nav nearby={props.nearbyLabel} />
       <Hero />
       <About />
       <Geography />
@@ -820,6 +821,7 @@ export default function Home(props: { params: Promise<{ locale: string }> }) {
       <Reviews />
       <FAQ />
       <Location />
+      {props.nearby}
       <Footer locale={params.locale} />
     </LangProvider>
   );
