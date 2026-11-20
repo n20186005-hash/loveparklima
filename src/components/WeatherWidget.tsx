@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useLang } from "@/components/LangProvider";
 
 export function WeatherWidget() {
-  const { t, locale } = useLang();
+  const { locale } = useLang();
   const [weather, setWeather] = useState<{ temp: number; uv: number; precip: number } | null>(null);
 
   useEffect(() => {
@@ -45,6 +45,12 @@ export function WeatherWidget() {
     else if (weather.uv < 8) uvLevel = "Alto";
     else if (weather.uv < 11) uvLevel = "Muy Alto";
     else uvLevel = "Extremo";
+  } else if (locale === "qu") {
+    if (weather.uv < 3) uvLevel = "Pisi";
+    else if (weather.uv < 6) uvLevel = "Chawpi";
+    else if (weather.uv < 8) uvLevel = "Hatun";
+    else if (weather.uv < 11) uvLevel = "Ancha hatun";
+    else uvLevel = "Ancha manchay";
   }
 
   return (
@@ -60,7 +66,7 @@ export function WeatherWidget() {
       gap: "0.5rem"
     }}>
       <h3 style={{ fontSize: "1.2rem", fontWeight: 700, color: "var(--color-deep)", display: "flex", alignItems: "center", gap: "0.5rem", margin: 0 }}>
-        🌤️ {locale === "zh" ? "利马实时天气" : locale === "es" ? "Clima en Lima" : "Live Weather in Lima"}
+        🌤️ {locale === "zh" ? "利马实时天气" : locale === "es" ? "Clima en Lima" : locale === "qu" ? "Limapi kunan pacha" : "Live Weather in Lima"}
       </h3>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", margin: "0.5rem 0" }}>
         <div style={{ background: "#f8f9fa", padding: "0.5rem 1rem", borderRadius: "8px", fontWeight: 600 }}>

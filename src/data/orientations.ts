@@ -38,5 +38,6 @@ const introductions: Record<string, readonly [string, string, string]> = {
 };
 
 export function orientation(slug: string, locale: AttractionLocale) {
+  if (locale === "qu") return undefined;
   return introductions[slug][{ es: 0, en: 1, zh: 2 }[locale]];
 }

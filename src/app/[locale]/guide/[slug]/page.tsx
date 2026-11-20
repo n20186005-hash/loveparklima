@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import TravelFooter from "@/components/TravelFooter";
+import TravelHero from "@/components/TravelHero";
 import Link from "next/link";
 import { attractionCopy, attractionLabels, attractions, loveParkInventory } from "@/data/attractions";
 import { itinerary } from "@/data/itinerary";
@@ -57,25 +58,12 @@ export default async function GuidePage({ params }: Props) {
   const map = sculpture ? parkMap : directions.href;
   const [first, second, third, fourth, fifth] = guide.sections;
   return (
-    <main className="section attraction-page">
-      <nav aria-label={labels.heading}>
-        <Link href={`/${locale}`}>{labels.home}</Link>
-        {" · "}
-        {guideLocales.filter((language) => language !== locale).map((language) => (
-          <span key={language}><Link href={`/${language}/guide/${slug}`} hrefLang={language}>
-            {{ es: "Español", en: "English", zh: "中文" }[language]}
-          </Link>{" · "}</span>
-        ))}
-      </nav>
+    <>
+    <main className="section attraction-page travel-page">
+      <TravelHero locale={locale} path={`/guide/${slug}`} home={labels.home}
+        title={guide.title} subtitle={guide.intro} hours={hours} map={map} mapLabel={labels.map}
+        reviewMap={parkMap} reviews={details.parkRating} image="/gallery/love-park (1).jpg" alt={labels.photo} />
       <article>
-        <header>
-          <h1 className="section-title">{guide.title}</h1>
-          <p>{guide.intro}</p>
-          <p>{hours}</p>
-          <p className="attraction-actions"><a href={map}>{labels.map}</a><a href={parkMap}>{details.parkRating}</a></p>
-          <Image src="/gallery/love-park (1).jpg" alt={labels.photo} width={2500} height={1406} unoptimized
-            style={{ width: "100%", height: "auto", maxHeight: "55vh", objectFit: "cover", borderRadius: "0.75rem" }} />
-        </header>
         <section className="attraction-block">
           <h2>{sections.intro}</h2>
           <p>{sculpture ? first[1] : details.walkRoute}</p>
@@ -165,5 +153,7 @@ export default async function GuidePage({ params }: Props) {
         </ul>
       </aside>
     </main>
+    <TravelFooter locale={locale} />
+    </>
   );
 }

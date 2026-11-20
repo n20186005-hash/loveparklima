@@ -39,6 +39,27 @@
       "photoTip": "在圆形广场边框入园路和树冠，给摊主和游客留出通行空间。",
       "faq": "它和中央公园是同一个地方吗？",
       "answer": "肯尼迪公园是中央公园的两座园区之一。另一座是教堂旁的六月七日公园。"
+    },
+    "qu": {
+      "name": "Parque Kennedy",
+      "history": "1992 watapi kay muyuriq samana pampa musuqmanta kichakurqa.",
+      "features": "Chawpi muyupi makiwan ruwasqa kaqkunata qhaway.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Parque Kennedy-man p'unchawpi riy. Chawpi muyupi makiwan ruwasqa kaqkunata qhaway.",
+      "route": "Parque del Amor-manta mapapi Parque Kennedy-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Parque Kennedy nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Parque Kennedy: saqisqa ñanpi puriy",
+          "Chawpi muyupi makiwan ruwasqa kaqkunata qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Parque Kennedy nisqa tiyan. 1992 watapi kay muyuriq samana pampa musuqmanta kichakurqa."
+      }
     }
   },
   {
@@ -81,6 +102,27 @@
       "photoTip": "从剧场侧面把阶梯座席和背后的树木一并入镜。有演出时请避开舞台正前方。",
       "faq": "能和肯尼迪公园一起游览吗？",
       "answer": "可以。这两座花园相邻，共同构成中央公园。"
+    },
+    "qu": {
+      "name": "Parque 7 de Junio",
+      "history": "Aricapi maqanakusqankuta, Piruw unancha p'unchaytapas yuyachin.",
+      "features": "Chabuca Granda sutiyuq takina pampata qhaway.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Parque 7 de Junio-man p'unchawpi riy. Chabuca Granda sutiyuq takina pampata qhaway.",
+      "route": "Parque del Amor-manta mapapi Parque 7 de Junio-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Parque 7 de Junio nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Parque 7 de Junio: saqisqa ñanpi puriy",
+          "Chabuca Granda sutiyuq takina pampata qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Parque 7 de Junio nisqa tiyan. Aricapi maqanakusqankuta, Piruw unancha p'unchaytapas yuyachin."
+      }
     }
   },
   {
@@ -123,6 +165,27 @@
       "photoTip": "沿花园中轴拍站房正面，同时带入前庭，表现建筑和纪念场地的关系。",
       "faq": "园里看到的都是原来的防御工事吗？",
       "answer": "场地纪念 1881 年的防御阵地，火车站风格的建筑是后来复建的。"
+    },
+    "qu": {
+      "name": "Parque Reducto N.º 2",
+      "history": "1881 watapi Limata amachasqankuta yuyachin.",
+      "features": "Ñawpa tren sayanapa rikch'ayninpi Cácerespa museo wasin kachkan.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Parque Reducto N.º 2-man p'unchawpi riy. Ñawpa tren sayanapa rikch'ayninpi Cácerespa museo wasin kachkan.",
+      "route": "Parque del Amor-manta mapapi Parque Reducto N.º 2-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Parque Reducto N.º 2 nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Parque Reducto N.º 2: saqisqa ñanpi puriy",
+          "Ñawpa tren sayanapa rikch'ayninpi Cácerespa museo wasin kachkan."
+        ],
+        "intro": "Miraflores llaqtapi Parque Reducto N.º 2 nisqa tiyan. 1881 watapi Limata amachasqankuta yuyachin."
+      }
     }
   },
   {
@@ -165,6 +228,27 @@
       "photoTip": "从与长椅接近的高度拍摄雕像，保留散步时的观察角度，并留出通道。",
       "faq": "雕像在博物馆内吗？",
       "answer": "雕像在公园里。里卡多·帕尔马故居博物馆是本区的另一处地点。"
+    },
+    "qu": {
+      "name": "Parque Tradiciones Peruanas",
+      "history": "Ricardo Palma qillqaqta, Peruvian Traditions qillqantapas yuyachin.",
+      "features": "Palmapa rurasqa rikch'ayninta, pukllana pampatapas qhaway.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Parque Tradiciones Peruanas-man p'unchawpi riy. Palmapa rurasqa rikch'ayninta, pukllana pampatapas qhaway.",
+      "route": "Parque del Amor-manta mapapi Parque Tradiciones Peruanas-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Parque Tradiciones Peruanas nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Parque Tradiciones Peruanas: saqisqa ñanpi puriy",
+          "Palmapa rurasqa rikch'ayninta, pukllana pampatapas qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Parque Tradiciones Peruanas nisqa tiyan. Ricardo Palma qillqaqta, Peruvian Traditions qillqantapas yuyachin."
+      }
     }
   },
   {
@@ -207,6 +291,27 @@
       "photoTip": "在上层步道把草地和海平线一起纳入画面，表现海崖的尺度。",
       "faq": "需要下到拉尔科马尔才能到公园吗？",
       "answer": "不用。花园在拉尔科大道尽头的上层。"
+    },
+    "qu": {
+      "name": "Parque Alfredo Salazar",
+      "history": "Alfredo Salazar wayrawan puriqta yuyachin.",
+      "features": "Hanaq terrasa Larcomarpa hawanpi kachkan; chaymanta mama quchata qhaway.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Parque Alfredo Salazar-man p'unchawpi riy. Hanaq terrasa Larcomarpa hawanpi kachkan; chaymanta mama quchata qhaway.",
+      "route": "Parque del Amor-manta mapapi Parque Alfredo Salazar-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Parque Alfredo Salazar nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Parque Alfredo Salazar: saqisqa ñanpi puriy",
+          "Hanaq terrasa Larcomarpa hawanpi kachkan; chaymanta mama quchata qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Parque Alfredo Salazar nisqa tiyan. Alfredo Salazar wayrawan puriqta yuyachin."
+      }
     }
   },
   {
@@ -249,6 +354,27 @@
       "photoTip": "以斜角拍摄两个青铜形体，可以表现纪念物的立体感，也可在步道上带入花园。",
       "faq": "原来的赖蒙迪石碑在这里吗？",
       "answer": "园内作品是受到石碑启发的现代纪念物，可以借此了解当地如何通过公共艺术纪念赖蒙迪。"
+    },
+    "qu": {
+      "name": "Parque Antonio Raimondi",
+      "history": "Antonio Raimondi Piruwpa allpanta, kawsaynintapas qillqarqa.",
+      "features": "Chawpipi broncemanta rurasqa Raimondipa rikch'ayninta qhaway.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Parque Antonio Raimondi-man p'unchawpi riy. Chawpipi broncemanta rurasqa Raimondipa rikch'ayninta qhaway.",
+      "route": "Parque del Amor-manta mapapi Parque Antonio Raimondi-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Parque Antonio Raimondi nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Parque Antonio Raimondi: saqisqa ñanpi puriy",
+          "Chawpipi broncemanta rurasqa Raimondipa rikch'ayninta qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Parque Antonio Raimondi nisqa tiyan. Antonio Raimondi Piruwpa allpanta, kawsaynintapas qillqarqa."
+      }
     }
   },
   {
@@ -291,6 +417,27 @@
       "photoTip": "在入口可把铁锚和塔身一起拍下。走到侧面，则可用太平洋作为背景。",
       "faq": "能登塔吗？",
       "answer": "建议按广场和塔外参观安排行程。旅游资料未承诺塔内向公众开放。"
+    },
+    "qu": {
+      "name": "Faro de la Marina",
+      "history": "Kay k'anchana mama quchapi puriq barkokunaman ñanta rikuchin.",
+      "features": "Torrepa llimp'i siq'inkunata, muyu tiqsintapas qhaway.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Faro de la Marina-man p'unchawpi riy. Torrepa llimp'i siq'inkunata, muyu tiqsintapas qhaway.",
+      "route": "Parque del Amor-manta mapapi Faro de la Marina-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Faro de la Marina nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Faro de la Marina: saqisqa ñanpi puriy",
+          "Torrepa llimp'i siq'inkunata, muyu tiqsintapas qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Faro de la Marina nisqa tiyan. Kay k'anchana mama quchapi puriq barkokunaman ñanta rikuchin."
+      }
     }
   },
   {
@@ -333,6 +480,27 @@
       "photoTip": "沿步道稍微后退，找到能看清整个轮廓的位置。从稍高的公共视点拍摄，线条更容易辨认。",
       "faq": "这是原来的纳斯卡地画吗？",
       "answer": "这些是按比例设计的园林图案。原有的纳斯卡线条位于伊卡大区。"
+    },
+    "qu": {
+      "name": "Parque María Reiche",
+      "history": "1998 watapi kichasqa; Nazca siq'ikunata yachaq María Reicheta yuyachin.",
+      "features": "Q'umir qurakunawan ruwasqa q'intita, apasankatapas maskay.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Parque María Reiche-man p'unchawpi riy. Q'umir qurakunawan ruwasqa q'intita, apasankatapas maskay.",
+      "route": "Parque del Amor-manta mapapi Parque María Reiche-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Parque María Reiche nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Parque María Reiche: saqisqa ñanpi puriy",
+          "Q'umir qurakunawan ruwasqa q'intita, apasankatapas maskay."
+        ],
+        "intro": "Miraflores llaqtapi Parque María Reiche nisqa tiyan. 1998 watapi kichasqa; Nazca siq'ikunata yachaq María Reicheta yuyachin."
+      }
     }
   },
   {
@@ -375,6 +543,27 @@
       "photoTip": "从步道侧面取景，让几层平台斜向排列，并带入海面。在画面里保留上缘，可以看出地形坡度。",
       "faq": "这些是印加时期的梯田吗？",
       "answer": "这些平台属于现代公园，其设计借鉴了安第斯传统梯田。"
+    },
+    "qu": {
+      "name": "Parque Bicentenario de Miraflores",
+      "history": "Piruwpa qispisqan iskay pachak wata hunt'asqanta yuyachin.",
+      "features": "Armendáriz wayq'upi pata patakunata, andenkuna hina ruwasqata qhaway.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Parque Bicentenario de Miraflores-man p'unchawpi riy. Armendáriz wayq'upi pata patakunata, andenkuna hina ruwasqata qhaway.",
+      "route": "Parque del Amor-manta mapapi Parque Bicentenario de Miraflores-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Parque Bicentenario de Miraflores nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Parque Bicentenario de Miraflores: saqisqa ñanpi puriy",
+          "Armendáriz wayq'upi pata patakunata, andenkuna hina ruwasqata qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Parque Bicentenario de Miraflores nisqa tiyan. Piruwpa qispisqan iskay pachak wata hunt'asqanta yuyachin."
+      }
     }
   },
   {
@@ -417,6 +606,27 @@
       "photoTip": "可从入口以桥为前景，将高处的木亭纳入画面。看不清海景时，从侧面仍能拍出屋瓦细节。",
       "faq": "这里是寺庙吗？",
       "answer": "这是海滨步道上的公共公园，园里设置了具有中华风格的装饰建筑。"
+    },
+    "qu": {
+      "name": "Parque Chino",
+      "history": "2022 watapi kichasqa; Piruwman hamuq China runakunata yuyachin.",
+      "features": "K'aspimanta wasi, t'ikrakuna, huch'uy chakapas kachkan.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Parque Chino-man p'unchawpi riy. K'aspimanta wasi, t'ikrakuna, huch'uy chakapas kachkan.",
+      "route": "Parque del Amor-manta mapapi Parque Chino-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Parque Chino nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Parque Chino: saqisqa ñanpi puriy",
+          "K'aspimanta wasi, t'ikrakuna, huch'uy chakapas kachkan."
+        ],
+        "intro": "Miraflores llaqtapi Parque Chino nisqa tiyan. 2022 watapi kichasqa; Piruwman hamuq China runakunata yuyachin."
+      }
     }
   },
   {
@@ -459,6 +669,27 @@
       "photoTip": "从上层步道以海平线衬托雕塑边缘。若想拍出雕塑的厚度，可以改用斜侧角度。",
       "faq": "这是印加时期留下的原件吗？",
       "answer": "这是费尔南多·德·西斯洛创作的现代公共雕塑，名称来自安第斯传统观念。"
+    },
+    "qu": {
+      "name": "Parque Intihuatana",
+      "history": "Fernando de Szyszlo kay rurasqata ruwarqa; pampa 2002 watapi kichakurqa.",
+      "features": "Rurasqata muyuriy, mama quchapa karu siq'inwan tupachiy.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Parque Intihuatana-man p'unchawpi riy. Rurasqata muyuriy, mama quchapa karu siq'inwan tupachiy.",
+      "route": "Parque del Amor-manta mapapi Parque Intihuatana-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Parque Intihuatana nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Parque Intihuatana: saqisqa ñanpi puriy",
+          "Rurasqata muyuriy, mama quchapa karu siq'inwan tupachiy."
+        ],
+        "intro": "Miraflores llaqtapi Parque Intihuatana nisqa tiyan. Fernando de Szyszlo kay rurasqata ruwarqa; pampa 2002 watapi kichakurqa."
+      }
     }
   },
   {
@@ -501,6 +732,27 @@
       "photoTip": "从花园边缘用斜角同时拍摄草地、广场和格劳雕像，无需踏上纪念平台。",
       "faq": "可以在公园里散步吗？",
       "answer": "园路和花园属于公共空间。到纪念平台附近时请遵守现场标示。"
+    },
+    "qu": {
+      "name": "Parque Miguel Grau",
+      "history": "1992 watapi kichasqa; Miguel Grau mama quchapi puriqta yuyachin.",
+      "features": "Hanaq pampapi Grau rikch'ayninta, muyuriq sachakunatapas qhaway.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Parque Miguel Grau-man p'unchawpi riy. Hanaq pampapi Grau rikch'ayninta, muyuriq sachakunatapas qhaway.",
+      "route": "Parque del Amor-manta mapapi Parque Miguel Grau-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Parque Miguel Grau nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Parque Miguel Grau: saqisqa ñanpi puriy",
+          "Hanaq pampapi Grau rikch'ayninta, muyuriq sachakunatapas qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Parque Miguel Grau nisqa tiyan. 1992 watapi kichasqa; Miguel Grau mama quchapi puriqta yuyachin."
+      }
     }
   },
   {
@@ -543,6 +795,27 @@
       "photoTip": "在侧面找能同时拍到步道和半身像的位置。斜向取景有助于表现花园布局。",
       "faq": "这里为什么有与以色列有关的图案？",
       "answer": "公园由区政府为纪念拉宾建设，设计中加入与以色列有关的元素。"
+    },
+    "qu": {
+      "name": "Parque Itzhak Rabin",
+      "history": "Itzhak Rabin 1994 watapi Nobel hawka kawsay premionta chaskirqan.",
+      "features": "Iskay patapi purina ñankuna Davidpa quyllurnin hina kachkan.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Parque Itzhak Rabin-man p'unchawpi riy. Iskay patapi purina ñankuna Davidpa quyllurnin hina kachkan.",
+      "route": "Parque del Amor-manta mapapi Parque Itzhak Rabin-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Parque Itzhak Rabin nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Parque Itzhak Rabin: saqisqa ñanpi puriy",
+          "Iskay patapi purina ñankuna Davidpa quyllurnin hina kachkan."
+        ],
+        "intro": "Miraflores llaqtapi Parque Itzhak Rabin nisqa tiyan. Itzhak Rabin 1994 watapi Nobel hawka kawsay premionta chaskirqan."
+      }
     }
   },
   {
@@ -585,6 +858,27 @@
       "photoTip": "从允许停留的位置斜拍墙面，突出土坯一行行重复的纹理。请勿踏上遗迹。",
       "faq": "可以自己走上金字塔吗？",
       "answer": "查阅博物馆当日的参观方式，并沿规定的遗址路线进入。"
+    },
+    "qu": {
+      "name": "Huaca Pucllana",
+      "history": "Lima runakuna kay wak'ata yupaychanapaq, kamachinapaq ruwarqanku.",
+      "features": "Sayachisqa t'ika ladrillokunata, pampakunata, wichay ñankunatapas qhaway.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Huaca Pucllana-man p'unchawpi riy. Sayachisqa t'ika ladrillokunata, pampakunata, wichay ñankunatapas qhaway.",
+      "route": "Parque del Amor-manta mapapi Huaca Pucllana-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Huaca Pucllana nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Huaca Pucllana: saqisqa ñanpi puriy",
+          "Sayachisqa t'ika ladrillokunata, pampakunata, wichay ñankunatapas qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Huaca Pucllana nisqa tiyan. Lima runakuna kay wak'ata yupaychanapaq, kamachinapaq ruwarqanku."
+      }
     }
   },
   {
@@ -627,6 +921,27 @@
       "photoTip": "在对面人行道找可同时纳入入口与 189 号门牌的角度，避免堵住邻居的入口。",
       "faq": "这里是里卡多·帕尔马文化中心吗？",
       "answer": "故居在苏亚雷斯将军街 189 号，文化中心在拉尔科大道 770 号。"
+    },
+    "qu": {
+      "name": "Casa Museo Ricardo Palma",
+      "history": "Ricardo Palma 1912 watamanta 1919 watakama kay wasipi tiyarqa.",
+      "features": "Larco hatun ñanpa wasinkunawan kay huch'uy wasita tupachiy.",
+      "manager": "Gerencia de Cultura y Turismo de la Municipalidad de Miraflores",
+      "visit": "Casa Museo Ricardo Palma-man p'unchawpi riy. Larco hatun ñanpa wasinkunawan kay huch'uy wasita tupachiy.",
+      "route": "Parque del Amor-manta mapapi Casa Museo Ricardo Palma-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Casa Museo Ricardo Palma nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Casa Museo Ricardo Palma: saqisqa ñanpi puriy",
+          "Larco hatun ñanpa wasinkunawan kay huch'uy wasita tupachiy."
+        ],
+        "intro": "Miraflores llaqtapi Casa Museo Ricardo Palma nisqa tiyan. Ricardo Palma 1912 watamanta 1919 watakama kay wasipi tiyarqa."
+      }
     }
   },
   {
@@ -669,6 +984,27 @@
       "photoTip": "从花园一侧同时取景外墙与部分步道，保留入口台阶供人通行。",
       "faq": "可以在弥撒时进去参观吗？",
       "answer": "为看建筑或拍照而来，可以等弥撒结束，再依照堂区现场指引进入。"
+    },
+    "qu": {
+      "name": "Iglesia Matriz Virgen Milagrosa",
+      "history": "1930 watapi ñawpa San Miguel yupaychana wasipa hawanpi ruwakurqa.",
+      "features": "Iskay campana torreta, hatun punkutapas samana pampamanta qhaway.",
+      "manager": "Parroquia Virgen Milagrosa",
+      "visit": "Iglesia Matriz Virgen Milagrosa-man p'unchawpi riy. Iskay campana torreta, hatun punkutapas samana pampamanta qhaway.",
+      "route": "Parque del Amor-manta mapapi Iglesia Matriz Virgen Milagrosa-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Iglesia Matriz Virgen Milagrosa nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Iglesia Matriz Virgen Milagrosa: saqisqa ñanpi puriy",
+          "Iskay campana torreta, hatun punkutapas samana pampamanta qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Iglesia Matriz Virgen Milagrosa nisqa tiyan. 1930 watapi ñawpa San Miguel yupaychana wasipa hawanpi ruwakurqa."
+      }
     }
   },
   {
@@ -711,6 +1047,27 @@
       "photoTip": "从公园里正对外墙的步道取景，用树木框出建筑，同时保留可辨认的楼层尺度。",
       "faq": "可以参观政府办公室吗？",
       "answer": "这里是行政办公场所。游客适合看外观，以及进入明确对公众开放的文化空间。"
+    },
+    "qu": {
+      "name": "Palacio Municipal de Miraflores",
+      "history": "1944 watapi kichakurqa; Luis Miró Quesada Garland wasita ruwarqa.",
+      "features": "Tawa patayuq wasita, qaylla yupaychana wasitapas tupachiy.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Palacio Municipal de Miraflores-man p'unchawpi riy. Tawa patayuq wasita, qaylla yupaychana wasitapas tupachiy.",
+      "route": "Parque del Amor-manta mapapi Palacio Municipal de Miraflores-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Palacio Municipal de Miraflores nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Palacio Municipal de Miraflores: saqisqa ñanpi puriy",
+          "Tawa patayuq wasita, qaylla yupaychana wasitapas tupachiy."
+        ],
+        "intro": "Miraflores llaqtapi Palacio Municipal de Miraflores nisqa tiyan. 1944 watapi kichakurqa; Luis Miró Quesada Garland wasita ruwarqa."
+      }
     }
   },
   {
@@ -753,6 +1110,27 @@
       "photoTip": "如果展厅允许拍照，可稍微斜拍并关闭闪光灯以减少反光。拍摄纺织品前先询问馆方。",
       "faq": "可以与普克亚纳遗址安排在同一天吗？",
       "answer": "可以。阿马诺以纺织品为主，普克亚纳是考古遗址。可依遗址场次决定两处的先后顺序。"
+    },
+    "qu": {
+      "name": "Museo Textil Precolombino Amano",
+      "history": "Yoshitaro Amano, Rosa Mercedes Watanabe de Amano 1964 watapi museo wasita qallariqkuna karqanku.",
+      "features": "Ñawpa awasqakunapa patanta, sirayninta, llimp'inkunatapas qhaway.",
+      "manager": "Fundación Museo Amano",
+      "visit": "Museo Textil Precolombino Amano-man p'unchawpi riy. Ñawpa awasqakunapa patanta, sirayninta, llimp'inkunatapas qhaway.",
+      "route": "Parque del Amor-manta mapapi Museo Textil Precolombino Amano-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Museo Textil Precolombino Amano nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Museo Textil Precolombino Amano: saqisqa ñanpi puriy",
+          "Ñawpa awasqakunapa patanta, sirayninta, llimp'inkunatapas qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Museo Textil Precolombino Amano nisqa tiyan. Yoshitaro Amano, Rosa Mercedes Watanabe de Amano 1964 watapi museo wasita qallariqkuna karqanku."
+      }
     }
   },
   {
@@ -795,6 +1173,27 @@
       "photoTip": "入口可以拍出建筑与崖壁的关系。展厅内按现场指引，尤其尊重个人证词及敏感展览内容。",
       "faq": "入馆要出示证件吗？",
       "answer": "馆方要求携带秘鲁身份证、外国居民证或护照。出发前查看官方开放时间。"
+    },
+    "qu": {
+      "name": "Lugar de la Memoria, la Tolerancia y la Inclusión Social",
+      "history": "2015 watapi kichasqa rikuchiyqa Piruwpi ñak'ariy watakunata yuyachin.",
+      "features": "Costa Verde qhatawan tupaq wasita, willakuykunata, qillqakunatapas qhaway.",
+      "manager": "Piruwpa kawsay kamachiynin (Ministerio de Cultura)",
+      "visit": "Lugar de la Memoria, la Tolerancia y la Inclusión Social-man p'unchawpi riy. Costa Verde qhatawan tupaq wasita, willakuykunata, qillqakunatapas qhaway.",
+      "route": "Parque del Amor-manta mapapi Lugar de la Memoria, la Tolerancia y la Inclusión Social-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Lugar de la Memoria, la Tolerancia y la Inclusión Social nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Lugar de la Memoria, la Tolerancia y la Inclusión Social: saqisqa ñanpi puriy",
+          "Costa Verde qhatawan tupaq wasita, willakuykunata, qillqakunatapas qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Lugar de la Memoria, la Tolerancia y la Inclusión Social nisqa tiyan. 2015 watapi kichasqa rikuchiyqa Piruwpi ñak'ariy watakunata yuyachin."
+      }
     }
   },
   {
@@ -837,6 +1236,27 @@
       "photoTip": "站在桥头拍摄，将山坡与步道分成前后两层，尽量避开狭窄通道。",
       "faq": "这座桥能下到海滩吗？",
       "answer": "桥面连接上层海滨步道。巴尔塔下坡路从桥下通过，另有自己的路线。"
+    },
+    "qu": {
+      "name": "Puente Eduardo Villena Rey",
+      "history": "Miraflorespa ñawpa alcalden Eduardo Villena Reypa sutinwan 1968 watapi kichakurqa.",
+      "features": "Chakapata sayaspa Bajada Balta uraman qhaway.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Puente Eduardo Villena Rey-man p'unchawpi riy. Chakapata sayaspa Bajada Balta uraman qhaway.",
+      "route": "Parque del Amor-manta mapapi Puente Eduardo Villena Rey-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Puente Eduardo Villena Rey nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Puente Eduardo Villena Rey: saqisqa ñanpi puriy",
+          "Chakapata sayaspa Bajada Balta uraman qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Puente Eduardo Villena Rey nisqa tiyan. Miraflorespa ñawpa alcalden Eduardo Villena Reypa sutinwan 1968 watapi kichakurqa."
+      }
     }
   },
   {
@@ -879,6 +1299,27 @@
       "photoTip": "站在对面人行道，把完整街角纳入画面，可看出宅邸与两条街的关系。保持门口通畅。",
       "faq": "可以不预约直接参观吗？",
       "answer": "建议提前联系大学，询问当日对外开放及是否接受预约。"
+    },
+    "qu": {
+      "name": "Casa Museo e Instituto Raúl Porras Barrenechea",
+      "history": "1964 watapi San Marcos yachay wasi Raúl Porras Barrenecheata yuyarinapaq kay huñuta ruwarqa.",
+      "features": "Ñawpa wasipa ñawpaqta musuq wasikunawan tupachiy.",
+      "manager": "Universidad Nacional Mayor de San Marcos",
+      "visit": "Casa Museo e Instituto Raúl Porras Barrenechea-man p'unchawpi riy. Ñawpa wasipa ñawpaqta musuq wasikunawan tupachiy.",
+      "route": "Parque del Amor-manta mapapi Casa Museo e Instituto Raúl Porras Barrenechea-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Casa Museo e Instituto Raúl Porras Barrenechea nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Casa Museo e Instituto Raúl Porras Barrenechea: saqisqa ñanpi puriy",
+          "Ñawpa wasipa ñawpaqta musuq wasikunawan tupachiy."
+        ],
+        "intro": "Miraflores llaqtapi Casa Museo e Instituto Raúl Porras Barrenechea nisqa tiyan. 1964 watapi San Marcos yachay wasi Raúl Porras Barrenecheata yuyarinapaq kay huñuta ruwarqa."
+      }
     }
   },
   {
@@ -921,6 +1362,27 @@
       "photoTip": "入口适合记录展览名称和海报。室内是否可拍摄，以展厅当天规定为准。",
       "faq": "这里展出固定馆藏吗？",
       "answer": "展厅以临时展览为主。通过日程查看出行当日的展览。"
+    },
+    "qu": {
+      "name": "Sala Luis Miró Quesada Garland",
+      "history": "Luis Lama 1984 watapi kay llaqta rikuchina wasita qallariyachirqa.",
+      "features": "Rikuchiy qallariypi qillqata ñawinchay, chaymanta rurasqakunata qhaway.",
+      "manager": "Gerencia de Cultura y Turismo de la Municipalidad de Miraflores",
+      "visit": "Sala Luis Miró Quesada Garland-man p'unchawpi riy. Rikuchiy qallariypi qillqata ñawinchay, chaymanta rurasqakunata qhaway.",
+      "route": "Parque del Amor-manta mapapi Sala Luis Miró Quesada Garland-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Sala Luis Miró Quesada Garland nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Sala Luis Miró Quesada Garland: saqisqa ñanpi puriy",
+          "Rikuchiy qallariypi qillqata ñawinchay, chaymanta rurasqakunata qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Sala Luis Miró Quesada Garland nisqa tiyan. Luis Lama 1984 watapi kay llaqta rikuchina wasita qallariyachirqa."
+      }
     }
   },
   {
@@ -963,6 +1425,27 @@
       "photoTip": "在人行道上把柱廊、门牌和玻璃门一起取景。拍摄展品前先询问对应展厅。",
       "faq": "这里是帕尔马曾经居住的房子吗？",
       "answer": "故居博物馆位于苏亚雷斯将军街 189 号。这里是市立图书馆、画廊与礼堂。"
+    },
+    "qu": {
+      "name": "Centro Cultural Ricardo Palma",
+      "history": "1994 watapi kichakurqa; ñawpaqta llaqtapa ñawinchana wasin karqa.",
+      "features": "Punku pata, ñawinchana wasi, takina wasi kachkan.",
+      "manager": "Gerencia de Cultura y Turismo de la Municipalidad de Miraflores",
+      "visit": "Centro Cultural Ricardo Palma-man p'unchawpi riy. Punku pata, ñawinchana wasi, takina wasi kachkan.",
+      "route": "Parque del Amor-manta mapapi Centro Cultural Ricardo Palma-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Centro Cultural Ricardo Palma nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Centro Cultural Ricardo Palma: saqisqa ñanpi puriy",
+          "Punku pata, ñawinchana wasi, takina wasi kachkan."
+        ],
+        "intro": "Miraflores llaqtapi Centro Cultural Ricardo Palma nisqa tiyan. 1994 watapi kichakurqa; ñawpaqta llaqtapa ñawinchana wasin karqa."
+      }
     }
   },
   {
@@ -1005,6 +1488,27 @@
       "photoTip": "在上层步道尝试同时拍出逐层下降的露台与太平洋。若使用专业设备，先向购物中心查询拍摄规定。",
       "faq": "入口需要下到绿海岸吗？",
       "answer": "不需要。从崖顶的阿尔弗雷多·萨拉萨尔公园步行，可到保护区海滨步道 610 号入口。"
+    },
+    "qu": {
+      "name": "Larcomar",
+      "history": "Eduardo Figari kay qhatu wasita Alfredo Salazar pampapa uranpi ruwarqa; 1998 watapi kichakurqa.",
+      "features": "Hanaq terrasa, uray qhatukuna, mama quchaman qhawana kachkan.",
+      "manager": "Parque Arauco, a través de la administración del centro comercial Larcomar",
+      "visit": "Larcomar-man p'unchawpi riy. Hanaq terrasa, uray qhatukuna, mama quchaman qhawana kachkan.",
+      "route": "Parque del Amor-manta mapapi Larcomar-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Larcomar nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Larcomar: saqisqa ñanpi puriy",
+          "Hanaq terrasa, uray qhatukuna, mama quchaman qhawana kachkan."
+        ],
+        "intro": "Miraflores llaqtapi Larcomar nisqa tiyan. Eduardo Figari kay qhatu wasita Alfredo Salazar pampapa uranpi ruwarqa; 1998 watapi kichakurqa."
+      }
     }
   },
   {
@@ -1047,6 +1551,27 @@
       "photoTip": "在下坡步道取景，将桥面和两侧坡地一同拍入。",
       "faq": "过桥会到海滩吗？",
       "answer": "桥从峡沟上方通过，下海岸需走巴尼奥斯下坡步道。"
+    },
+    "qu": {
+      "name": "Puente de los Suspiros",
+      "history": "1876 watapi kichasqa; wayq'upa iskaynin ñankunata huñurqa.",
+      "features": "K'aspi chakata uray ñanmanta, chaymanta chakapa hawanmanta qhaway.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Puente de los Suspiros-man p'unchawpi riy. K'aspi chakata uray ñanmanta, chaymanta chakapa hawanmanta qhaway.",
+      "route": "Parque del Amor-manta mapapi Puente de los Suspiros-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Puente de los Suspiros nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Puente de los Suspiros: saqisqa ñanpi puriy",
+          "K'aspi chakata uray ñanmanta, chaymanta chakapa hawanmanta qhaway."
+        ],
+        "intro": "Barranco llaqtapi Puente de los Suspiros nisqa tiyan. 1876 watapi kichasqa; wayq'upa iskaynin ñankunata huñurqa."
+      }
     }
   },
   {
@@ -1089,6 +1614,27 @@
       "photoTip": "在较宽的路段沿峡沟纵向取景。",
       "faq": "从历史街区在哪里进入？",
       "answer": "旅游名录将入口标在多梅耶街。地图上可搜索巴兰科的巴尼奥斯下坡步道。"
+    },
+    "qu": {
+      "name": "Bajada de Baños",
+      "history": "1875 watamanta kay uray ñan Barranco llaqtata mama quchawan huñun.",
+      "features": "Ñan uraypi wasi ñawpaqkuna, chakra, chakakuna rikurin.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Bajada de Baños-man p'unchawpi riy. Ñan uraypi wasi ñawpaqkuna, chakra, chakakuna rikurin.",
+      "route": "Parque del Amor-manta mapapi Bajada de Baños-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Bajada de Baños nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Bajada de Baños: saqisqa ñanpi puriy",
+          "Ñan uraypi wasi ñawpaqkuna, chakra, chakakuna rikurin."
+        ],
+        "intro": "Barranco llaqtapi Bajada de Baños nisqa tiyan. 1875 watamanta kay uray ñan Barranco llaqtata mama quchawan huñun."
+      }
     }
   },
   {
@@ -1131,6 +1677,27 @@
       "photoTip": "可在广场拍摄立面，沿围挡外的开放区域行走。",
       "faq": "照片能反映当前入口状态吗？",
       "answer": "这是实景参考照。当天通行情况以修复工程公告为准。"
+    },
+    "qu": {
+      "name": "Ermita de Barranco",
+      "history": "Kay ñawpa huch'uy yupaychana wasi Barrancopa kawsay yuyayninmi.",
+      "features": "Chimpa chakapamanta wasi ñawpaqta, patapi kaqninta qhaway.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Ermita de Barranco-man p'unchawpi riy. Chimpa chakapamanta wasi ñawpaqta, patapi kaqninta qhaway.",
+      "route": "Parque del Amor-manta mapapi Ermita de Barranco-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Ermita de Barranco nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Ermita de Barranco: saqisqa ñanpi puriy",
+          "Chimpa chakapamanta wasi ñawpaqta, patapi kaqninta qhaway."
+        ],
+        "intro": "Barranco llaqtapi Ermita de Barranco nisqa tiyan. Kay ñawpa huch'uy yupaychana wasi Barrancopa kawsay yuyayninmi."
+      }
     }
   },
   {
@@ -1173,6 +1740,27 @@
       "photoTip": "在侧面步道用凉亭作前景、周边历史立面作背景。",
       "faq": "适合作为游览起点吗？",
       "answer": "适合。区政府将园旁的图书馆列为本地游览路线的咨询地点。"
+    },
+    "qu": {
+      "name": "Parque Municipal de Barranco",
+      "history": "Barranco ñawpa chawpinpi llaqta wasi, ñawinchana wasi, yupaychana wasipas huñun.",
+      "features": "Pampa ukupi purina ñankunata, pergolata qhaway.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Parque Municipal de Barranco-man p'unchawpi riy. Pampa ukupi purina ñankunata, pergolata qhaway.",
+      "route": "Parque del Amor-manta mapapi Parque Municipal de Barranco-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Parque Municipal de Barranco nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Parque Municipal de Barranco: saqisqa ñanpi puriy",
+          "Pampa ukupi purina ñankunata, pergolata qhaway."
+        ],
+        "intro": "Barranco llaqtapi Parque Municipal de Barranco nisqa tiyan. Barranco ñawpa chawpinpi llaqta wasi, ñawinchana wasi, yupaychana wasipas huñun."
+      }
     }
   },
   {
@@ -1215,6 +1803,27 @@
       "photoTip": "在公园另一侧退远一点，可以将完整钟楼纳入画面。",
       "faq": "图书馆和堂区教堂在同一座楼吗？",
       "answer": "它们是公园周围的两座不同建筑。图书馆有中央钟楼。"
+    },
+    "qu": {
+      "name": "Biblioteca Municipal Manuel Beingolea",
+      "history": "Ñawpa llaqta wasi kunan Manuel Beingoleapa sutiyuq ñawinchana wasinmi.",
+      "features": "Chawpi torrepi pacha tupunata, unancha siq'ita qhaway.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Biblioteca Municipal Manuel Beingolea-man p'unchawpi riy. Chawpi torrepi pacha tupunata, unancha siq'ita qhaway.",
+      "route": "Parque del Amor-manta mapapi Biblioteca Municipal Manuel Beingolea-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Biblioteca Municipal Manuel Beingolea nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Biblioteca Municipal Manuel Beingolea: saqisqa ñanpi puriy",
+          "Chawpi torrepi pacha tupunata, unancha siq'ita qhaway."
+        ],
+        "intro": "Barranco llaqtapi Biblioteca Municipal Manuel Beingolea nisqa tiyan. Ñawpa llaqta wasi kunan Manuel Beingoleapa sutiyuq ñawinchana wasinmi."
+      }
     }
   },
   {
@@ -1257,6 +1866,27 @@
       "photoTip": "从侧面把石像与花园纳入构图，拍摄时避开楼梯通道。",
       "faq": "这是利马市中心的同名地点吗？",
       "answer": "这座小广场在巴兰科小教堂旁。地图搜索时加上巴兰科区名。"
+    },
+    "qu": {
+      "name": "Plazuela Chabuca Granda",
+      "history": "Kay huch'uy pampa María Isabel Granda y Larco takiqta yuyachin.",
+      "features": "Ermita qayllanpi patakunata, rumi rikch'ayta qhaway.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Plazuela Chabuca Granda-man p'unchawpi riy. Ermita qayllanpi patakunata, rumi rikch'ayta qhaway.",
+      "route": "Parque del Amor-manta mapapi Plazuela Chabuca Granda-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Plazuela Chabuca Granda nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Plazuela Chabuca Granda: saqisqa ñanpi puriy",
+          "Ermita qayllanpi patakunata, rumi rikch'ayta qhaway."
+        ],
+        "intro": "Barranco llaqtapi Plazuela Chabuca Granda nisqa tiyan. Kay huch'uy pampa María Isabel Granda y Larco takiqta yuyachin."
+      }
     }
   },
   {
@@ -1299,6 +1929,27 @@
       "photoTip": "站在人行道，用树列与两侧立面表现大道的纵深。",
       "faq": "沿街老宅都可以进去吗？",
       "answer": "大道可以步行，想进特定场馆时需分别查询该场馆的开放时间。"
+    },
+    "qu": {
+      "name": "Paseo Sáenz Peña",
+      "history": "1911 wata qayllapi qallarisqa ñan Roque Sáenz Peñata yuyachin.",
+      "features": "San Martín ñanwan tinkisqanpi chiqap purina ñanta qhaway.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Paseo Sáenz Peña-man p'unchawpi riy. San Martín ñanwan tinkisqanpi chiqap purina ñanta qhaway.",
+      "route": "Parque del Amor-manta mapapi Paseo Sáenz Peña-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Paseo Sáenz Peña nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Paseo Sáenz Peña: saqisqa ñanpi puriy",
+          "San Martín ñanwan tinkisqanpi chiqap purina ñanta qhaway."
+        ],
+        "intro": "Barranco llaqtapi Paseo Sáenz Peña nisqa tiyan. 1911 wata qayllapi qallarisqa ñan Roque Sáenz Peñata yuyachin."
+      }
     }
   },
   {
@@ -1341,6 +1992,27 @@
       "photoTip": "如馆方允许，可沿花园中轴拍摄，表现住宅立面的对称。",
       "faq": "在哪里查询票价和开放时间？",
       "answer": "馆方在本页链接的官方网站上发布参观信息。"
+    },
+    "qu": {
+      "name": "Museo Pedro de Osma",
+      "history": "Ñawpa ayllu wasipi Pedro de Osmapa huñusqan kaqkunata waqaychanku.",
+      "features": "Llimp'isqa siq'ikuna, qullqimanta ruwasqakuna, ñawpa wasi kachkan.",
+      "manager": "Fundación Pedro y Angélica de Osma Gildemeister",
+      "visit": "Museo Pedro de Osma-man p'unchawpi riy. Llimp'isqa siq'ikuna, qullqimanta ruwasqakuna, ñawpa wasi kachkan.",
+      "route": "Parque del Amor-manta mapapi Museo Pedro de Osma-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Museo Pedro de Osma nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Museo Pedro de Osma: saqisqa ñanpi puriy",
+          "Llimp'isqa siq'ikuna, qullqimanta ruwasqakuna, ñawpa wasi kachkan."
+        ],
+        "intro": "Barranco llaqtapi Museo Pedro de Osma nisqa tiyan. Ñawpa ayllu wasipi Pedro de Osmapa huñusqan kaqkunata waqaychanku."
+      }
     }
   },
   {
@@ -1383,6 +2055,27 @@
       "photoTip": "可拍摄入口立面与馆名标识。进入室内后，拍展柜前先询问工作人员。",
       "faq": "参观时可以坐有轨电车吗？",
       "answer": "电车是历史展陈的一部分。是否有当天开放的体验或服务，请向馆方核对。"
+    },
+    "qu": {
+      "name": "Museo de la Electricidad",
+      "history": "1994 watapi Electrolima kicharqa; 1998 watapi Electroperú chaskirqan.",
+      "features": "Ñawpa k'anchay llamk'achinakunata, Lima tranvíakunatapas qhaway.",
+      "manager": "Electroperú S.A.",
+      "visit": "Museo de la Electricidad-man p'unchawpi riy. Ñawpa k'anchay llamk'achinakunata, Lima tranvíakunatapas qhaway.",
+      "route": "Parque del Amor-manta mapapi Museo de la Electricidad-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Museo de la Electricidad nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Museo de la Electricidad: saqisqa ñanpi puriy",
+          "Ñawpa k'anchay llamk'achinakunata, Lima tranvíakunatapas qhaway."
+        ],
+        "intro": "Barranco llaqtapi Museo de la Electricidad nisqa tiyan. 1994 watapi Electrolima kicharqa; 1998 watapi Electroperú chaskirqan."
+      }
     }
   },
   {
@@ -1425,6 +2118,27 @@
       "photoTip": "站在公园内拍完整立面，避免占用教堂入口。",
       "faq": "这是叹息桥边的老教堂吗？",
       "answer": "至圣十字架教堂在市政公园旁，叹息桥边的是巴兰科小教堂。"
+    },
+    "qu": {
+      "name": "Iglesia de la Santísima Cruz",
+      "history": "Iskay chunka pachak watakunapa qallariyninpi parroquia qallarikurqa.",
+      "features": "Pampa chawpimanta yupaychana wasipa punkunta qhaway.",
+      "manager": "Parroquia Santísima Cruz de Barranco",
+      "visit": "Iglesia de la Santísima Cruz-man p'unchawpi riy. Pampa chawpimanta yupaychana wasipa punkunta qhaway.",
+      "route": "Parque del Amor-manta mapapi Iglesia de la Santísima Cruz-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Iglesia de la Santísima Cruz nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Iglesia de la Santísima Cruz: saqisqa ñanpi puriy",
+          "Pampa chawpimanta yupaychana wasipa punkunta qhaway."
+        ],
+        "intro": "Barranco llaqtapi Iglesia de la Santísima Cruz nisqa tiyan. Iskay chunka pachak watakunapa qallariyninpi parroquia qallarikurqa."
+      }
     }
   },
   {
@@ -1496,6 +2210,27 @@
           "中央公园入口"
         ],
         "intro": "可从「帕尔多大道」开始，沿途串联「环岛外围人行道」与「中央公园入口」。"
+      }
+    },
+    "qu": {
+      "name": "Óvalo de Miraflores",
+      "history": "1963 watapi ruwasqa unu phawachina Arequipa, Pardo ñankunapa tinkuyninpi kachkan.",
+      "features": "Pardo k'uchumanta unu phawachinata qhaway; ñanta chakana ñanllapi chimpay.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Óvalo de Miraflores-man p'unchawpi riy. Pardo k'uchumanta unu phawachinata qhaway; ñanta chakana ñanllapi chimpay.",
+      "route": "Parque del Amor-manta mapapi Óvalo de Miraflores-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Óvalo de Miraflores nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 08:00–20:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Óvalo de Miraflores: saqisqa ñanpi puriy",
+          "Pardo k'uchumanta unu phawachinata qhaway; ñanta chakana ñanllapi chimpay."
+        ],
+        "intro": "Miraflores llaqtapi Óvalo de Miraflores nisqa tiyan. 1963 watapi ruwasqa unu phawachina Arequipa, Pardo ñankunapa tinkuyninpi kachkan."
       }
     }
   },
@@ -1569,6 +2304,27 @@
         ],
         "intro": "可从「巴尔塔坡道」开始，沿途串联「萨拉萨尔公园旁露台」与「阿门达里斯端」。"
       }
+    },
+    "qu": {
+      "name": "Malecón de la Reserva",
+      "history": "Kay Costa Verde ñan Bajada Baltata Armendáriz wayq'uwan huñun.",
+      "features": "Salazarpa terrasanmanta hanaq sachakunata, uray mama qucha patata tupachiy.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Malecón de la Reserva-man p'unchawpi riy. Salazarpa terrasanmanta hanaq sachakunata, uray mama qucha patata tupachiy.",
+      "route": "Parque del Amor-manta mapapi Malecón de la Reserva-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Malecón de la Reserva nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 06:00–21:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Malecón de la Reserva: saqisqa ñanpi puriy",
+          "Salazarpa terrasanmanta hanaq sachakunata, uray mama qucha patata tupachiy."
+        ],
+        "intro": "Miraflores llaqtapi Malecón de la Reserva nisqa tiyan. Kay Costa Verde ñan Bajada Baltata Armendáriz wayq'uwan huñun."
+      }
     }
   },
   {
@@ -1640,6 +2396,27 @@
           "原路返回"
         ],
         "intro": "可从「标示步行入口」开始，沿途串联「海边步道」与「原路返回」。"
+      }
+    },
+    "qu": {
+      "name": "Playa Waikiki",
+      "history": "Kay mama qucha pata Limapi surf pukllaypa wiñayninwan tupaqmi.",
+      "features": "Pata ñanmanta maypi unu phatakun, maypi surf pukllaqkuna suyan, chayta qhaway.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Playa Waikiki-man p'unchawpi riy. Pata ñanmanta maypi unu phatakun, maypi surf pukllaqkuna suyan, chayta qhaway.",
+      "route": "Parque del Amor-manta mapapi Playa Waikiki-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Playa Waikiki nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 10:00–18:30. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Playa Waikiki: saqisqa ñanpi puriy",
+          "Pata ñanmanta maypi unu phatakun, maypi surf pukllaqkuna suyan, chayta qhaway."
+        ],
+        "intro": "Miraflores llaqtapi Playa Waikiki nisqa tiyan. Kay mama qucha pata Limapi surf pukllaypa wiñayninwan tupaqmi."
       }
     }
   },
@@ -1713,6 +2490,27 @@
         ],
         "intro": "可从「绿海岸标示入口」开始，沿途串联「下层海滨步道」与「回望崖壁」。"
       }
+    },
+    "qu": {
+      "name": "Playa Redondo",
+      "history": "Miraflorespa wasinkunapa uranpi Costa Verde mama qucha pata kachkan.",
+      "features": "Mama quchata kinraymanta qhaway, chayhina muyu pata rikurin.",
+      "manager": "Miraflores llaqta kamachiq",
+      "visit": "Playa Redondo-man p'unchawpi riy. Mama quchata kinraymanta qhaway, chayhina muyu pata rikurin.",
+      "route": "Parque del Amor-manta mapapi Playa Redondo-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Miraflores llaqtapi Playa Redondo nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 07:00–18:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Miraflores: mapapi ñanta maskay",
+          "Playa Redondo: saqisqa ñanpi puriy",
+          "Mama quchata kinraymanta qhaway, chayhina muyu pata rikurin."
+        ],
+        "intro": "Miraflores llaqtapi Playa Redondo nisqa tiyan. Miraflorespa wasinkunapa uranpi Costa Verde mama qucha pata kachkan."
+      }
     }
   },
   {
@@ -1784,6 +2582,27 @@
           "遗址馆"
         ],
         "intro": "可从「尼古拉斯·德里韦拉大道入口」开始，沿途串联「金字塔底部」与「遗址馆」。"
+      }
+    },
+    "qu": {
+      "name": "Huaca Huallamarca",
+      "history": "T'ikamanta wak'api Lima runakunamanta Inka pachakama kaqkuna waqaychasqa kachkan.",
+      "features": "Hawanpa anchunta wichay ñanwan tupachiy; museo wasipi qillqakunata ñawinchay.",
+      "manager": "Piruwpa kawsay kamachiynin (Ministerio de Cultura)",
+      "visit": "Huaca Huallamarca-man p'unchawpi riy. Hawanpa anchunta wichay ñanwan tupachiy; museo wasipi qillqakunata ñawinchay.",
+      "route": "Parque del Amor-manta mapapi Huaca Huallamarca-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "San Isidro llaqtapi Huaca Huallamarca nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 09:00–17:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuypi rikuchisqa qullqi: S/ 5. Kunan qullqita manaraq riyta qallarispa tapuy.",
+        "stops": [
+          "San Isidro: mapapi ñanta maskay",
+          "Huaca Huallamarca: saqisqa ñanpi puriy",
+          "Hawanpa anchunta wichay ñanwan tupachiy; museo wasipi qillqakunata ñawinchay."
+        ],
+        "intro": "San Isidro llaqtapi Huaca Huallamarca nisqa tiyan. T'ikamanta wak'api Lima runakunamanta Inka pachakama kaqkuna waqaychasqa kachkan."
       }
     }
   },
@@ -1857,6 +2676,27 @@
         ],
         "intro": "可从「共和国街」开始，沿途串联「橄榄树下的小径」与「帕斯索尔丹大道出口」。"
       }
+    },
+    "qu": {
+      "name": "Bosque El Olivar",
+      "history": "Ñawpa olivo sachakuna colonia pachapi tarpusqakuna karqanku.",
+      "features": "Sacha mallkikunapa rikch'ayninta tupachiy; La República ñanmanta yaykuy.",
+      "manager": "San Isidro llaqta kamachiq",
+      "visit": "Bosque El Olivar-man p'unchawpi riy. Sacha mallkikunapa rikch'ayninta tupachiy; La República ñanmanta yaykuy.",
+      "route": "Parque del Amor-manta mapapi Bosque El Olivar-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "San Isidro llaqtapi Bosque El Olivar nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 06:00–22:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "San Isidro: mapapi ñanta maskay",
+          "Bosque El Olivar: saqisqa ñanpi puriy",
+          "Sacha mallkikunapa rikch'ayninta tupachiy; La República ñanmanta yaykuy."
+        ],
+        "intro": "San Isidro llaqtapi Bosque El Olivar nisqa tiyan. Ñawpa olivo sachakuna colonia pachapi tarpusqakuna karqanku."
+      }
     }
   },
   {
@@ -1928,6 +2768,27 @@
           "遗址外围"
         ],
         "intro": "可从「米格尔·切卡街」开始，沿途串联「从童军公园眺望」与「遗址外围」。"
+      }
+    },
+    "qu": {
+      "name": "Huaca Santa Catalina",
+      "history": "Ychsma runakuna kay wak'ata llamk'achirqanku; qhipaman Inka runakunapas.",
+      "features": "Parque Scoutmanta allpamanta pirqakunata qhaway.",
+      "manager": "La Victoria llaqta kamachiq",
+      "visit": "Huaca Santa Catalina-man p'unchawpi riy. Parque Scoutmanta allpamanta pirqakunata qhaway.",
+      "route": "Parque del Amor-manta mapapi Huaca Santa Catalina-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "La Victoria llaqtapi Huaca Santa Catalina nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 08:30–16:30. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "La Victoria: mapapi ñanta maskay",
+          "Huaca Santa Catalina: saqisqa ñanpi puriy",
+          "Parque Scoutmanta allpamanta pirqakunata qhaway."
+        ],
+        "intro": "La Victoria llaqtapi Huaca Santa Catalina nisqa tiyan. Ychsma runakuna kay wak'ata llamk'achirqanku; qhipaman Inka runakunapas."
       }
     }
   },
@@ -2004,6 +2865,28 @@
         "intro": "可从「格劳大道入口」开始，沿途串联「水边庭院」与「当期展厅」。",
         "source": "https://maclima.pe/compra-tu-entrada-2/"
       }
+    },
+    "qu": {
+      "name": "Museo de Arte Contemporáneo de Lima (MAC)",
+      "history": "2013 watapi kunan pacha ruwasqakunata rikuchinapaq kichakurqa.",
+      "features": "Patiopi unu hawanpi wasipa rikch'ayninta qhaway, chaymanta rikuchiyta ñawinchay.",
+      "manager": "Instituto de Arte Contemporáneo",
+      "visit": "Museo de Arte Contemporáneo de Lima (MAC)-man p'unchawpi riy. Patiopi unu hawanpi wasipa rikch'ayninta qhaway, chaymanta rikuchiyta ñawinchay.",
+      "route": "Parque del Amor-manta mapapi Museo de Arte Contemporáneo de Lima (MAC)-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Museo de Arte Contemporáneo de Lima (MAC) nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Rikuchiy wasikuna martes–domingo 10:00–19:00. Chakrakuna sapa p'unchaw 10:00–18:00, mana qullqillawan.",
+        "admission": "Chakrakunaman mana qullqillawan yaykuy; rikuchiy wasipa yaykuna qullqinta tapuy.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Museo de Arte Contemporáneo de Lima (MAC): saqisqa ñanpi puriy",
+          "Patiopi unu hawanpi wasipa rikch'ayninta qhaway, chaymanta rikuchiyta ñawinchay."
+        ],
+        "intro": "Barranco llaqtapi Museo de Arte Contemporáneo de Lima (MAC) nisqa tiyan. 2013 watapi kunan pacha ruwasqakunata rikuchinapaq kichakurqa.",
+        "source": "https://maclima.pe/compra-tu-entrada-2/"
+      }
     }
   },
   {
@@ -2075,6 +2958,27 @@
           "开放步道尽端"
         ],
         "intro": "可从「标示入口」开始，沿途串联「沙地边缘」与「开放步道尽端」。"
+      }
+    },
+    "qu": {
+      "name": "Playa Las Sombrillas",
+      "history": "Barrancopa kay mama qucha patan Costa Verde ñanpi kachkan.",
+      "features": "T'iyu patamanta inti amachana sombrillakunapa siq'inta qhaway.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Playa Las Sombrillas-man p'unchawpi riy. T'iyu patamanta inti amachana sombrillakunapa siq'inta qhaway.",
+      "route": "Parque del Amor-manta mapapi Playa Las Sombrillas-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Playa Las Sombrillas nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 07:00–18:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Playa Las Sombrillas: saqisqa ñanpi puriy",
+          "T'iyu patamanta inti amachana sombrillakunapa siq'inta qhaway."
+        ],
+        "intro": "Barranco llaqtapi Playa Las Sombrillas nisqa tiyan. Barrancopa kay mama qucha patan Costa Verde ñanpi kachkan."
       }
     }
   },
@@ -2148,6 +3052,27 @@
         ],
         "intro": "可从「入口区」开始，沿途串联「沙滩边缘」与「从步道看防波设施」。"
       }
+    },
+    "qu": {
+      "name": "Playa Los Yuyos",
+      "history": "Barrancopi mama qucha, Costa Verde carro ñanwan tinkun.",
+      "features": "Unta hark'aq pirqapa iskayninpi unuta tupachiy.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Playa Los Yuyos-man p'unchawpi riy. Unta hark'aq pirqapa iskayninpi unuta tupachiy.",
+      "route": "Parque del Amor-manta mapapi Playa Los Yuyos-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Playa Los Yuyos nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 07:00–18:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Playa Los Yuyos: saqisqa ñanpi puriy",
+          "Unta hark'aq pirqapa iskayninpi unuta tupachiy."
+        ],
+        "intro": "Barranco llaqtapi Playa Los Yuyos nisqa tiyan. Barrancopi mama qucha, Costa Verde carro ñanwan tinkun."
+      }
     }
   },
   {
@@ -2219,6 +3144,27 @@
           "侧望海岸"
         ],
         "intro": "可从「绿海岸入口」开始，沿途串联「开放步道段」与「侧望海岸」。"
+      }
+    },
+    "qu": {
+      "name": "Playa Barranquito",
+      "history": "Barranco llaqtapa uray mama qucha patanmi.",
+      "features": "Mama qucha muyuta, qaqa uranpi unupa phatakusqanta qhaway.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Playa Barranquito-man p'unchawpi riy. Mama qucha muyuta, qaqa uranpi unupa phatakusqanta qhaway.",
+      "route": "Parque del Amor-manta mapapi Playa Barranquito-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Playa Barranquito nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 07:00–18:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Playa Barranquito: saqisqa ñanpi puriy",
+          "Mama qucha muyuta, qaqa uranpi unupa phatakusqanta qhaway."
+        ],
+        "intro": "Barranco llaqtapi Playa Barranquito nisqa tiyan. Barranco llaqtapa uray mama qucha patanmi."
       }
     }
   },
@@ -2292,6 +3238,27 @@
         ],
         "intro": "可从「木兰街」开始，沿途串联「公园花园」与「保罗·哈里斯步道」。"
       }
+    },
+    "qu": {
+      "name": "Parque Húsares de Junín",
+      "history": "Malecón Paul Harrispi kay samana pampa Las Magnolias ñanpa chimpapin.",
+      "features": "Sachakunata, mama quchaman uray qhatata qhaway.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Parque Húsares de Junín-man p'unchawpi riy. Sachakunata, mama quchaman uray qhatata qhaway.",
+      "route": "Parque del Amor-manta mapapi Parque Húsares de Junín-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Parque Húsares de Junín nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 10:00–18:30. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Parque Húsares de Junín: saqisqa ñanpi puriy",
+          "Sachakunata, mama quchaman uray qhatata qhaway."
+        ],
+        "intro": "Barranco llaqtapi Parque Húsares de Junín nisqa tiyan. Malecón Paul Harrispi kay samana pampa Las Magnolias ñanpa chimpapin."
+      }
     }
   },
   {
@@ -2363,6 +3330,27 @@
           "巴尼奥斯坡道连接处"
         ],
         "intro": "可从「苏克雷街」开始，沿途串联「中央园地」与「巴尼奥斯坡道连接处」。"
+      }
+    },
+    "qu": {
+      "name": "Parque Federico Villarreal",
+      "history": "1926 watapi Barranco wayq'upa patanpi kay pampa ruwakurqa.",
+      "features": "Samana pampamanta Bajada de Bañosman urayta qhaway.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Parque Federico Villarreal-man p'unchawpi riy. Samana pampamanta Bajada de Bañosman urayta qhaway.",
+      "route": "Parque del Amor-manta mapapi Parque Federico Villarreal-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Parque Federico Villarreal nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 05:00–23:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Parque Federico Villarreal: saqisqa ñanpi puriy",
+          "Samana pampamanta Bajada de Bañosman urayta qhaway."
+        ],
+        "intro": "Barranco llaqtapi Parque Federico Villarreal nisqa tiyan. 1926 watapi Barranco wayq'upa patanpi kay pampa ruwakurqa."
       }
     }
   },
@@ -2436,6 +3424,27 @@
         ],
         "intro": "可从「小教堂周边」开始，沿途串联「纪念台座」与「观景栏杆」。"
       }
+    },
+    "qu": {
+      "name": "Mirador Catalina Recavarren",
+      "history": "Barrancomanta Catalina Recavarren rimay qillqaqta yuyarin.",
+      "features": "Ñawpaqta yuyarina qillqata ñawinchay, chaymanta hark'ana patamanta qhaway.",
+      "manager": "Barranco llaqta kamachiq",
+      "visit": "Mirador Catalina Recavarren-man p'unchawpi riy. Ñawpaqta yuyarina qillqata ñawinchay, chaymanta hark'ana patamanta qhaway.",
+      "route": "Parque del Amor-manta mapapi Mirador Catalina Recavarren-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Barranco llaqtapi Mirador Catalina Recavarren nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 05:00–23:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Barranco: mapapi ñanta maskay",
+          "Mirador Catalina Recavarren: saqisqa ñanpi puriy",
+          "Ñawpaqta yuyarina qillqata ñawinchay, chaymanta hark'ana patamanta qhaway."
+        ],
+        "intro": "Barranco llaqtapi Mirador Catalina Recavarren nisqa tiyan. Barrancomanta Catalina Recavarren rimay qillqaqta yuyarin."
+      }
     }
   },
   {
@@ -2507,6 +3516,27 @@
           "从步道看海湾"
         ],
         "intro": "可从「乔里约斯下层入口」开始，沿途串联「海滩边缘」与「从步道看海湾」。"
+      }
+    },
+    "qu": {
+      "name": "Playa Agua Dulce",
+      "history": "Chorrillos llaqtapa ñawpa mama qucha patanmi.",
+      "features": "Uray ñanmanta t'iyu patapa muyu siq'inta qhaway.",
+      "manager": "Chorrillos llaqta kamachiq",
+      "visit": "Playa Agua Dulce-man p'unchawpi riy. Uray ñanmanta t'iyu patapa muyu siq'inta qhaway.",
+      "route": "Parque del Amor-manta mapapi Playa Agua Dulce-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Chorrillos llaqtapi Playa Agua Dulce nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 07:00–20:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Chorrillos: mapapi ñanta maskay",
+          "Playa Agua Dulce: saqisqa ñanpi puriy",
+          "Uray ñanmanta t'iyu patapa muyu siq'inta qhaway."
+        ],
+        "intro": "Chorrillos llaqtapi Playa Agua Dulce nisqa tiyan. Chorrillos llaqtapa ñawpa mama qucha patanmi."
       }
     }
   },
@@ -2580,6 +3610,27 @@
         ],
         "intro": "可从「埃尔南多·拉瓦列大道接待处」开始，沿途串联「开放小径」与「指定路线上的观鸟点」。"
       }
+    },
+    "qu": {
+      "name": "Pantanos de Villa",
+      "history": "Chorrillospi kay quchakunapi tiyaq, karumanta hamuq pisqukuna kawsanku.",
+      "features": "Saqisqa qhawana wasimanta quchata, tutura ruruta qhaway.",
+      "manager": "Chorrillos llaqta kamachiq",
+      "visit": "Pantanos de Villa-man p'unchawpi riy. Saqisqa qhawana wasimanta quchata, tutura ruruta qhaway.",
+      "route": "Parque del Amor-manta mapapi Pantanos de Villa-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Chorrillos llaqtapi Pantanos de Villa nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 08:30–17:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuypi rikuchisqa qullqi: S/ 20 / 30. Kunan qullqita manaraq riyta qallarispa tapuy.",
+        "stops": [
+          "Chorrillos: mapapi ñanta maskay",
+          "Pantanos de Villa: saqisqa ñanpi puriy",
+          "Saqisqa qhawana wasimanta quchata, tutura ruruta qhaway."
+        ],
+        "intro": "Chorrillos llaqtapi Pantanos de Villa nisqa tiyan. Chorrillospi kay quchakunapi tiyaq, karumanta hamuq pisqukuna kawsanku."
+      }
     }
   },
   {
@@ -2651,6 +3702,27 @@
           "湖边步道"
         ],
         "intro": "可从「卡米诺斯德尔印卡大道」开始，沿途串联「拱门广场」与「湖边步道」。"
+      }
+    },
+    "qu": {
+      "name": "Parque de la Amistad",
+      "history": "Iskay chunka isqun metro sayayniyuq arku Surco pampata rikuchin.",
+      "features": "Arku qaranta ñawpaq pampamanta, chaymanta qucha patamanta qhaway.",
+      "manager": "Empresa Municipal Santiago de Surco S. A. - EMUSS SA - Municipalidad de Surco",
+      "visit": "Parque de la Amistad-man p'unchawpi riy. Arku qaranta ñawpaq pampamanta, chaymanta qucha patamanta qhaway.",
+      "route": "Parque del Amor-manta mapapi Parque de la Amistad-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Santiago de Surco llaqtapi Parque de la Amistad nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 09:00–22:00, 09:00–23:30. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Santiago de Surco: mapapi ñanta maskay",
+          "Parque de la Amistad: saqisqa ñanpi puriy",
+          "Arku qaranta ñawpaq pampamanta, chaymanta qucha patamanta qhaway."
+        ],
+        "intro": "Santiago de Surco llaqtapi Parque de la Amistad nisqa tiyan. Iskay chunka isqun metro sayayniyuq arku Surco pampata rikuchin."
       }
     }
   },
@@ -2724,6 +3796,27 @@
         ],
         "intro": "可从「蒙特德洛索利沃斯大道」开始，沿途串联「开放的上坡小径」与「高处停留点」。"
       }
+    },
+    "qu": {
+      "name": "Parque Ecológico Loma Amarilla",
+      "history": "2014 watapi Surco llaqtapa urqu patanpi kichakurqa.",
+      "features": "Qhatapi saqisqa ñanllata puriy, urqu chawpita hanaqwan tupachiy.",
+      "manager": "Santiago de Surco llaqta kamachiq",
+      "visit": "Parque Ecológico Loma Amarilla-man p'unchawpi riy. Qhatapi saqisqa ñanllata puriy, urqu chawpita hanaqwan tupachiy.",
+      "route": "Parque del Amor-manta mapapi Parque Ecológico Loma Amarilla-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Santiago de Surco llaqtapi Parque Ecológico Loma Amarilla nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 06:00–21:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Santiago de Surco: mapapi ñanta maskay",
+          "Parque Ecológico Loma Amarilla: saqisqa ñanpi puriy",
+          "Qhatapi saqisqa ñanllata puriy, urqu chawpita hanaqwan tupachiy."
+        ],
+        "intro": "Santiago de Surco llaqtapi Parque Ecológico Loma Amarilla nisqa tiyan. 2014 watapi Surco llaqtapa urqu patanpi kichakurqa."
+      }
     }
   },
   {
@@ -2795,6 +3888,27 @@
           "武器展厅"
         ],
         "intro": "可从「阿隆索·德莫利纳大道 1100 号」开始，沿途串联「金属工艺展区」与「武器展厅」。"
+      }
+    },
+    "qu": {
+      "name": "Museo Oro del Perú y Armas del Mundo",
+      "history": "Miguel Mujica Gallopa huñusqan kaqkunawan 1966 watapi kichakurqa.",
+      "features": "Ñawpaqta antikuna quri ruwasqankuta, chaymanta maqana kaqkunata qhaway.",
+      "manager": "Fundación Miguel Mujica Gallo",
+      "visit": "Museo Oro del Perú y Armas del Mundo-man p'unchawpi riy. Ñawpaqta antikuna quri ruwasqankuta, chaymanta maqana kaqkunata qhaway.",
+      "route": "Parque del Amor-manta mapapi Museo Oro del Perú y Armas del Mundo-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Santiago de Surco llaqtapi Museo Oro del Perú y Armas del Mundo nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 10:00–17:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuypi rikuchisqa qullqi: S/ 40. Kunan qullqita manaraq riyta qallarispa tapuy.",
+        "stops": [
+          "Santiago de Surco: mapapi ñanta maskay",
+          "Museo Oro del Perú y Armas del Mundo: saqisqa ñanpi puriy",
+          "Ñawpaqta antikuna quri ruwasqankuta, chaymanta maqana kaqkunata qhaway."
+        ],
+        "intro": "Santiago de Surco llaqtapi Museo Oro del Perú y Armas del Mundo nisqa tiyan. Miguel Mujica Gallopa huñusqan kaqkunawan 1966 watapi kichakurqa."
       }
     }
   },
@@ -2868,6 +3982,27 @@
         ],
         "intro": "可从「文化站」开始，沿途串联「哈维尔·普拉多大道广场」与「门票标示的演出厅」。"
       }
+    },
+    "qu": {
+      "name": "Gran Teatro Nacional",
+      "history": "2012 watapi kichasqa Piruw Ministerio de Culturapa takina wasinmi.",
+      "features": "Javier Prado pampamanta punkukunata qhaway; boletopi nisqa punkuta maskay.",
+      "manager": "Piruwpa kawsay kamachiynin (Ministerio de Cultura)",
+      "visit": "Gran Teatro Nacional-man p'unchawpi riy. Javier Prado pampamanta punkukunata qhaway; boletopi nisqa punkuta maskay.",
+      "route": "Parque del Amor-manta mapapi Gran Teatro Nacional-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "San Borja llaqtapi Gran Teatro Nacional nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Manaraq riyta qallarispa, kichana pachata kamachiqkunawan chiqaqchay.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "San Borja: mapapi ñanta maskay",
+          "Gran Teatro Nacional: saqisqa ñanpi puriy",
+          "Javier Prado pampamanta punkukunata qhaway; boletopi nisqa punkuta maskay."
+        ],
+        "intro": "San Borja llaqtapi Gran Teatro Nacional nisqa tiyan. 2012 watapi kichasqa Piruw Ministerio de Culturapa takina wasinmi."
+      }
     }
   },
   {
@@ -2939,6 +4074,27 @@
           "当日开放展厅"
         ],
         "intro": "可从「玻利瓦尔广场」开始，沿途串联「宅邸庭院」与「当日开放展厅」。"
+      }
+    },
+    "qu": {
+      "name": "Museo Nacional de Arqueología, Antropología e Historia del Perú",
+      "history": "1822 watapi qallarisqa museo Quinta de los Libertadores wasipi kachkan.",
+      "features": "Patiomanta wasipa rakinkunata qhaway, chaymanta kichasqa salakunaman riy.",
+      "manager": "Piruwpa kawsay kamachiynin (Ministerio de Cultura)",
+      "visit": "Museo Nacional de Arqueología, Antropología e Historia del Perú-man p'unchawpi riy. Patiomanta wasipa rakinkunata qhaway, chaymanta kichasqa salakunaman riy.",
+      "route": "Parque del Amor-manta mapapi Museo Nacional de Arqueología, Antropología e Historia del Perú-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Pueblo Libre llaqtapi Museo Nacional de Arqueología, Antropología e Historia del Perú nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 09:00–19:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Pueblo Libre: mapapi ñanta maskay",
+          "Museo Nacional de Arqueología, Antropología e Historia del Perú: saqisqa ñanpi puriy",
+          "Patiomanta wasipa rakinkunata qhaway, chaymanta kichasqa salakunaman riy."
+        ],
+        "intro": "Pueblo Libre llaqtapi Museo Nacional de Arqueología, Antropología e Historia del Perú nisqa tiyan. 1822 watapi qallarisqa museo Quinta de los Libertadores wasipi kachkan."
       }
     }
   },
@@ -3012,6 +4168,27 @@
         ],
         "intro": "可从「马里亚诺·科尔内霍大道」开始，沿途串联「获准开放的入口」与「开放时参加遗址导览」。"
       }
+    },
+    "qu": {
+      "name": "Complejo Arqueológico Mateo Salado",
+      "history": "Ichma runakuna kay hatun pirqakunata Limapa allpanpi ruwarqanku.",
+      "features": "Saqisqa ñanmanta pirámidekunapa sayayninta tupachiy.",
+      "manager": "Piruwpa kawsay kamachiynin (Ministerio de Cultura)",
+      "visit": "Complejo Arqueológico Mateo Salado-man p'unchawpi riy. Saqisqa ñanmanta pirámidekunapa sayayninta tupachiy.",
+      "route": "Parque del Amor-manta mapapi Complejo Arqueológico Mateo Salado-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Cercado de Lima llaqtapi Complejo Arqueológico Mateo Salado nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 09:00–15:30. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuypi rikuchisqa qullqi: S/ 10. Kunan qullqita manaraq riyta qallarispa tapuy.",
+        "stops": [
+          "Cercado de Lima: mapapi ñanta maskay",
+          "Complejo Arqueológico Mateo Salado: saqisqa ñanpi puriy",
+          "Saqisqa ñanmanta pirámidekunapa sayayninta tupachiy."
+        ],
+        "intro": "Cercado de Lima llaqtapi Complejo Arqueológico Mateo Salado nisqa tiyan. Ichma runakuna kay hatun pirqakunata Limapa allpanpi ruwarqanku."
+      }
     }
   },
   {
@@ -3084,6 +4261,27 @@
         ],
         "intro": "可从「标示入口」开始，沿途串联「喷泉游线」与「由开放的门离园」。"
       }
+    },
+    "qu": {
+      "name": "Circuito Mágico del Agua",
+      "history": "Parque de la Reserva 1929 watapi kichakurqa; kunan unu phawachinakuna chaypi kachkan.",
+      "features": "Hatun unu phawachinakunata p'unchawpi, k'anchaykunata tutapi qhaway.",
+      "manager": "Cercado de Lima llaqta kamachiq",
+      "visit": "Circuito Mágico del Agua-man p'unchawpi riy. Hatun unu phawachinakunata p'unchawpi, k'anchaykunata tutapi qhaway.",
+      "route": "Parque del Amor-manta mapapi Circuito Mágico del Agua-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Cercado de Lima llaqtapi Circuito Mágico del Agua nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 15:00–22:30. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuypi rikuchisqa qullqi: S/ 5. Kunan qullqita manaraq riyta qallarispa tapuy.",
+        "stops": [
+          "Cercado de Lima: mapapi ñanta maskay",
+          "Circuito Mágico del Agua: saqisqa ñanpi puriy",
+          "Hatun unu phawachinakunata p'unchawpi, k'anchaykunata tutapi qhaway."
+        ],
+        "intro": "Cercado de Lima llaqtapi Circuito Mágico del Agua nisqa tiyan. Parque de la Reserva 1929 watapi kichakurqa; kunan unu phawachinakuna chaypi kachkan."
+      }
     }
   },
   {
@@ -3155,6 +4353,27 @@
           "利马艺术博物馆前广场"
         ],
         "intro": "可从「科隆大道」开始，沿途串联「花园与展亭」与「利马艺术博物馆前广场」。"
+      }
+    },
+    "qu": {
+      "name": "Parque de la Exposición",
+      "history": "1872 watapi kichakurqa; Lima rikuchiypa ñawpa sachakunata waqaychan.",
+      "features": "Paseo Colón pampamanta palacioman riy, chakra ukupi pabellonkunata tupachiy.",
+      "manager": "Cercado de Lima llaqta kamachiq",
+      "visit": "Parque de la Exposición-man p'unchawpi riy. Paseo Colón pampamanta palacioman riy, chakra ukupi pabellonkunata tupachiy.",
+      "route": "Parque del Amor-manta mapapi Parque de la Exposición-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Cercado de Lima llaqtapi Parque de la Exposición nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 07:00–19:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Cercado de Lima: mapapi ñanta maskay",
+          "Parque de la Exposición: saqisqa ñanpi puriy",
+          "Paseo Colón pampamanta palacioman riy, chakra ukupi pabellonkunata tupachiy."
+        ],
+        "intro": "Cercado de Lima llaqtapi Parque de la Exposición nisqa tiyan. 1872 watapi kichakurqa; Lima rikuchiypa ñawpa sachakunata waqaychan."
       }
     }
   },
@@ -3231,6 +4450,28 @@
         "intro": "可从「科隆大道 125 号」开始，沿途串联「建筑立面与门厅」与「开放展厅」。",
         "source": "https://mali.pe/es/entradas/"
       }
+    },
+    "qu": {
+      "name": "Museo de Arte de Lima (MALI)",
+      "history": "Kay museo Piruw República pachamanta Palacio de la Exposición wasipi kachkan.",
+      "features": "Pampamanta wasipa sayayninta qhaway, chaymanta iskay salapa ruwasqankunata tupachiy.",
+      "manager": "Asociación Museo de Arte de Lima",
+      "visit": "Museo de Arte de Lima (MALI)-man p'unchawpi riy. Pampamanta wasipa sayayninta qhaway, chaymanta iskay salapa ruwasqankunata tupachiy.",
+      "route": "Parque del Amor-manta mapapi Museo de Arte de Lima (MALI)-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Cercado de Lima llaqtapi Museo de Arte de Lima (MALI) nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Martes–domingo 10:00–18:00. Sábado 17:00-kama.",
+        "admission": "Yaykunapaq qullqita, qullqi pisichiykunatapas kamachiqkunawan chiqaqchay.",
+        "stops": [
+          "Cercado de Lima: mapapi ñanta maskay",
+          "Museo de Arte de Lima (MALI): saqisqa ñanpi puriy",
+          "Pampamanta wasipa sayayninta qhaway, chaymanta iskay salapa ruwasqankunata tupachiy."
+        ],
+        "intro": "Cercado de Lima llaqtapi Museo de Arte de Lima (MALI) nisqa tiyan. Kay museo Piruw República pachamanta Palacio de la Exposición wasipi kachkan.",
+        "source": "https://mali.pe/es/entradas/"
+      }
     }
   },
   {
@@ -3302,6 +4543,27 @@
           "开放展厅"
         ],
         "intro": "可从「共和国大道」开始，沿途串联「马赛克立面」与「开放展厅」。"
+      }
+    },
+    "qu": {
+      "name": "Museo de Arte Italiano",
+      "history": "Italia llaqta runakuna Piruw qispisqan yuyariypi kay wasita qurqanku.",
+      "features": "Wasi hawapi mosaico siq'ikunata qhaway, ukupi llimp'ikunata, rurasqakunatapas.",
+      "manager": "Piruwpa kawsay kamachiynin (Ministerio de Cultura)",
+      "visit": "Museo de Arte Italiano-man p'unchawpi riy. Wasi hawapi mosaico siq'ikunata qhaway, ukupi llimp'ikunata, rurasqakunatapas.",
+      "route": "Parque del Amor-manta mapapi Museo de Arte Italiano-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Cercado de Lima llaqtapi Museo de Arte Italiano nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 10:00–17:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuypi rikuchisqa qullqi: S/ 6. Kunan qullqita manaraq riyta qallarispa tapuy.",
+        "stops": [
+          "Cercado de Lima: mapapi ñanta maskay",
+          "Museo de Arte Italiano: saqisqa ñanpi puriy",
+          "Wasi hawapi mosaico siq'ikunata qhaway, ukupi llimp'ikunata, rurasqakunatapas."
+        ],
+        "intro": "Cercado de Lima llaqtapi Museo de Arte Italiano nisqa tiyan. Italia llaqta runakuna Piruw qispisqan yuyariypi kay wasita qurqanku."
       }
     }
   },
@@ -3375,6 +4637,27 @@
         ],
         "intro": "可从「七月二十八日大道」开始，沿途串联「建筑正面」与「当日开放路线」。"
       }
+    },
+    "qu": {
+      "name": "Museo Metropolitano de Lima",
+      "history": "Ñawpa ministerio wasipi Limapa ñawpa kawsayninta rikuchinku.",
+      "features": "Wasi ñawpaqta qhaway, yaykuspataq ima rikuchiy kichasqa kasqanta tapuy.",
+      "manager": "Cercado de Lima llaqta kamachiq",
+      "visit": "Museo Metropolitano de Lima-man p'unchawpi riy. Wasi ñawpaqta qhaway, yaykuspataq ima rikuchiy kichasqa kasqanta tapuy.",
+      "route": "Parque del Amor-manta mapapi Museo Metropolitano de Lima-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Cercado de Lima llaqtapi Museo Metropolitano de Lima nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 10:00–18:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuypi rikuchisqa qullqi: S/ 4. Kunan qullqita manaraq riyta qallarispa tapuy.",
+        "stops": [
+          "Cercado de Lima: mapapi ñanta maskay",
+          "Museo Metropolitano de Lima: saqisqa ñanpi puriy",
+          "Wasi ñawpaqta qhaway, yaykuspataq ima rikuchiy kichasqa kasqanta tapuy."
+        ],
+        "intro": "Cercado de Lima llaqtapi Museo Metropolitano de Lima nisqa tiyan. Ñawpa ministerio wasipi Limapa ñawpa kawsayninta rikuchinku."
+      }
     }
   },
   {
@@ -3446,6 +4729,27 @@
           "开放的化石展区"
         ],
         "intro": "可从「阿雷纳莱斯大道 1256 号」开始，沿途串联「动物展厅」与「开放的化石展区」。"
+      }
+    },
+    "qu": {
+      "name": "Museo de Historia Natural de San Marcos",
+      "history": "San Marcos hatun yachay wasi 1918 watapi kay museota qallariyachirqa.",
+      "features": "Kawsaq uywakunapa, ñawpa tullukunapa qillqankunata ñawinchay.",
+      "manager": "Universidad Nacional Mayor de San Marcos",
+      "visit": "Museo de Historia Natural de San Marcos-man p'unchawpi riy. Kawsaq uywakunapa, ñawpa tullukunapa qillqankunata ñawinchay.",
+      "route": "Parque del Amor-manta mapapi Museo de Historia Natural de San Marcos-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Jesús María llaqtapi Museo de Historia Natural de San Marcos nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 09:00–17:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuypi rikuchisqa qullqi: S/ 10. Kunan qullqita manaraq riyta qallarispa tapuy.",
+        "stops": [
+          "Jesús María: mapapi ñanta maskay",
+          "Museo de Historia Natural de San Marcos: saqisqa ñanpi puriy",
+          "Kawsaq uywakunapa, ñawpa tullukunapa qillqankunata ñawinchay."
+        ],
+        "intro": "Jesús María llaqtapi Museo de Historia Natural de San Marcos nisqa tiyan. San Marcos hatun yachay wasi 1918 watapi kay museota qallariyachirqa."
       }
     }
   },
@@ -3519,6 +4823,27 @@
         ],
         "intro": "可从「阿方索·乌加特大道 650 号」开始，沿途串联「建筑立面」与「民间艺术藏品」。"
       }
+    },
+    "qu": {
+      "name": "Museo Nacional de la Cultura Peruana",
+      "history": "1946 watapi Piruw runakunapa ñawpa yachayninta qhawachinapaq qallarikurqa.",
+      "features": "Wasi qarapi siq'ikunata, ukupi makiwan ruwasqa kaqkunatapas tupachiy.",
+      "manager": "Piruwpa kawsay kamachiynin (Ministerio de Cultura)",
+      "visit": "Museo Nacional de la Cultura Peruana-man p'unchawpi riy. Wasi qarapi siq'ikunata, ukupi makiwan ruwasqa kaqkunatapas tupachiy.",
+      "route": "Parque del Amor-manta mapapi Museo Nacional de la Cultura Peruana-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Cercado de Lima llaqtapi Museo Nacional de la Cultura Peruana nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 10:00–16:30. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuypi rikuchisqa qullqi: S/ 6. Kunan qullqita manaraq riyta qallarispa tapuy.",
+        "stops": [
+          "Cercado de Lima: mapapi ñanta maskay",
+          "Museo Nacional de la Cultura Peruana: saqisqa ñanpi puriy",
+          "Wasi qarapi siq'ikunata, ukupi makiwan ruwasqa kaqkunatapas tupachiy."
+        ],
+        "intro": "Cercado de Lima llaqtapi Museo Nacional de la Cultura Peruana nisqa tiyan. 1946 watapi Piruw runakunapa ñawpa yachayninta qhawachinapaq qallarikurqa."
+      }
     }
   },
   {
@@ -3591,6 +4916,27 @@
         ],
         "intro": "可从「金星街」开始，沿途串联「火星街交会处」与「从公共外围观察」。"
       }
+    },
+    "qu": {
+      "name": "Huaca La Luz",
+      "history": "La Luz llaqtapi ñawpa runakunapa allpamanta ruwasqankuna kachkan.",
+      "features": "Venus, Marte ñankunapa tinkusqanpi wak'apa muyuriyninta qhaway.",
+      "manager": "Cercado de Lima llaqta kamachiq",
+      "visit": "Huaca La Luz-man p'unchawpi riy. Venus, Marte ñankunapa tinkusqanpi wak'apa muyuriyninta qhaway.",
+      "route": "Parque del Amor-manta mapapi Huaca La Luz-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Cercado de Lima llaqtapi Huaca La Luz nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 09:00–17:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Cercado de Lima: mapapi ñanta maskay",
+          "Huaca La Luz: saqisqa ñanpi puriy",
+          "Venus, Marte ñankunapa tinkusqanpi wak'apa muyuriyninta qhaway."
+        ],
+        "intro": "Cercado de Lima llaqtapi Huaca La Luz nisqa tiyan. La Luz llaqtapi ñawpa runakunapa allpamanta ruwasqankuna kachkan."
+      }
     }
   },
   {
@@ -3662,6 +5008,27 @@
           "朝示范市场方向离开"
         ],
         "intro": "可从「马里斯卡尔卡斯蒂利亚街 1211 号」开始，沿途串联「允许参观的外围」与「朝示范市场方向离开」。"
+      }
+    },
+    "qu": {
+      "name": "Huaca Huantille",
+      "history": "Ychsma runakunapa pachanpi kay wak'ata ruwarqanku.",
+      "features": "Saqisqa ñanmanta t'ikamanta pirqata qhaway, Mercado Modeloman puriywan huñuy.",
+      "manager": "Magdalena del Mar llaqta kamachiq",
+      "visit": "Huaca Huantille-man p'unchawpi riy. Saqisqa ñanmanta t'ikamanta pirqata qhaway, Mercado Modeloman puriywan huñuy.",
+      "route": "Parque del Amor-manta mapapi Huaca Huantille-man purina ñanta maskay. Chaypaq huñunakuna carrota utaq chakillata akllay.",
+      "photoTip": "Runakuna purinankupaq ñanta saqiy. Rikch'ayta hurquspa saqisqa k'uchullapi sayay.",
+      "faq": "Maymanta puriyta qallariyman?",
+      "answer": "Magdalena del Mar llaqtapi Huaca Huantille nisqata mapapi maskay. Kichasqa ñanllata puriy.",
+      "extra": {
+        "hours": "Willakuypi rikuchisqa pacha: 09:00–17:00. Riyta manaraq qallarispa, p'unchayta kichana pachatawan chiqaqchay.",
+        "admission": "Willakuyman hina mana qullqita quspa yaykuy.",
+        "stops": [
+          "Magdalena del Mar: mapapi ñanta maskay",
+          "Huaca Huantille: saqisqa ñanpi puriy",
+          "Saqisqa ñanmanta t'ikamanta pirqata qhaway, Mercado Modeloman puriywan huñuy."
+        ],
+        "intro": "Magdalena del Mar llaqtapi Huaca Huantille nisqa tiyan. Ychsma runakunapa pachanpi kay wak'ata ruwarqanku."
       }
     }
   }

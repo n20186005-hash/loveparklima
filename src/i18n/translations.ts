@@ -584,19 +584,26 @@ Rutas recomendadas:
   },
 
   qu: {
-    nav: { about: "Qhaway", visiting: "Puriy", transportation: "Chaykamuy", tips: "Yachay", gallery: "Rikuy", reviews: "Niykuna", faq: "Tapuykuna", location: "Maypi" },
-    hero: { tagline: "Lima, Piruw · Miraflores", title: "Love Park", subtitle: "Love Park · Parque del Amor", cta: "Rikuy" },
+    nav: { about: "Qhaway", geography: "Allpa", art: "Rurasqakuna", ecology: "Kawsay", photography: "Rikch’aykuna", visiting: "Puriy", transportation: "Chaykamuy", tips: "Yachay", gallery: "Rikuy", reviews: "Niykuna", faq: "Tapuykuna", location: "Maypi" },
+    hero: { tagline: "Lima, Piruw · Miraflores", title: "Munakuy pampa", subtitle: "Parque del Amor · Pacífico mama qucha patapi", cta: "Rikuy" },
     rating: { reviews: "niykuna", source: "Google niykuna" },
     about: {
-      title: "Love Park: Lima",
-      p1: "Love Park, Miraflores, Lima, Piruwpi. Romantic park. Kayqa Pacífico ñawpaqpi.",
-      p2: "Love Park sculpture. Víctor Delfín.",
-      highlights: { title: "Rikuy", items: ["Sculpture: Víctor Delfín", "Mosaic: Colorful", "Sunset: Pacific", "Free: All visitors"] },
+      title: "Munakuy pampa: Miraflores, Lima",
+      p1: "Munakuy pampa Miraflorespi, Lima llaqtapi kachkan. Pacífico mama quchaman qhawan. 14 febrero 1993 watapi kichakurqa.",
+      p2: "Víctor Delfín El Beso nisqa rikch'ayta ruwarqa. Muyuriq tiyanakunapi llimp'iyuq mosaico, munakuy qillqakunapas kachkan.",
+      highlights: { title: "Rikuy", items: ["Víctor Delfínpa rikch'aynin", "Llimp'iyuq mosaico", "Pacíficopi inti chinkay", "Mana qullqillawan yaykuy" ] },
     },
+    geography: { title: "Allpa", subtitle: "Pacífico mama qucha pata", content: "Pampa Malecón Cisneros hanaq ñanpi kachkan. Qaqa uranpi Costa Verde ñanta, mama quchatapas qhawanki.", climate: { title: "Pacha", content: "Mama qucha patapi wayra, phuyupas kan. Ch'isiyaqtin qata qatatata apamuy." } },
+    art: { title: "Rurasqakuna", sculpture: { title: "El Beso", content: "Víctor Delfín iskay runakuna marq'anakusqankuta ruwarqa." }, mosaic: { title: "Mosaico tiyanakuna", content: "Muyu tiyanakunapi llimp'iyuq t'ika qillqakunata qhaway." } },
+    ecology: { title: "Kawsay", flora: { title: "Sachakuna", content: "Saqisqa ñanmanta pampapa qurankunata qhaway." }, fauna: { title: "Pisqukuna", content: "Mama qucha patapi pisqukunata karumanta qhaway." } },
+    photography: { title: "Rikch’aykuna", spots: { title: "Maymanta rikch'ayta hurquy", items: [
+      { name: "El Beso", description: "Hanaq ñanmanta mama quchatawan kuska rikch'ayta hurquy." },
+      { name: "Mosaico", description: "Tiyanakunapi llimp'ikunata, qillqakunatapas asuykuspa qhaway." },
+    ] } },
     visiting: {
       title: "Puriy",
       hours: { title: "Punchaw", content: "06:00-23:00\nSapa punchaw", note: "⚠️ Punchaw rikuy." },
-      price: { title: "Qullqi", content: "Free", note: "⚠️ Free." },
+      price: { title: "Qullqi", content: "Mana qullqillawan", note: "Yaykunapaq qullqi mana kanchu." },
       duration: { title: "Unay", content: "30 min - 1 ura", note: "Miraflores puriy." },
       tips: { title: "Apamuy", items: ["Bota", "Inti amachana", "Cámara"] },
     },
@@ -608,21 +615,21 @@ Rutas recomendadas:
       city: { title: "Lima", content: "Miraflores-man.", steps: ["Taxi", "Bus", "Google Maps-mi maskuy"] },
     },
     tips: { title: "Yachay", items: [
-      "Love Park, Lima",
-      "Taxi",
-      "Free"
+      "Mama qucha patapi wayra kan; qata qatatata apamuy.",
+      "Saqisqa ñankunapi puriy.",
+      "Inti chinkayta hanaq ñanmanta qhaway."
     ] },
     gallery: { title: "Rikuy", viewMore: "Google Maps nisqapi astawan rikuy" },
-    reviews: { title: "Niykuna", subtitle: "Love Park niykuna", viewMore: "Astawan niykuna" },
+    reviews: { title: "Niykuna", subtitle: "Munakuy pampamanta niykuna", viewMore: "Astawan niykuna" },
     faq: { title: "Tapuykuna", subtitle: "Yachay", items: [
       { question: "Hayk'aq kachkan?", answer: "06:00-23:00. Sapa p'unchay." },
-      { question: "Qullqi paganan chá?", answer: "Mana. Free." }
+      { question: "Qullqi paganan chá?", answer: "Mana qullqillawan yaykuy." }
     ]},
     location: { title: "Maypipas", address: "Mal. Cisneros, Miraflores\nPerú", openMaps: "Google Maps nisqapi maytapas rikuy" },
-    footer: { callToAction: "Love Park cuiday.", text: "© 2026 Love Park.", made: "Kayqa puriy yachay.", linksTitle: "Imakunata", links: [
+    footer: { callToAction: "Munakuy pampata waqaychay.", text: "© 2026 Love Park.", made: "Kayqa puriy yachay.", linksTitle: "Imakunata", links: [
       { name: "MINCETUR", url: "https://www.gob.pe/mincetur" },
       { name: "Peru Travel - Lima", url: "https://www.peru.travel/es/destinos/lima" },
-      { name: "Lima Gobierno", url: "https://www.gob.pe/munilima" },
+      { name: "Lima llaqta kamachiq", url: "https://www.gob.pe/munilima" },
       { name: "Miraflores", url: "https://www.miraflores.gob.pe/" }
     ]}
   }

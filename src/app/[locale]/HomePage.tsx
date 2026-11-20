@@ -1,8 +1,8 @@
 "use client";
 
+import TravelFooter from "@/components/TravelFooter";
+
 import React, { useEffect, useState, useRef } from "react";
-import Link from "next/link";
-import { guideLabels, guides, guideSlugs } from "@/i18n/guides";
 import { LangProvider, useLang } from "@/components/LangProvider";
 import { useTheme } from "next-themes";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
@@ -20,6 +20,13 @@ const GOOGLE_REVIEWS = [
   { name: "Ana P.", avatar: "AP", rating: 5, date: "2024-07-18", text: "Hermoso parque con vista al mar. El Parque del Amor es perfecto para una caminata por el malecón de Miraflores." },
   { name: "Michael T.", avatar: "MT", rating: 5, date: "2024-06-05", text: "Fantastic park in Lima! The mosaic benches are incredible and the ocean view is amazing. A great spot for photos and romance." }
 ];
+
+const reviewTranslations = {
+  en: ["Love Park is very romantic. It is ideal for watching the sunset in Miraflores. The mosaics are beautiful.", GOOGLE_REVIEWS[1].text, "A special place in Miraflores. Love Park has a unique energy and the colored tiles are a work of art.", "Love Park is truly romantic. The Kiss sculpture is famous and the mosaic benches are colorful. My favorite place to watch the sunset in Lima.", "A beautiful park overlooking the sea. Love Park is perfect for a walk along the Miraflores waterfront.", GOOGLE_REVIEWS[5].text],
+  es: [GOOGLE_REVIEWS[0].text, "Una visita imprescindible en Lima. La escultura El Beso es emblemática y la vista del Pacífico es impresionante. Ideal para parejas.", GOOGLE_REVIEWS[2].text, "El parque es muy romántico. La escultura El Beso es famosa y las bancas de mosaico tienen mucho color. Mi lugar favorito para el atardecer en Lima.", GOOGLE_REVIEWS[4].text, "Un parque fantástico en Lima. Las bancas de mosaico y la vista al mar son increíbles. Buen sitio para fotos y para ir en pareja."],
+  zh: ["爱情公园很浪漫，适合在米拉弗洛雷斯看日落，马赛克也很漂亮。", "来到利马很值得一去。亲吻雕塑很有代表性，太平洋景色令人印象深刻，适合情侣。", "米拉弗洛雷斯一处特别的地方。爱情公园气氛独特，彩砖本身就是艺术。", GOOGLE_REVIEWS[3].text, "一座可以看海的漂亮公园，很适合沿米拉弗洛雷斯的海滨步道散步。", "利马很棒的公园，马赛克长椅与海景都很美，适合拍照和约会。"],
+  qu: ["Munakuy pampa sumaqmi. Miraflorespi inti chinkayta qhawana. Mosaiconkunapas sumaqmi.", "Limapi kay pampata watukuy. El Beso rikch’ay, Pacífico mama qucha qhawanapas sumaqmi, iskay runapaq allinmi.", "Miraflorespi sapaq k’uchu. Munakuy pampapa llimp’iyuq t’ikankuna makiwan sumaq rurasqami.", "Munakuy pampa sumaqmi. El Beso riqsisqa rikch’aymi; tiyanakuna achka llimp’iyuqmi. Limapi inti chinkay qhawanaypaq munasqay k’uchu.", "Mama quchaman qhawaq sumaq pampa. Miraflorespa mama qucha pata ñanpi purinapaq allinmi.", "Limapi sumaq pampa. Mosaico tiyanakuna, mama qucha qhawanapas sumaqmi. Rikch’ay hurqunapaq, kuska purinapaq allinmi."],
+};
 
 function ScrollReveal({ children, className = "" }: { children: React.ReactNode; className?: string }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -82,6 +89,7 @@ function RichText({
 }
 
 function ThemeToggle() {
+  const { locale } = useLang();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -95,7 +103,7 @@ function ThemeToggle() {
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       className="theme-toggle-btn"
-      aria-label="Toggle theme"
+      aria-label={{ en: "Toggle theme", es: "Cambiar tema", zh: "切换主题", qu: "Rikch’ayninta tikray" }[locale]}
       style={{
         background: "none",
         border: "none",
@@ -140,7 +148,7 @@ function Nav({ nearby }: { nearby?: string }) {
     <nav className={`site-nav ${scrolled ? "scrolled" : ""}`}>
       <div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
         <span style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 700, color: "#fff" }}>
-          Love Park
+          {t.hero.title}
         </span>
       </div>
       <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>
@@ -188,7 +196,7 @@ function Hero() {
         <div className="hero-meta">
           <div className="hero-rating">4.5</div>
           <div className="hero-stars">★ ★ ★ ★ ☆</div>
-          <div className="hero-reviews">30,706 {t.rating.reviews} · {t.rating.source}</div>
+          <div className="hero-reviews">30,966 {t.rating.reviews} · {t.rating.source}</div>
         </div>
       </a>
     </section>
@@ -574,7 +582,7 @@ function Gallery() {
         <div className="gallery-grid">
           {galleryImages.map((item, i) => (
             <div className="gallery-item" key={i} onClick={() => setLightboxIndex(i)}>
-              <img src={item.src} alt={item.caption?.[locale] || `Gallery image ${i + 1}`} loading="lazy" />
+              <img src={item.src} alt={item.caption?.[locale] || `${t.gallery.title} ${i + 1}`} loading="lazy" />
               {item.caption && (
                 <div className="gallery-caption-overlay">
                   <p className="gallery-caption-text">{item.caption[locale] || item.caption.en || ""}</p>
@@ -598,7 +606,7 @@ function Gallery() {
         <div className="lightbox" onClick={() => setLightboxIndex(null)}>
           <button className="lightbox-close" onClick={() => setLightboxIndex(null)}>×</button>
           <button className="lightbox-prev" onClick={(e) => { e.stopPropagation(); setLightboxIndex((lightboxIndex - 1 + galleryImages.length) % galleryImages.length); }}>‹</button>
-          <img src={galleryImages[lightboxIndex].src} alt={currentCaption || `Gallery image ${lightboxIndex + 1}`} className="lightbox-img" />
+          <img src={galleryImages[lightboxIndex].src} alt={currentCaption || `${t.gallery.title} ${lightboxIndex + 1}`} className="lightbox-img" />
           <button className="lightbox-next" onClick={(e) => { e.stopPropagation(); setLightboxIndex((lightboxIndex + 1) % galleryImages.length); }}>›</button>
           {(currentCaption || currentStory) && (
             <div className="lightbox-info">
@@ -619,7 +627,7 @@ function Gallery() {
 }
 
 function Reviews() {
-  const { t } = useLang();
+  const { t, locale } = useLang();
 
   return (
     <section id="reviews" className="section">
@@ -643,7 +651,7 @@ function Reviews() {
                   {"★".repeat(review.rating)}{"☆".repeat(5 - review.rating)}
                 </div>
               </div>
-              <p className="review-text">{review.text}</p>
+              <p className="review-text">{reviewTranslations[locale][i]}</p>
               <div className="review-source">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#4285F4"/>
@@ -756,52 +764,6 @@ function Location() {
   );
 }
 
-function Footer({ locale }: { locale: string }) {
-  const { t } = useLang();
-  const guideLocale = locale === "es" || locale === "en" || locale === "zh" ? locale : null;
-  return (
-    <footer className="site-footer">
-      <div className="footer-links">
-        <p className="footer-links-title">{t.footer.linksTitle}</p>
-        <div className="footer-links-grid">
-          {t.footer.links.map((link: { name: string; url: string }, i: number) => (
-            <a key={i} href={link.url} target="_blank" rel="noopener noreferrer" className="footer-link-item">
-              {link.name}
-            </a>
-          ))}
-        </div>
-      </div>
-      {guideLocale && (
-        <nav className="footer-links" aria-label={guideLabels[guideLocale].heading}>
-          <p className="footer-links-title">{guideLabels[guideLocale].heading}</p>
-          <div className="footer-links-grid">
-            {guideSlugs.map((slug) => (
-              <Link key={slug} href={`/${guideLocale}/guide/${slug}`} className="footer-link-item">
-                {guides[guideLocale][slug].title}
-              </Link>
-            ))}
-          </div>
-        </nav>
-      )}
-      <div className="footer-legal" style={{ maxWidth: "1100px", margin: "0 auto", padding: "1rem 2rem 0", textAlign: "center" }}>
-        <Link href="/privacy" style={{ color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "0.8rem", marginRight: "1.5rem" }}>
-          Privacy Policy
-        </Link>
-        <Link href="/terms" style={{ color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "0.8rem", marginRight: "1.5rem" }}>
-          Terms of Service
-        </Link>
-        <Link href="/cookies" style={{ color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "0.8rem" }}>
-          Cookie Settings
-        </Link>
-      </div>
-      <p className="footer-text" style={{ marginTop: "2rem", fontSize: "0.9rem", fontWeight: 600, color: "var(--color-gold)" }}>
-        {t.footer.callToAction}
-      </p>
-      <p className="footer-text" style={{ marginTop: "1rem", whiteSpace: "pre-line" }}>{t.footer.text}</p>
-    </footer>
-  );
-}
-
 export default function Home(props: { params: Promise<{ locale: string }>; nearby?: React.ReactNode; nearbyLabel?: string }) {
   const params = React.use(props.params);
   return (
@@ -822,7 +784,7 @@ export default function Home(props: { params: Promise<{ locale: string }>; nearb
       <FAQ />
       <Location />
       {props.nearby}
-      <Footer locale={params.locale} />
+      <TravelFooter locale={params.locale as "es" | "en" | "zh" | "qu"} />
     </LangProvider>
   );
 }

@@ -7,7 +7,7 @@ export function generateSchema(locale: string) {
     : locale === "zh"
     ? "爱情公园"
     : locale === "qu"
-    ? "Love Park"
+    ? "Munakuy pampa"
     : "Love Park";
 
   const description = locale === "es"
@@ -15,7 +15,7 @@ export function generateSchema(locale: string) {
     : locale === "zh"
     ? "利马米拉弗洛雷斯的爱情公园（Love Park），由建筑师Javier Sologuren设计，灵感来自高迪的奎尔公园。公园内有Víctor Delfín创作的亲吻雕塑。"
     : locale === "qu"
-    ? "Love Park, Lima, Piruw. Romantic park."
+    ? "Munakuy pampa, Lima, Piruw. Pacífico mama qucha patapi."
     : "Love Park in Miraflores, Lima, designed by architect Javier Sologuren, inspired by Gaudí's Park Güell. Features Víctor Delfín's 'El Beso' sculpture.";
 
   return {
