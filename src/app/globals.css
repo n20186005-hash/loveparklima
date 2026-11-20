@@ -1197,3 +1197,25 @@ body {
 .attraction-block li {
   margin-block: 0.6rem;
 }
+
+.attraction-facts {
+  display: grid;
+  grid-template-columns: minmax(7rem, 1fr) minmax(0, 3fr);
+  max-width: 54rem;
+  border-top: 1px solid var(--color-stone);
+}
+
+.attraction-facts dt,
+.attraction-facts dd {
+  padding: 0.55rem;
+  border-bottom: 1px solid var(--color-stone);
+}
+
+.attraction-facts dt {
+  font-weight: 600;
+}
+
+.attraction-steps {
+  list-style: decimal;
+  padding-inline-start: 1.75rem;
+}

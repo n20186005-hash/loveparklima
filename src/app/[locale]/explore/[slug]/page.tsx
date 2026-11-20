@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { attractionAddress, attractionCopy, attractionLabels, attractionMap, attractions } from "@/data/attractions";
+import { orientation } from "@/data/orientations";
+import { itinerary } from "@/data/itinerary";
+import { visitDetails, visitLabels, stayAdvice } from "@/data/visit-details";
 import { guideLocales } from "@/i18n/guides";
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
@@ -35,6 +38,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function AttractionPage({ params }: Props) {
   const { locale, attraction, copy, labels } = await getAttraction(params);
+  const sections = visitLabels[locale];
+  const details = visitDetails(attraction.slug, locale, attraction.source);
+  const stops = itinerary(attraction.slug, locale);
+  const tagline = [...new Intl.Segmenter(locale, { granularity: "sentence" }).segment(copy.features)][0].segment.trim();
   const map = attractionMap(attraction);
   const address = attractionAddress(attraction);
   const directions = new URLSearchParams({
@@ -57,22 +64,51 @@ export default async function AttractionPage({ params }: Props) {
         <header>
           <p className="section-label">{attraction.district} · Lima</p>
           <h1 className="section-title">{copy.name}</h1>
-          <p className="about-text">{copy.features}</p>
-          <p className="attraction-actions"><a href={map}>{labels.map}</a></p>
+          <p className="about-text">{tagline}</p>
+          <p>{details.hours}</p>
+          <p className="attraction-actions"><a href={map}>{labels.map}</a><a href={map}>{labels.reviews}</a></p>
           <figure>
             <Image src={attraction.image} alt={copy.name} width={attraction.width} height={attraction.height}
               unoptimized className="attraction-photo" />
             <figcaption><a href={attraction.imageSource}>{labels.photoSource}</a></figcaption>
           </figure>
         </header>
+        <section className="attraction-block">
+          <h2>{sections.intro}</h2>
+          <p>{orientation(attraction.slug, locale)}</p>
+        </section>
+        <section className="attraction-block">
+          <h2>{labels.visit}</h2>
+          <p>{copy.visit}</p>
+        </section>
+        <section className="attraction-block">
+          <h2>{labels.features}</h2>
+          <p>{copy.features}</p>
+        </section>
         <section className="info-card attraction-block">
           <h2>{labels.about} · {copy.name}</h2>
           <p><strong>{labels.manager}</strong> · {copy.manager}</p>
-          <p>{copy.history}</p>
+          <a href={attraction.source}>{labels.source}</a>
         </section>
         <section className="attraction-block">
           <h2>{labels.basic}</h2>
-          <dl><dt>{labels.address}</dt><dd>{address}</dd></dl>
+          <dl className="attraction-facts">
+            <dt>{sections.officialName}</dt><dd>{attraction.name}</dd>
+            <dt>{sections.district}</dt><dd>{attraction.district}</dd>
+            <dt>{labels.address}</dt><dd>{address}</dd>
+            <dt>{labels.manager}</dt><dd>{copy.manager}</dd>
+            <dt>{labels.hours}</dt><dd>{details.hours}</dd>
+            <dt>{labels.admission}</dt><dd>{details.admission}</dd>
+          </dl>
+        </section>
+        <section className="attraction-block">
+          <h2>{labels.hours}</h2>
+          <p>{details.hours}</p>
+          <a href={details.source}>{sections.verify}</a>
+        </section>
+        <section className="attraction-block">
+          <h2>{labels.admission}</h2>
+          <p>{details.admission}</p>
         </section>
         <section className="attraction-block">
           <h2>{labels.transport}</h2>
@@ -83,20 +119,36 @@ export default async function AttractionPage({ params }: Props) {
           </ul>
         </section>
         <section className="attraction-block">
-          <h2>{labels.visit}</h2>
-          <p>{copy.visit}</p>
+          <h2>{sections.discover}</h2>
+          <h3>{labels.history}</h3>
+          <p>{copy.history}</p>
+
+        </section>
+        <section className="attraction-block">
+          <h2>{sections.route}</h2>
+          <ol className="attraction-steps">{stops.map((stop) => <li key={stop}>{stop}</li>)}</ol>
+        </section>
+        <section className="attraction-block">
+          <h2>{sections.notes}</h2>
+          <p>{details.notes ?? (attraction.category === "coast" ? sections.weather : sections.heritage)}</p>
+          <details className="faq-item"><summary>{copy.faq}</summary><p>{copy.answer}</p></details>
         </section>
         <section className="attraction-block">
           <h2>{labels.photo}</h2>
           <p>{copy.photoTip}</p>
         </section>
         <section className="attraction-block">
-          <h2>{labels.faq}</h2>
-          <details className="faq-item"><summary>{copy.faq}</summary><p>{copy.answer}</p></details>
+          <h2>{sections.stay}</h2>
+          <p>{stayAdvice(locale, attraction.category)}</p>
         </section>
         <section className="attraction-block">
           <h2>{labels.reviews}</h2>
           <a href={map}>{labels.reviewLink}</a>
+        </section>
+        <section className="attraction-block">
+          <h2>{sections.location}</h2>
+          <p>{address}</p>
+          <a href={map}>{labels.map}</a>
         </section>
         <section className="attraction-block">
           <h2>{labels.source}</h2>
