@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
   display: "swap",
 });
 
-const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "loveparklima.com"}`;
+const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "www.loveparklima.com"}`;
 
 // 语言配置：HTML lang 属性 + OG locale 映射
 const localeConfig: Record<string, { htmlLang: string; ogLocale: string }> = {
@@ -34,7 +34,7 @@ function getHreflangAlternates(baseUrl: string) {
     en: `${baseUrl}/en`,
     zh: `${baseUrl}/zh`,
     qu: `${baseUrl}/qu`,
-    "x-default": `${baseUrl}/es`,
+    "x-default": `${baseUrl}/en`,
   };
 }
 
@@ -67,7 +67,7 @@ export async function generateMetadata({
     },
     description:
       locale === "es"
-        ? "Guía de viaje al Parque del Amor en Miraflores, Lima. Parque romántico con vista al Pacífico."
+        ? "Visita el Parque del Amor en Miraflores, Lima. Descubre la escultura El Beso, los mosaicos y cómo llegar al Malecón Cisneros."
         : locale === "zh"
         ? "爱情公园旅行指南——探索利马米拉弗洛雷斯的浪漫地标，欣赏太平洋美景。"
         : locale === "qu"
@@ -192,18 +192,7 @@ export function generateStaticParams() {
   ];
 }
 
-import { generateSchema } from "../schema";
 import HtmlLangSetter from "@/components/HtmlLangSetter";
-
-function SchemaScript({ locale }: { locale: string }) {
-  const schema = generateSchema(locale);
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
-}
 
 export default async function LocaleLayout({
   children,
@@ -219,7 +208,6 @@ export default async function LocaleLayout({
     <>
       {/* 动态设置 <html lang> 属性（客户端组件） */}
       <HtmlLangSetter htmlLang={htmlLang} />
-      <SchemaScript locale={locale} />
       {children}
     </>
   );

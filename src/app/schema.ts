@@ -1,5 +1,5 @@
 export function generateSchema(locale: string) {
-  const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "loveparklima.com"}`;
+  const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "www.loveparklima.com"}`;
   const localUrl = `${baseUrl}/${locale}`;
 
   const name = locale === "es"
