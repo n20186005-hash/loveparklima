@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { attractionAddress, attractionCopy, attractionLabels, attractionMap, attractions } from "@/data/attractions";
 import { orientation } from "@/data/orientations";
+import { visitorContext, visitorLabels } from "@/data/visitor-context";
 import { itinerary } from "@/data/itinerary";
 import { visitDetails, visitLabels, stayAdvice } from "@/data/visit-details";
 import { guideLocales } from "@/i18n/guides";
@@ -39,6 +40,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function AttractionPage({ params }: Props) {
   const { locale, attraction, copy, labels } = await getAttraction(params);
   const sections = visitLabels[locale];
+  const visitor = visitorLabels[locale];
+  const context = visitorContext(attraction.slug, locale);
+  const areaStay = visitor.stays[attraction.category];
   const baseline = visitDetails(attraction.slug, locale, attraction.source);
   const details = copy.extra
     ? { ...baseline, hours: copy.extra.hours, admission: copy.extra.admission, source: copy.extra.source ?? baseline.source }
@@ -69,7 +73,7 @@ export default async function AttractionPage({ params }: Props) {
           <h1 className="section-title">{copy.name}</h1>
           <p className="about-text">{tagline}</p>
           <p>{details.hours}</p>
-          <p className="attraction-actions"><a href={map}>{labels.map}</a><a href={map}>{labels.reviews}</a></p>
+          <p className="attraction-actions"><a href={map}>{labels.map}</a><a href={map}>{labels.reviews} · Google Maps</a></p>
           <figure>
             <Image src={attraction.image} alt={copy.name} width={attraction.width} height={attraction.height}
               unoptimized className="attraction-photo" />
@@ -83,6 +87,7 @@ export default async function AttractionPage({ params }: Props) {
         <section className="attraction-block">
           <h2>{labels.visit}</h2>
           <p>{copy.visit}</p>
+          {context?.duration && <p><strong>{visitor.duration}</strong> · {context.duration}</p>}
         </section>
         <section className="attraction-block">
           <h2>{labels.features}</h2>
@@ -98,10 +103,14 @@ export default async function AttractionPage({ params }: Props) {
           <dl className="attraction-facts">
             <dt>{sections.officialName}</dt><dd>{attraction.name}</dd>
             <dt>{sections.district}</dt><dd>{attraction.district}</dd>
+            {context && <><dt>{visitor.category}</dt><dd>{context.category}</dd></>}
+            {context?.duration && <><dt>{visitor.duration}</dt><dd>{context.duration}</dd></>}
             <dt>{labels.address}</dt><dd>{address}</dd>
+            <dt>{visitor.start}</dt><dd>{stops[0]}</dd>
             <dt>{labels.manager}</dt><dd>{copy.manager}</dd>
             <dt>{labels.hours}</dt><dd>{details.hours}</dd>
             <dt>{labels.admission}</dt><dd>{details.admission}</dd>
+            <dt>{labels.source}</dt><dd><a href={details.source}>{sections.verify}</a></dd>
           </dl>
         </section>
         <section className="attraction-block">
@@ -126,7 +135,10 @@ export default async function AttractionPage({ params }: Props) {
           <h2>{sections.discover}</h2>
           <h3>{labels.history}</h3>
           <p>{copy.history}</p>
-
+          {context?.observation && <>
+            <h3>{visitor.observation}</h3>
+            <p>{context.observation}</p>
+          </>}
         </section>
         <section className="attraction-block">
           <h2>{sections.route}</h2>
@@ -143,6 +155,7 @@ export default async function AttractionPage({ params }: Props) {
         </section>
         <section className="attraction-block">
           <h2>{sections.stay}</h2>
+          {areaStay && <p>{areaStay}</p>}
           <p>{stayAdvice(locale, attraction.category)}</p>
         </section>
         <section className="attraction-block">
