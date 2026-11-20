@@ -8,7 +8,7 @@ export default function NearbyAttractions({ locale }: { locale: AttractionLocale
       <h2 className="section-title">{labels.nearby}</h2>
       <div className="section-divider" />
       <div className="info-grid">
-        {(["coast", "culture", "barranco"] as const).map((category) => (
+        {(["coast", "culture", "barranco", "near-north", "south", "city"] as const).map((category) => (
           <div key={category} className="info-card">
             <h3>{labels[category]}</h3>
             <ul>

@@ -3,6 +3,7 @@ import { guideLocales } from "@/i18n/guides";
 
 export type AttractionLocale = (typeof guideLocales)[number];
 type Copy = {
+  extra?: { hours: string; admission: string; stops: string[]; intro: string; source?: string };
   name: string;
   manager: string;
   history: string;
@@ -35,12 +36,13 @@ export const attractionLabels = {
   es: {
     nearby: "Lugares cercanos", home: "Parque del Amor", about: "Sobre este lugar",
     basic: "Información práctica", address: "Ubicación", manager: "Administración",
-    transport: "Cómo llegar", walking: "Ruta a pie desde el Parque del Amor", transit: "Transporte público desde el Parque del Amor",
+    transport: "Cómo llegar", walking: "Ruta a pie desde el Parque del Amor", transit: "Transporte público desde el Parque del Amor", driving: "Ruta en auto desde el Parque del Amor",
     visit: "Consejos de visita", history: "Historia", features: "Qué observar",
     photo: "Dónde tomar fotos", faq: "Preguntas frecuentes", reviews: "Valoraciones de visitantes",
     map: "Ver ubicación en Google Maps", reviewLink: "Consultar la ficha y las reseñas en Google Maps",
     source: "Información de referencia", photoSource: "Fuente de la foto",
     coast: "Parques y costa de Miraflores", culture: "Historia y cultura de Miraflores",
+    "near-north": "San Isidro", south: "Chorrillos, Surco y San Borja", city: "Excursiones urbanas en Lima",
     barranco: "Barranco", other: "Sigue explorando", parkRating: "Parque del Amor · 4,5/5 · 30.706 reseñas de Google Maps",
     ratingContext: "Referencia de la ficha del parque usada en la portada.",
     hours: "Horario", admission: "Entrada",
@@ -56,12 +58,13 @@ export const attractionLabels = {
   en: {
     nearby: "Nearby attractions", home: "Love Park", about: "About this place",
     basic: "Visitor information", address: "Location", manager: "Managed by",
-    transport: "Getting there", walking: "Walking directions from Love Park", transit: "Public transit from Love Park",
+    transport: "Getting there", walking: "Walking directions from Love Park", transit: "Public transit from Love Park", driving: "Driving directions from Love Park",
     visit: "Visiting tips", history: "History", features: "What to look for",
     photo: "Photo spots", faq: "Frequently asked questions", reviews: "Visitor reviews",
     map: "Find on Google Maps", reviewLink: "See the listing and visitor reviews on Google Maps",
     source: "Visitor information source", photoSource: "Photo source",
     coast: "Miraflores parks and waterfront", culture: "Miraflores history and culture",
+    "near-north": "San Isidro", south: "Chorrillos, Surco and San Borja", city: "Lima city outings",
     barranco: "Barranco", other: "Explore nearby", parkRating: "Love Park · 4.5/5 · 30,706 Google Maps reviews",
     ratingContext: "Love Park listing snapshot displayed on the homepage.",
     hours: "Opening hours", admission: "Admission",
@@ -77,12 +80,13 @@ export const attractionLabels = {
   zh: {
     nearby: "周边游览", home: "爱情公园", about: "关于景点",
     basic: "基本信息", address: "地址", manager: "管理主体",
-    transport: "交通方式", walking: "查看从爱情公园出发的步行路线", transit: "查看从爱情公园出发的公共交通路线",
+    transport: "交通方式", walking: "查看从爱情公园出发的步行路线", transit: "查看从爱情公园出发的公共交通路线", driving: "查看从爱情公园出发的驾车路线",
     visit: "游览建议", history: "历史背景", features: "建筑与观察重点",
     photo: "拍照机位", faq: "常见问答", reviews: "游客评价",
     map: "在 Google 地图中查看地点", reviewLink: "查看 Google 地图地点页及游客评价",
     source: "参考资料", photoSource: "照片来源",
     coast: "米拉弗洛雷斯海滨与公园", culture: "米拉弗洛雷斯历史与文化",
+    "near-north": "圣伊西德罗", south: "乔里约斯、苏尔科与圣博尔哈", city: "利马城区延伸游览",
     barranco: "巴兰科", other: "继续探索周边", parkRating: "爱情公园 · 4.5/5 · 30,706 条 Google 地图评价",
     ratingContext: "沿用首页登载的爱情公园评分记录。",
     hours: "开放时间", admission: "门票",

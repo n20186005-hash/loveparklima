@@ -39,8 +39,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function AttractionPage({ params }: Props) {
   const { locale, attraction, copy, labels } = await getAttraction(params);
   const sections = visitLabels[locale];
-  const details = visitDetails(attraction.slug, locale, attraction.source);
-  const stops = itinerary(attraction.slug, locale);
+  const baseline = visitDetails(attraction.slug, locale, attraction.source);
+  const details = copy.extra
+    ? { ...baseline, hours: copy.extra.hours, admission: copy.extra.admission, source: copy.extra.source ?? baseline.source }
+    : baseline;
+  const stops = copy.extra?.stops ?? itinerary(attraction.slug, locale);
   const tagline = [...new Intl.Segmenter(locale, { granularity: "sentence" }).segment(copy.features)][0].segment.trim();
   const map = attractionMap(attraction);
   const address = attractionAddress(attraction);
@@ -75,7 +78,7 @@ export default async function AttractionPage({ params }: Props) {
         </header>
         <section className="attraction-block">
           <h2>{sections.intro}</h2>
-          <p>{orientation(attraction.slug, locale)}</p>
+          <p>{copy.extra?.intro ?? orientation(attraction.slug, locale)}</p>
         </section>
         <section className="attraction-block">
           <h2>{labels.visit}</h2>
@@ -116,6 +119,7 @@ export default async function AttractionPage({ params }: Props) {
           <ul>
             <li><a href={`https://www.google.com/maps/dir/?${directions}&travelmode=walking`}>{labels.walking}</a></li>
             <li><a href={`https://www.google.com/maps/dir/?${directions}&travelmode=transit`}>{labels.transit}</a></li>
+            <li><a href={`https://www.google.com/maps/dir/?${directions}&travelmode=driving`}>{labels.driving}</a></li>
           </ul>
         </section>
         <section className="attraction-block">

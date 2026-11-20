@@ -1426,5 +1426,2243 @@
       "faq": "这是叹息桥边的老教堂吗？",
       "answer": "至圣十字架教堂在市政公园旁，叹息桥边的是巴兰科小教堂。"
     }
+  },
+  {
+    "slug": "ovalo-miraflores",
+    "district": "Miraflores",
+    "address": "Intersección de las avenidas Arequipa y Pardo",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13450",
+    "category": "coast",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=587764",
+    "image": "/nearby/ovalo-miraflores.webp",
+    "width": 1024,
+    "height": 679,
+    "name": "Óvalo de Miraflores",
+    "history": "La fuente de 1963 marcó la transformación del cruce de Arequipa y Pardo en un punto de referencia urbano.",
+    "features": "Fuente central y fachadas de las avenidas",
+    "visit": "Ve con luz natural y reserva tiempo para detenerte en acera junto al óvalo.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Avenida Pardo. La referencia de llegada es Intersección de las avenidas Arequipa y Pardo.",
+    "photoTip": "Prueba un encuadre desde acera junto al óvalo hacia ingreso a Parque Central. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Dónde empiezo un recorrido corto?",
+    "answer": "Empieza en Avenida Pardo y sigue hacia acera junto al óvalo.",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 08:00–20:00. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Avenida Pardo",
+        "acera junto al óvalo",
+        "ingreso a Parque Central"
+      ],
+      "intro": "Empieza en Avenida Pardo. El recorrido enlaza acera junto al óvalo con ingreso a parque central."
+    },
+    "en": {
+      "name": "Miraflores Roundabout",
+      "history": "The 1963 fountain turned the Arequipa and Pardo junction into an urban landmark.",
+      "features": "Central fountain and avenue frontages",
+      "visit": "Go in daylight and leave time for a stop at roundabout sidewalk.",
+      "route": "From Love Park, use the directions to Avenida Pardo. The arrival reference is Intersección de las avenidas Arequipa y Pardo.",
+      "photoTip": "Try a view from roundabout sidewalk toward Parque Central entrance. Take photos only in areas open to visitors.",
+      "faq": "Where should I start a short visit?",
+      "answer": "Start at Avenida Pardo and continue toward roundabout sidewalk.",
+      "manager": "Municipality of Miraflores",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 08:00–20:00. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Avenida Pardo",
+          "roundabout sidewalk",
+          "Parque Central entrance"
+        ],
+        "intro": "Begin at Avenida Pardo. The route links roundabout sidewalk with Parque Central entrance."
+      }
+    },
+    "zh": {
+      "name": "米拉弗洛雷斯环岛",
+      "history": "1963 年建成的喷泉，让阿雷基帕与帕尔多大道交会处成为城区地标。",
+      "features": "中心喷泉与大道沿街立面",
+      "visit": "建议白天安排这处景点，并给「环岛外围人行道」留出停留时间。",
+      "route": "从爱情公园出发，可用地图导航至「帕尔多大道」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「环岛外围人行道」朝「中央公园入口」取景，并遵守场地的拍摄规定。",
+      "faq": "短时间参观从哪里开始？",
+      "answer": "从「帕尔多大道」出发，再走到「环岛外围人行道」。",
+      "manager": "米拉弗洛雷斯区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 08:00–20:00，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "帕尔多大道",
+          "环岛外围人行道",
+          "中央公园入口"
+        ],
+        "intro": "可从「帕尔多大道」开始，沿途串联「环岛外围人行道」与「中央公园入口」。"
+      }
+    }
+  },
+  {
+    "slug": "malecon-de-la-reserva",
+    "district": "Miraflores",
+    "address": "Entre Bajada Balta y el Parque Bicentenario",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11335",
+    "category": "coast",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=445604",
+    "image": "/nearby/malecon-de-la-reserva.webp",
+    "width": 1100,
+    "height": 619,
+    "name": "Malecón de la Reserva",
+    "history": "Este tramo de la Costa Verde enlaza el sector de Bajada Balta con la quebrada de Armendáriz.",
+    "features": "Miradores del acantilado y jardines altos",
+    "visit": "Ve con luz natural y reserva tiempo para detenerte en terrazas junto a parque salazar.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Bajada Balta. La referencia de llegada es Entre Bajada Balta y el Parque Bicentenario.",
+    "photoTip": "Prueba un encuadre desde terrazas junto a Parque Salazar hacia extremo de Armendáriz. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Dónde empiezo un recorrido corto?",
+    "answer": "Empieza en Bajada Balta y sigue hacia terrazas junto a Parque Salazar.",
+    "manager": "Municipalidad de Miraflores",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 06:00–21:00. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Bajada Balta",
+        "terrazas junto a Parque Salazar",
+        "extremo de Armendáriz"
+      ],
+      "intro": "Empieza en Bajada Balta. El recorrido enlaza terrazas junto a parque salazar con extremo de armendáriz."
+    },
+    "en": {
+      "name": "Malecón de la Reserva",
+      "history": "This stretch of the Costa Verde links the Bajada Balta area and Armendáriz ravine.",
+      "features": "Clifftop viewpoints and upper gardens",
+      "visit": "Go in daylight and leave time for a stop at terraces by Salazar Park.",
+      "route": "From Love Park, use the directions to Bajada Balta. The arrival reference is Entre Bajada Balta y el Parque Bicentenario.",
+      "photoTip": "Try a view from terraces by Salazar Park toward Armendáriz end. Take photos only in areas open to visitors.",
+      "faq": "Where should I start a short visit?",
+      "answer": "Start at Bajada Balta and continue toward terraces by Salazar Park.",
+      "manager": "Municipality of Miraflores",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 06:00–21:00. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Bajada Balta",
+          "terraces by Salazar Park",
+          "Armendáriz end"
+        ],
+        "intro": "Begin at Bajada Balta. The route links terraces by Salazar Park with Armendáriz end."
+      }
+    },
+    "zh": {
+      "name": "保护区海滨步道",
+      "history": "这段绿海岸步道串联巴尔塔坡道一带与阿门达里斯峡谷。",
+      "features": "崖顶观景点与上层花园",
+      "visit": "建议白天安排这处景点，并给「萨拉萨尔公园旁露台」留出停留时间。",
+      "route": "从爱情公园出发，可用地图导航至「巴尔塔坡道」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「萨拉萨尔公园旁露台」朝「阿门达里斯端」取景，并遵守场地的拍摄规定。",
+      "faq": "短时间参观从哪里开始？",
+      "answer": "从「巴尔塔坡道」出发，再走到「萨拉萨尔公园旁露台」。",
+      "manager": "米拉弗洛雷斯区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 06:00–21:00，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "巴尔塔坡道",
+          "萨拉萨尔公园旁露台",
+          "阿门达里斯端"
+        ],
+        "intro": "可从「巴尔塔坡道」开始，沿途串联「萨拉萨尔公园旁露台」与「阿门达里斯端」。"
+      }
+    }
+  },
+  {
+    "slug": "playa-waikiki",
+    "district": "Miraflores",
+    "address": "Circuito de Playas de la Costa Verde, sector Waikiki",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2112",
+    "category": "coast",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=484835",
+    "image": "/nearby/playa-waikiki.webp",
+    "width": 1100,
+    "height": 609,
+    "name": "Playa Waikiki",
+    "history": "Waikiki se asocia con el desarrollo del surf limeño. Desde la orilla se ve la base del acantilado de Miraflores.",
+    "features": "Orilla de la Costa Verde y zona de surf",
+    "visit": "Visita la orilla desde un acceso habilitado y consulta el estado del mar antes de entrar al agua.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Acceso peatonal señalizado. La referencia de llegada es Circuito de Playas de la Costa Verde, sector Waikiki.",
+    "photoTip": "Prueba un encuadre desde paseo junto al mar hacia regreso por el mismo acceso. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Se llega directamente desde el malecón alto?",
+    "answer": "Revisa en el mapa qué bajada peatonal está habilitada. El destino está en el nivel bajo de la Costa Verde.",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 10:00–18:30. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Acceso peatonal señalizado",
+        "paseo junto al mar",
+        "regreso por el mismo acceso"
+      ],
+      "intro": "Empieza en Acceso peatonal señalizado. El recorrido enlaza paseo junto al mar con regreso por el mismo acceso."
+    },
+    "en": {
+      "name": "Waikiki Beach",
+      "history": "Waikiki is associated with Lima’s surfing history. From the shore you can see the base of the Miraflores cliffs.",
+      "features": "Costa Verde shoreline and surf break",
+      "visit": "Visit the shore via an open access point and check sea conditions before entering the water.",
+      "route": "From Love Park, use the directions to Marked pedestrian entrance. The arrival reference is Circuito de Playas de la Costa Verde, sector Waikiki.",
+      "photoTip": "Try a view from waterfront path toward return via the same access. Take photos only in areas open to visitors.",
+      "faq": "Can I get straight here from the upper promenade?",
+      "answer": "Check which pedestrian descent is open. This destination sits on the lower Costa Verde.",
+      "manager": "Municipality of Miraflores",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 10:00–18:30. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Marked pedestrian entrance",
+          "waterfront path",
+          "return via the same access"
+        ],
+        "intro": "Begin at Marked pedestrian entrance. The route links waterfront path with return via the same access."
+      }
+    },
+    "zh": {
+      "name": "怀基基海滩",
+      "history": "怀基基海滩与利马冲浪运动的发展有关，从岸边可望见米拉弗洛雷斯崖壁底部。",
+      "features": "绿海岸岸线与冲浪水域",
+      "visit": "从开放入口抵达岸边。若计划下水，请先查看海况与现场告示。",
+      "route": "从爱情公园出发，可用地图导航至「标示步行入口」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「海边步道」朝「原路返回」取景，并遵守场地的拍摄规定。",
+      "faq": "可以直接从上层海滨步道下到海滩吗？",
+      "answer": "请先核对哪条步行下坡道开放。目的地在绿海岸下层。",
+      "manager": "米拉弗洛雷斯区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 10:00–18:30，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "标示步行入口",
+          "海边步道",
+          "原路返回"
+        ],
+        "intro": "可从「标示步行入口」开始，沿途串联「海边步道」与「原路返回」。"
+      }
+    }
+  },
+  {
+    "slug": "playa-redondo",
+    "district": "Miraflores",
+    "address": "Circuito de Playas de la Costa Verde, sector Playa Redondo",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2114",
+    "category": "coast",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=484392",
+    "image": "/nearby/playa-redondo.webp",
+    "width": 1024,
+    "height": 682,
+    "name": "Playa Redondo",
+    "history": "Playa Redondo está en el nivel bajo de la Costa Verde, al pie del paisaje urbano de Miraflores.",
+    "features": "Curva de la costa y acantilado bajo Larcomar",
+    "visit": "Visita la orilla desde un acceso habilitado y consulta el estado del mar antes de entrar al agua.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Acceso señalizado desde la Costa Verde. La referencia de llegada es Circuito de Playas de la Costa Verde, sector Playa Redondo.",
+    "photoTip": "Prueba un encuadre desde paseo bajo hacia vista hacia el acantilado. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Se llega directamente desde el malecón alto?",
+    "answer": "Revisa en el mapa qué bajada peatonal está habilitada. El destino está en el nivel bajo de la Costa Verde.",
+    "manager": "Municipalidad Distrital de Miraflores",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 07:00–18:00. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Acceso señalizado desde la Costa Verde",
+        "paseo bajo",
+        "vista hacia el acantilado"
+      ],
+      "intro": "Empieza en Acceso señalizado desde la Costa Verde. El recorrido enlaza paseo bajo con vista hacia el acantilado."
+    },
+    "en": {
+      "name": "Redondo Beach",
+      "history": "Redondo Beach sits on the lower Costa Verde beneath Miraflores’s urban skyline.",
+      "features": "Curving shoreline and cliff below Larcomar",
+      "visit": "Visit the shore via an open access point and check sea conditions before entering the water.",
+      "route": "From Love Park, use the directions to Signed Costa Verde access. The arrival reference is Circuito de Playas de la Costa Verde, sector Playa Redondo.",
+      "photoTip": "Try a view from lower promenade toward view back toward the cliff. Take photos only in areas open to visitors.",
+      "faq": "Can I get straight here from the upper promenade?",
+      "answer": "Check which pedestrian descent is open. This destination sits on the lower Costa Verde.",
+      "manager": "Municipality of Miraflores",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 07:00–18:00. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Signed Costa Verde access",
+          "lower promenade",
+          "view back toward the cliff"
+        ],
+        "intro": "Begin at Signed Costa Verde access. The route links lower promenade with view back toward the cliff."
+      }
+    },
+    "zh": {
+      "name": "雷东多海滩",
+      "history": "雷东多海滩位于绿海岸下层，上方是米拉弗洛雷斯的城市天际线。",
+      "features": "海岸弧线与拉尔科马尔下方的崖壁",
+      "visit": "从开放入口抵达岸边。若计划下水，请先查看海况与现场告示。",
+      "route": "从爱情公园出发，可用地图导航至「绿海岸标示入口」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「下层海滨步道」朝「回望崖壁」取景，并遵守场地的拍摄规定。",
+      "faq": "可以直接从上层海滨步道下到海滩吗？",
+      "answer": "请先核对哪条步行下坡道开放。目的地在绿海岸下层。",
+      "manager": "米拉弗洛雷斯区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 07:00–18:00，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "绿海岸标示入口",
+          "下层海滨步道",
+          "回望崖壁"
+        ],
+        "intro": "可从「绿海岸标示入口」开始，沿途串联「下层海滨步道」与「回望崖壁」。"
+      }
+    }
+  },
+  {
+    "slug": "huaca-huallamarca",
+    "district": "San Isidro",
+    "address": "Av. Nicolás de Ribera Nº 201, esquina con la Av. El Rosario",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=5236",
+    "category": "near-north",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=489793",
+    "image": "/nearby/huaca-huallamarca.webp",
+    "width": 1100,
+    "height": 392,
+    "name": "Huaca Huallamarca",
+    "history": "La pirámide trunca conserva testimonios de ocupaciones que abarcan desde la cultura Lima hasta el período inca.",
+    "features": "Taludes de adobe, rampa y museo de sitio",
+    "visit": "Comprueba el acceso interior antes de ir. Observa los restos desde los senderos habilitados y evita tocar los muros.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Ingreso por Nicolás de Ribera. La referencia de llegada es Av. Nicolás de Ribera Nº 201, esquina con la Av. El Rosario.",
+    "photoTip": "Prueba un encuadre desde base de la pirámide hacia museo de sitio. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Puedo recorrer las estructuras sin guía?",
+    "answer": "Sigue la ruta autorizada por el personal. Cuando no haya recorridos, limita la visita a los puntos exteriores permitidos.",
+    "manager": "Ministerio de Cultura",
+    "extra": {
+      "hours": "El inventario turístico indica martes a sábado, 09:00–17:00. Confirma antes de ir.",
+      "admission": "El inventario indica S/ 5 (tarifa general de referencia). Verifica descuentos y tarifas vigentes.",
+      "stops": [
+        "Ingreso por Nicolás de Ribera",
+        "base de la pirámide",
+        "museo de sitio"
+      ],
+      "intro": "Empieza en Ingreso por Nicolás de Ribera. El recorrido enlaza base de la pirámide con museo de sitio."
+    },
+    "en": {
+      "name": "Huallamarca Archaeological Site",
+      "history": "The truncated pyramid preserves evidence of occupations from the Lima culture through the Inca period.",
+      "features": "Adobe slopes, ramp and site museum",
+      "visit": "Confirm interior access before going. Stay on visitor paths without touching the walls.",
+      "route": "From Love Park, use the directions to Nicolás de Ribera entrance. The arrival reference is Av. Nicolás de Ribera Nº 201, esquina con la Av. El Rosario.",
+      "photoTip": "Try a view from pyramid base toward site museum. Take photos only in areas open to visitors.",
+      "faq": "Can I walk among the structures independently?",
+      "answer": "Follow the route authorized by staff. When tours are unavailable, use permitted exterior viewpoints.",
+      "manager": "Ministry of Culture of Peru",
+      "extra": {
+        "hours": "The tourism inventory lists Tuesday–Saturday, 09:00–17:00. Confirm before visiting.",
+        "admission": "Inventory price: S/ 5 (indicative general admission). Check current prices and discounts.",
+        "stops": [
+          "Nicolás de Ribera entrance",
+          "pyramid base",
+          "site museum"
+        ],
+        "intro": "Begin at Nicolás de Ribera entrance. The route links pyramid base with site museum."
+      }
+    },
+    "zh": {
+      "name": "瓦亚马尔卡考古遗址",
+      "history": "这座截顶金字塔保存了利马文化至印加时期的占据遗迹。",
+      "features": "土坯坡壁、斜坡与遗址博物馆",
+      "visit": "出发前请核对是否可入内。沿指定参观小径观察，避免触碰遗墙。",
+      "route": "从爱情公园出发，可用地图导航至「尼古拉斯·德里韦拉大道入口」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「金字塔底部」朝「遗址馆」取景，并遵守场地的拍摄规定。",
+      "faq": "可以自行走入遗构之间参观吗？",
+      "answer": "请遵循工作人员指定的路线。没有导览时，可在获准开放的外围观察点参观。",
+      "manager": "秘鲁文化部",
+      "extra": {
+        "hours": "旅游资源名录列为周二至周六 09:00–17:00，出发前请向管理方核对。",
+        "admission": "名录列出的票价为 S/ 5（参考普通票）。请向管理方核对现行票价与优惠。",
+        "stops": [
+          "尼古拉斯·德里韦拉大道入口",
+          "金字塔底部",
+          "遗址馆"
+        ],
+        "intro": "可从「尼古拉斯·德里韦拉大道入口」开始，沿途串联「金字塔底部」与「遗址馆」。"
+      }
+    }
+  },
+  {
+    "slug": "bosque-el-olivar",
+    "district": "San Isidro",
+    "address": "Ubicado entre la Av. Paz Soldán, calle La República y la calle Antero Aspíllaga",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=5245",
+    "category": "near-north",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=630147",
+    "image": "/nearby/bosque-el-olivar.webp",
+    "width": 1100,
+    "height": 619,
+    "name": "Bosque El Olivar",
+    "history": "Los olivos históricos vinculan este jardín urbano con la agricultura de la época virreinal.",
+    "features": "Olivos maduros y senderos entre avenidas residenciales",
+    "visit": "Ve con luz natural y reserva tiempo para detenerte en senderos bajo los olivos.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Calle La República. La referencia de llegada es Ubicado entre la Av. Paz Soldán, calle La República y la calle Antero Aspíllaga.",
+    "photoTip": "Prueba un encuadre desde senderos bajo los olivos hacia salida hacia Paz Soldán. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Dónde empiezo un recorrido corto?",
+    "answer": "Empieza en Calle La República y sigue hacia senderos bajo los olivos.",
+    "manager": "Municipalidad Distrital de San Isidro",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 06:00–22:00. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Calle La República",
+        "senderos bajo los olivos",
+        "salida hacia Paz Soldán"
+      ],
+      "intro": "Empieza en Calle La República. El recorrido enlaza senderos bajo los olivos con salida hacia paz soldán."
+    },
+    "en": {
+      "name": "El Olivar Olive Grove",
+      "history": "Historic olive trees link this city park with agriculture in the viceregal era.",
+      "features": "Mature olive trees and paths between residential streets",
+      "visit": "Go in daylight and leave time for a stop at paths beneath the olives.",
+      "route": "From Love Park, use the directions to Calle La República. The arrival reference is Ubicado entre la Av. Paz Soldán, calle La República y la calle Antero Aspíllaga.",
+      "photoTip": "Try a view from paths beneath the olives toward exit toward Paz Soldán. Take photos only in areas open to visitors.",
+      "faq": "Where should I start a short visit?",
+      "answer": "Start at Calle La República and continue toward paths beneath the olives.",
+      "manager": "Municipality of San Isidro",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 06:00–22:00. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Calle La República",
+          "paths beneath the olives",
+          "exit toward Paz Soldán"
+        ],
+        "intro": "Begin at Calle La República. The route links paths beneath the olives with exit toward Paz Soldán."
+      }
+    },
+    "zh": {
+      "name": "埃尔奥利瓦尔橄榄树林",
+      "history": "历史橄榄树将这片城市园地与总督时期的农业历史联系起来。",
+      "features": "老橄榄树与住宅街之间的小径",
+      "visit": "建议白天安排这处景点，并给「橄榄树下的小径」留出停留时间。",
+      "route": "从爱情公园出发，可用地图导航至「共和国街」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「橄榄树下的小径」朝「帕斯索尔丹大道出口」取景，并遵守场地的拍摄规定。",
+      "faq": "短时间参观从哪里开始？",
+      "answer": "从「共和国街」出发，再走到「橄榄树下的小径」。",
+      "manager": "圣伊西德罗区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 06:00–22:00，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "共和国街",
+          "橄榄树下的小径",
+          "帕斯索尔丹大道出口"
+        ],
+        "intro": "可从「共和国街」开始，沿途串联「橄榄树下的小径」与「帕斯索尔丹大道出口」。"
+      }
+    }
+  },
+  {
+    "slug": "huaca-santa-catalina",
+    "district": "La Victoria",
+    "address": "Entre Jr. Pascual Saco Oliveros y Jr. Miguel Checa – Urb. Santa Catalina",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=12344",
+    "category": "city",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=499936",
+    "image": "/nearby/huaca-santa-catalina.webp",
+    "width": 1067,
+    "height": 800,
+    "name": "Huaca Santa Catalina",
+    "history": "Este centro administrativo y ceremonial prehispánico se vinculó al señorío Ychsma y a la posterior ocupación inca.",
+    "features": "Muros de tierra y entorno del Parque Scout",
+    "visit": "Comprueba el acceso interior antes de ir. Observa los restos desde los senderos habilitados y evita tocar los muros.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Jr. Miguel Checa. La referencia de llegada es Entre Jr. Pascual Saco Oliveros y Jr. Miguel Checa – Urb. Santa Catalina.",
+    "photoTip": "Prueba un encuadre desde vista desde el Parque Scout hacia perímetro exterior. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Puedo recorrer las estructuras sin guía?",
+    "answer": "Sigue la ruta autorizada por el personal. Cuando no haya recorridos, limita la visita a los puntos exteriores permitidos.",
+    "manager": "Municipalidad de La Victoria - Subgerencia de Educación, Cultura y Deporte",
+    "extra": {
+      "hours": "El inventario turístico indica lunes a viernes, 08:30–16:30. Confirma antes de ir.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Jr. Miguel Checa",
+        "vista desde el Parque Scout",
+        "perímetro exterior"
+      ],
+      "intro": "Empieza en Jr. Miguel Checa. El recorrido enlaza vista desde el parque scout con perímetro exterior."
+    },
+    "en": {
+      "name": "Santa Catalina Archaeological Site",
+      "history": "This pre-Hispanic administrative and ceremonial center was associated with the Ychsma polity and subsequent Inca occupation.",
+      "features": "Earthen walls and the surroundings of Parque Scout",
+      "visit": "Confirm interior access before going. Stay on visitor paths without touching the walls.",
+      "route": "From Love Park, use the directions to Jr. Miguel Checa. The arrival reference is Entre Jr. Pascual Saco Oliveros y Jr. Miguel Checa – Urb. Santa Catalina.",
+      "photoTip": "Try a view from view from Parque Scout toward exterior perimeter. Take photos only in areas open to visitors.",
+      "faq": "Can I walk among the structures independently?",
+      "answer": "Follow the route authorized by staff. When tours are unavailable, use permitted exterior viewpoints.",
+      "manager": "Municipality of La Victoria, Culture and Sport Office",
+      "extra": {
+        "hours": "The tourism inventory lists Monday–Friday, 08:30–16:30. Confirm before visiting.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Jr. Miguel Checa",
+          "view from Parque Scout",
+          "exterior perimeter"
+        ],
+        "intro": "Begin at Jr. Miguel Checa. The route links view from Parque Scout with exterior perimeter."
+      }
+    },
+    "zh": {
+      "name": "圣卡塔利娜考古遗址",
+      "history": "这处前西班牙时期的行政与礼仪中心与伊奇马政权和后续的印加占据有关。",
+      "features": "土筑遗墙与童军公园周边",
+      "visit": "出发前请核对是否可入内。沿指定参观小径观察，避免触碰遗墙。",
+      "route": "从爱情公园出发，可用地图导航至「米格尔·切卡街」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「从童军公园眺望」朝「遗址外围」取景，并遵守场地的拍摄规定。",
+      "faq": "可以自行走入遗构之间参观吗？",
+      "answer": "请遵循工作人员指定的路线。没有导览时，可在获准开放的外围观察点参观。",
+      "manager": "拉维多利亚区政府文化与体育部门",
+      "extra": {
+        "hours": "旅游资源名录列为周一至周五 08:30–16:30，出发前请向管理方核对。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "米格尔·切卡街",
+          "从童军公园眺望",
+          "遗址外围"
+        ],
+        "intro": "可从「米格尔·切卡街」开始，沿途串联「从童军公园眺望」与「遗址外围」。"
+      }
+    }
+  },
+  {
+    "slug": "mac-lima",
+    "district": "Barranco",
+    "address": "Av. Almte. Miguel Grau 1511",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=5438",
+    "category": "barranco",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=292878",
+    "image": "/nearby/mac-lima.webp",
+    "width": 400,
+    "height": 267,
+    "name": "Museo de Arte Contemporáneo de Lima (MAC)",
+    "history": "El MAC abrió en 2013 con una programación centrada en el arte contemporáneo.",
+    "features": "Pabellones, lámina de agua y exposiciones temporales",
+    "visit": "Comprueba la programación antes de llegar y reserva tiempo para patio junto al agua.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Entrada de avenida Grau. La referencia de llegada es Av. Almte. Miguel Grau 1511.",
+    "photoTip": "Prueba un encuadre desde patio junto al agua hacia salas de la muestra vigente. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Cómo organizo la visita si hay cambios de horario?",
+    "answer": "Consulta la programación del recinto. Conserva la parada exterior si no se puede entrar.",
+    "manager": "Instituto de Arte Contemporáneo",
+    "extra": {
+      "hours": "Salas de martes a domingo, 10:00–19:00. Jardines gratuitos todos los días, 10:00–18:00.",
+      "admission": "Consulta la tarifa de la exposición. El acceso a los jardines es gratuito.",
+      "stops": [
+        "Entrada de avenida Grau",
+        "patio junto al agua",
+        "salas de la muestra vigente"
+      ],
+      "intro": "Empieza en Entrada de avenida Grau. El recorrido enlaza patio junto al agua con salas de la muestra vigente.",
+      "source": "https://maclima.pe/compra-tu-entrada-2/"
+    },
+    "en": {
+      "name": "Lima Museum of Contemporary Art (MAC)",
+      "history": "MAC opened in 2013 with a program focused on contemporary art.",
+      "features": "Pavilions, reflecting water and temporary exhibitions",
+      "visit": "Check the program before visiting and leave time for waterside courtyard.",
+      "route": "From Love Park, use the directions to Avenida Grau entrance. The arrival reference is Av. Almte. Miguel Grau 1511.",
+      "photoTip": "Try a view from waterside courtyard toward current exhibition rooms. Take photos only in areas open to visitors.",
+      "faq": "How should I plan for schedule changes?",
+      "answer": "Check the venue’s schedule. Keep the exterior stop if indoor access is unavailable.",
+      "manager": "Institute of Contemporary Art",
+      "extra": {
+        "hours": "Galleries Tuesday–Sunday, 10:00–19:00. Gardens free daily, 10:00–18:00.",
+        "admission": "Check the current exhibition ticket price. Garden access is free.",
+        "stops": [
+          "Avenida Grau entrance",
+          "waterside courtyard",
+          "current exhibition rooms"
+        ],
+        "intro": "Begin at Avenida Grau entrance. The route links waterside courtyard with current exhibition rooms.",
+        "source": "https://maclima.pe/compra-tu-entrada-2/"
+      }
+    },
+    "zh": {
+      "name": "利马当代艺术博物馆",
+      "history": "利马当代艺术博物馆于 2013 年开放，展览与研究聚焦当代艺术。",
+      "features": "展馆、倒影水面与临时展览",
+      "visit": "到访前先查当期安排，并为「水边庭院」留出时间。",
+      "route": "从爱情公园出发，可用地图导航至「格劳大道入口」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「水边庭院」朝「当期展厅」取景，并遵守场地的拍摄规定。",
+      "faq": "开放安排变化时，怎样调整行程？",
+      "answer": "先核对场馆安排，若室内暂不开放，可保留外观参观。",
+      "manager": "当代艺术研究所",
+      "extra": {
+        "hours": "展厅周二至周日 10:00–19:00。花园每天 10:00–18:00 免费开放。",
+        "admission": "展览票价请查馆方购票页，花园免费进入。",
+        "stops": [
+          "格劳大道入口",
+          "水边庭院",
+          "当期展厅"
+        ],
+        "intro": "可从「格劳大道入口」开始，沿途串联「水边庭院」与「当期展厅」。",
+        "source": "https://maclima.pe/compra-tu-entrada-2/"
+      }
+    }
+  },
+  {
+    "slug": "playa-las-sombrillas",
+    "district": "Barranco",
+    "address": "Circuito de Playas de la Costa Verde, sector Las Sombrillas",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=6478",
+    "category": "barranco",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=609620",
+    "image": "/nearby/playa-las-sombrillas.webp",
+    "width": 1100,
+    "height": 733,
+    "name": "Playa Las Sombrillas",
+    "history": "Es un balneario de Barranco dentro del corredor litoral de la Costa Verde.",
+    "features": "Zona de arena y línea de sombrillas",
+    "visit": "Visita la orilla desde un acceso habilitado y consulta el estado del mar antes de entrar al agua.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Ingreso señalizado. La referencia de llegada es Circuito de Playas de la Costa Verde, sector Las Sombrillas.",
+    "photoTip": "Prueba un encuadre desde borde de la arena hacia extremo del paseo habilitado. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Se llega directamente desde el malecón alto?",
+    "answer": "Revisa en el mapa qué bajada peatonal está habilitada. El destino está en el nivel bajo de la Costa Verde.",
+    "manager": "Municipalidad Distrital de Barranco",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 07:00–18:00. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Ingreso señalizado",
+        "borde de la arena",
+        "extremo del paseo habilitado"
+      ],
+      "intro": "Empieza en Ingreso señalizado. El recorrido enlaza borde de la arena con extremo del paseo habilitado."
+    },
+    "en": {
+      "name": "Las Sombrillas Beach",
+      "history": "One of Barranco’s beaches, Las Sombrillas lies along the Costa Verde coastal corridor.",
+      "features": "Sandy section and rows of umbrellas",
+      "visit": "Visit the shore via an open access point and check sea conditions before entering the water.",
+      "route": "From Love Park, use the directions to Signed entrance. The arrival reference is Circuito de Playas de la Costa Verde, sector Las Sombrillas.",
+      "photoTip": "Try a view from sand edge toward end of the open promenade. Take photos only in areas open to visitors.",
+      "faq": "Can I get straight here from the upper promenade?",
+      "answer": "Check which pedestrian descent is open. This destination sits on the lower Costa Verde.",
+      "manager": "Municipality of Barranco",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 07:00–18:00. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Signed entrance",
+          "sand edge",
+          "end of the open promenade"
+        ],
+        "intro": "Begin at Signed entrance. The route links sand edge with end of the open promenade."
+      }
+    },
+    "zh": {
+      "name": "拉斯松布里亚斯海滩",
+      "history": "拉斯松布里亚斯是巴兰科区海滩之一，位于绿海岸滨海走廊。",
+      "features": "沙地与遮阳伞排列",
+      "visit": "从开放入口抵达岸边。若计划下水，请先查看海况与现场告示。",
+      "route": "从爱情公园出发，可用地图导航至「标示入口」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「沙地边缘」朝「开放步道尽端」取景，并遵守场地的拍摄规定。",
+      "faq": "可以直接从上层海滨步道下到海滩吗？",
+      "answer": "请先核对哪条步行下坡道开放。目的地在绿海岸下层。",
+      "manager": "巴兰科区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 07:00–18:00，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "标示入口",
+          "沙地边缘",
+          "开放步道尽端"
+        ],
+        "intro": "可从「标示入口」开始，沿途串联「沙地边缘」与「开放步道尽端」。"
+      }
+    }
+  },
+  {
+    "slug": "playa-los-yuyos",
+    "district": "Barranco",
+    "address": "Circuito de Playas de la Costa Verde, sector Los Yuyos",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13772",
+    "category": "barranco",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=547988",
+    "image": "/nearby/playa-los-yuyos.webp",
+    "width": 874,
+    "height": 584,
+    "name": "Playa Los Yuyos",
+    "history": "Los Yuyos ocupa un tramo del litoral de Barranco entre la vía costera y el Pacífico.",
+    "features": "Rompeolas y perfil marino de Barranco",
+    "visit": "Visita la orilla desde un acceso habilitado y consulta el estado del mar antes de entrar al agua.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Área de ingreso. La referencia de llegada es Circuito de Playas de la Costa Verde, sector Los Yuyos.",
+    "photoTip": "Prueba un encuadre desde línea de arena hacia vista al rompeolas desde el paseo. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Se llega directamente desde el malecón alto?",
+    "answer": "Revisa en el mapa qué bajada peatonal está habilitada. El destino está en el nivel bajo de la Costa Verde.",
+    "manager": "Municipalidad Distrital de Barranco",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 07:00–18:00. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Área de ingreso",
+        "línea de arena",
+        "vista al rompeolas desde el paseo"
+      ],
+      "intro": "Empieza en Área de ingreso. El recorrido enlaza línea de arena con vista al rompeolas desde el paseo."
+    },
+    "en": {
+      "name": "Los Yuyos Beach",
+      "history": "Los Yuyos occupies a section of Barranco’s shoreline between the coastal road and the Pacific.",
+      "features": "Breakwater and Barranco’s waterfront skyline",
+      "visit": "Visit the shore via an open access point and check sea conditions before entering the water.",
+      "route": "From Love Park, use the directions to Entrance area. The arrival reference is Circuito de Playas de la Costa Verde, sector Los Yuyos.",
+      "photoTip": "Try a view from sand line toward view of the breakwater from the promenade. Take photos only in areas open to visitors.",
+      "faq": "Can I get straight here from the upper promenade?",
+      "answer": "Check which pedestrian descent is open. This destination sits on the lower Costa Verde.",
+      "manager": "Municipality of Barranco",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 07:00–18:00. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Entrance area",
+          "sand line",
+          "view of the breakwater from the promenade"
+        ],
+        "intro": "Begin at Entrance area. The route links sand line with view of the breakwater from the promenade."
+      }
+    },
+    "zh": {
+      "name": "洛斯尤约斯海滩",
+      "history": "洛斯尤约斯位于巴兰科沿岸，介于滨海公路与太平洋之间。",
+      "features": "防波设施与巴兰科滨海轮廓",
+      "visit": "从开放入口抵达岸边。若计划下水，请先查看海况与现场告示。",
+      "route": "从爱情公园出发，可用地图导航至「入口区」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「沙滩边缘」朝「从步道看防波设施」取景，并遵守场地的拍摄规定。",
+      "faq": "可以直接从上层海滨步道下到海滩吗？",
+      "answer": "请先核对哪条步行下坡道开放。目的地在绿海岸下层。",
+      "manager": "巴兰科区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 07:00–18:00，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "入口区",
+          "沙滩边缘",
+          "从步道看防波设施"
+        ],
+        "intro": "可从「入口区」开始，沿途串联「沙滩边缘」与「从步道看防波设施」。"
+      }
+    }
+  },
+  {
+    "slug": "playa-barranquito",
+    "district": "Barranco",
+    "address": "Circuito de Playas de la Costa Verde, sector Barranquito",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13695",
+    "category": "barranco",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=608820",
+    "image": "/nearby/playa-barranquito.webp",
+    "width": 1100,
+    "height": 496,
+    "name": "Playa Barranquito",
+    "history": "La playa forma parte del litoral de Barranco y se visita en el nivel bajo de la Costa Verde.",
+    "features": "Oleaje y curva litoral enmarcada por los acantilados",
+    "visit": "Visita la orilla desde un acceso habilitado y consulta el estado del mar antes de entrar al agua.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Acceso de la Costa Verde. La referencia de llegada es Circuito de Playas de la Costa Verde, sector Barranquito.",
+    "photoTip": "Prueba un encuadre desde tramo abierto del paseo hacia vista lateral de la costa. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Se llega directamente desde el malecón alto?",
+    "answer": "Revisa en el mapa qué bajada peatonal está habilitada. El destino está en el nivel bajo de la Costa Verde.",
+    "manager": "Municipalidad Distrital de Barranco",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 07:00–18:00. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Acceso de la Costa Verde",
+        "tramo abierto del paseo",
+        "vista lateral de la costa"
+      ],
+      "intro": "Empieza en Acceso de la Costa Verde. El recorrido enlaza tramo abierto del paseo con vista lateral de la costa."
+    },
+    "en": {
+      "name": "Barranquito Beach",
+      "history": "The beach forms part of Barranco’s shoreline at the lower level of the Costa Verde.",
+      "features": "Surf and a shoreline curve framed by cliffs",
+      "visit": "Visit the shore via an open access point and check sea conditions before entering the water.",
+      "route": "From Love Park, use the directions to Costa Verde access. The arrival reference is Circuito de Playas de la Costa Verde, sector Barranquito.",
+      "photoTip": "Try a view from open promenade toward side view along the shore. Take photos only in areas open to visitors.",
+      "faq": "Can I get straight here from the upper promenade?",
+      "answer": "Check which pedestrian descent is open. This destination sits on the lower Costa Verde.",
+      "manager": "Municipality of Barranco",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 07:00–18:00. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Costa Verde access",
+          "open promenade",
+          "side view along the shore"
+        ],
+        "intro": "Begin at Costa Verde access. The route links open promenade with side view along the shore."
+      }
+    },
+    "zh": {
+      "name": "巴兰基托海滩",
+      "history": "巴兰基托海滩位于巴兰科沿岸，需从绿海岸下层到访。",
+      "features": "浪带与崖壁衬托的海岸弧线",
+      "visit": "从开放入口抵达岸边。若计划下水，请先查看海况与现场告示。",
+      "route": "从爱情公园出发，可用地图导航至「绿海岸入口」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「开放步道段」朝「侧望海岸」取景，并遵守场地的拍摄规定。",
+      "faq": "可以直接从上层海滨步道下到海滩吗？",
+      "answer": "请先核对哪条步行下坡道开放。目的地在绿海岸下层。",
+      "manager": "巴兰科区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 07:00–18:00，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "绿海岸入口",
+          "开放步道段",
+          "侧望海岸"
+        ],
+        "intro": "可从「绿海岸入口」开始，沿途串联「开放步道段」与「侧望海岸」。"
+      }
+    }
+  },
+  {
+    "slug": "parque-husares-de-junin",
+    "district": "Barranco",
+    "address": "Malecón Paul Harris, entre cuadras 2 y 3, frente a calle Las Magnolias",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=1890",
+    "category": "barranco",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=443905",
+    "image": "/nearby/parque-husares-de-junin.webp",
+    "width": 1100,
+    "height": 507,
+    "name": "Parque Húsares de Junín",
+    "history": "El parque se integra al Malecón Paul Harris, frente a la calle Las Magnolias.",
+    "features": "Jardines y desnivel hacia la costa",
+    "visit": "Ve con luz natural y reserva tiempo para detenerte en jardín del parque.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Calle Las Magnolias. La referencia de llegada es Malecón Paul Harris, entre cuadras 2 y 3, frente a calle Las Magnolias.",
+    "photoTip": "Prueba un encuadre desde jardín del parque hacia paseo de Paul Harris. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Dónde empiezo un recorrido corto?",
+    "answer": "Empieza en Calle Las Magnolias y sigue hacia jardín del parque.",
+    "manager": "Municipalidad de Barranco",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 10:00–18:30. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Calle Las Magnolias",
+        "jardín del parque",
+        "paseo de Paul Harris"
+      ],
+      "intro": "Empieza en Calle Las Magnolias. El recorrido enlaza jardín del parque con paseo de paul harris."
+    },
+    "en": {
+      "name": "Húsares de Junín Park",
+      "history": "The park forms part of Malecón Paul Harris opposite Calle Las Magnolias.",
+      "features": "Gardens and the drop toward the coast",
+      "visit": "Go in daylight and leave time for a stop at park garden.",
+      "route": "From Love Park, use the directions to Calle Las Magnolias. The arrival reference is Malecón Paul Harris, entre cuadras 2 y 3, frente a calle Las Magnolias.",
+      "photoTip": "Try a view from park garden toward Paul Harris promenade. Take photos only in areas open to visitors.",
+      "faq": "Where should I start a short visit?",
+      "answer": "Start at Calle Las Magnolias and continue toward park garden.",
+      "manager": "Municipality of Barranco",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 10:00–18:30. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Calle Las Magnolias",
+          "park garden",
+          "Paul Harris promenade"
+        ],
+        "intro": "Begin at Calle Las Magnolias. The route links park garden with Paul Harris promenade."
+      }
+    },
+    "zh": {
+      "name": "胡宁轻骑兵公园",
+      "history": "公园坐落在保罗·哈里斯海滨步道上，与木兰街相对。",
+      "features": "园地与通向海岸的高度差",
+      "visit": "建议白天安排这处景点，并给「公园花园」留出停留时间。",
+      "route": "从爱情公园出发，可用地图导航至「木兰街」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「公园花园」朝「保罗·哈里斯步道」取景，并遵守场地的拍摄规定。",
+      "faq": "短时间参观从哪里开始？",
+      "answer": "从「木兰街」出发，再走到「公园花园」。",
+      "manager": "巴兰科区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 10:00–18:30，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "木兰街",
+          "公园花园",
+          "保罗·哈里斯步道"
+        ],
+        "intro": "可从「木兰街」开始，沿途串联「公园花园」与「保罗·哈里斯步道」。"
+      }
+    }
+  },
+  {
+    "slug": "parque-federico-villarreal",
+    "district": "Barranco",
+    "address": "Jirón Sucre con Bajada de Baños, junto a la avenida San Martín",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2118",
+    "category": "barranco",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=461123",
+    "image": "/nearby/parque-federico-villarreal.webp",
+    "width": 1100,
+    "height": 507,
+    "name": "Parque Federico Villarreal",
+    "history": "El jardín, establecido en 1926 según el inventario, ocupa parte del borde de la quebrada de Barranco.",
+    "features": "Senderos ajardinados y relación con la Bajada de Baños",
+    "visit": "Ve con luz natural y reserva tiempo para detenerte en jardín central.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Jirón Sucre. La referencia de llegada es Jirón Sucre con Bajada de Baños, junto a la avenida San Martín.",
+    "photoTip": "Prueba un encuadre desde jardín central hacia enlace con Bajada de Baños. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Dónde empiezo un recorrido corto?",
+    "answer": "Empieza en Jirón Sucre y sigue hacia jardín central.",
+    "manager": "Municipalidad de Barranco",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 05:00–23:00. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Jirón Sucre",
+        "jardín central",
+        "enlace con Bajada de Baños"
+      ],
+      "intro": "Empieza en Jirón Sucre. El recorrido enlaza jardín central con enlace con bajada de baños."
+    },
+    "en": {
+      "name": "Federico Villarreal Park",
+      "history": "The garden, established in 1926 according to the inventory, occupies part of the edge of Barranco ravine.",
+      "features": "Garden paths and their connection with Bajada de Baños",
+      "visit": "Go in daylight and leave time for a stop at central garden.",
+      "route": "From Love Park, use the directions to Jirón Sucre. The arrival reference is Jirón Sucre con Bajada de Baños, junto a la avenida San Martín.",
+      "photoTip": "Try a view from central garden toward link to Bajada de Baños. Take photos only in areas open to visitors.",
+      "faq": "Where should I start a short visit?",
+      "answer": "Start at Jirón Sucre and continue toward central garden.",
+      "manager": "Municipality of Barranco",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 05:00–23:00. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Jirón Sucre",
+          "central garden",
+          "link to Bajada de Baños"
+        ],
+        "intro": "Begin at Jirón Sucre. The route links central garden with link to Bajada de Baños."
+      }
+    },
+    "zh": {
+      "name": "费德里科·比利亚雷亚尔公园",
+      "history": "据旅游资源名录，花园建于 1926 年，占据巴兰科峡谷边缘的一部分。",
+      "features": "园林小径与巴尼奥斯坡道的连接",
+      "visit": "建议白天安排这处景点，并给「中央园地」留出停留时间。",
+      "route": "从爱情公园出发，可用地图导航至「苏克雷街」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「中央园地」朝「巴尼奥斯坡道连接处」取景，并遵守场地的拍摄规定。",
+      "faq": "短时间参观从哪里开始？",
+      "answer": "从「苏克雷街」出发，再走到「中央园地」。",
+      "manager": "巴兰科区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 05:00–23:00，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "苏克雷街",
+          "中央园地",
+          "巴尼奥斯坡道连接处"
+        ],
+        "intro": "可从「苏克雷街」开始，沿途串联「中央园地」与「巴尼奥斯坡道连接处」。"
+      }
+    }
+  },
+  {
+    "slug": "mirador-catalina-recavarren",
+    "district": "Barranco",
+    "address": "Detrás de la Ermita de Barranco, al final del malecón",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=6815",
+    "category": "barranco",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=464631",
+    "image": "/nearby/mirador-catalina-recavarren.webp",
+    "width": 1100,
+    "height": 732,
+    "name": "Mirador Catalina Recavarren",
+    "history": "El mirador honra a la poeta barranquina Catalina Recavarren de Zizold, recordada con un pedestal y una placa.",
+    "features": "Placa conmemorativa y vista abierta desde el final del malecón",
+    "visit": "Ve con luz natural y reserva tiempo para detenerte en pedestal.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Entorno de la Ermita. La referencia de llegada es Detrás de la Ermita de Barranco, al final del malecón.",
+    "photoTip": "Prueba un encuadre desde pedestal hacia baranda del mirador. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Dónde empiezo un recorrido corto?",
+    "answer": "Empieza en Entorno de la Ermita y sigue hacia pedestal.",
+    "manager": "Municipalidad de Barranco",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 05:00–23:00. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Entorno de la Ermita",
+        "pedestal",
+        "baranda del mirador"
+      ],
+      "intro": "Empieza en Entorno de la Ermita. El recorrido enlaza pedestal con baranda del mirador."
+    },
+    "en": {
+      "name": "Catalina Recavarren Viewpoint",
+      "history": "The viewpoint honors Barranco poet Catalina Recavarren de Zizold with a plinth and plaque.",
+      "features": "Commemorative plaque and open view from the promenade’s end",
+      "visit": "Go in daylight and leave time for a stop at memorial plinth.",
+      "route": "From Love Park, use the directions to Chapel surroundings. The arrival reference is Detrás de la Ermita de Barranco, al final del malecón.",
+      "photoTip": "Try a view from memorial plinth toward viewpoint railing. Take photos only in areas open to visitors.",
+      "faq": "Where should I start a short visit?",
+      "answer": "Start at Chapel surroundings and continue toward memorial plinth.",
+      "manager": "Municipality of Barranco",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 05:00–23:00. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Chapel surroundings",
+          "memorial plinth",
+          "viewpoint railing"
+        ],
+        "intro": "Begin at Chapel surroundings. The route links memorial plinth with viewpoint railing."
+      }
+    },
+    "zh": {
+      "name": "卡塔利娜·雷卡瓦伦观景台",
+      "history": "平台以纪念台座和铭牌致敬巴兰科诗人卡塔利娜·雷卡瓦伦·德西索尔德。",
+      "features": "纪念铭牌与步道尽头的开阔视角",
+      "visit": "建议白天安排这处景点，并给「纪念台座」留出停留时间。",
+      "route": "从爱情公园出发，可用地图导航至「小教堂周边」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「纪念台座」朝「观景栏杆」取景，并遵守场地的拍摄规定。",
+      "faq": "短时间参观从哪里开始？",
+      "answer": "从「小教堂周边」出发，再走到「纪念台座」。",
+      "manager": "巴兰科区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 05:00–23:00，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "小教堂周边",
+          "纪念台座",
+          "观景栏杆"
+        ],
+        "intro": "可从「小教堂周边」开始，沿途串联「纪念台座」与「观景栏杆」。"
+      }
+    }
+  },
+  {
+    "slug": "playa-agua-dulce",
+    "district": "Chorrillos",
+    "address": "Circuito de Playas de la Costa Verde, frente a la Escuela Superior de Guerra del Ejército",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13925",
+    "category": "south",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=606256",
+    "image": "/nearby/playa-agua-dulce.webp",
+    "width": 1100,
+    "height": 733,
+    "name": "Playa Agua Dulce",
+    "history": "Agua Dulce forma parte del balneario histórico de Chorrillos, al sur del litoral de Barranco.",
+    "features": "Arco de arena y bahía de Chorrillos",
+    "visit": "Visita la orilla desde un acceso habilitado y consulta el estado del mar antes de entrar al agua.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Acceso bajo de Chorrillos. La referencia de llegada es Circuito de Playas de la Costa Verde, frente a la Escuela Superior de Guerra del Ejército.",
+    "photoTip": "Prueba un encuadre desde borde de la playa hacia vista de la bahía desde el paseo. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Se llega directamente desde el malecón alto?",
+    "answer": "Revisa en el mapa qué bajada peatonal está habilitada. El destino está en el nivel bajo de la Costa Verde.",
+    "manager": "Municipalidad distrital de Chorrillos",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 07:00–20:00. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Acceso bajo de Chorrillos",
+        "borde de la playa",
+        "vista de la bahía desde el paseo"
+      ],
+      "intro": "Empieza en Acceso bajo de Chorrillos. El recorrido enlaza borde de la playa con vista de la bahía desde el paseo."
+    },
+    "en": {
+      "name": "Agua Dulce Beach",
+      "history": "Agua Dulce is part of Chorrillos’ historic seaside district south of Barranco.",
+      "features": "Sandy arc and Chorrillos Bay",
+      "visit": "Visit the shore via an open access point and check sea conditions before entering the water.",
+      "route": "From Love Park, use the directions to Lower Chorrillos entrance. The arrival reference is Circuito de Playas de la Costa Verde, frente a la Escuela Superior de Guerra del Ejército.",
+      "photoTip": "Try a view from beach edge toward bay view from the promenade. Take photos only in areas open to visitors.",
+      "faq": "Can I get straight here from the upper promenade?",
+      "answer": "Check which pedestrian descent is open. This destination sits on the lower Costa Verde.",
+      "manager": "Municipality of Chorrillos",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 07:00–20:00. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Lower Chorrillos entrance",
+          "beach edge",
+          "bay view from the promenade"
+        ],
+        "intro": "Begin at Lower Chorrillos entrance. The route links beach edge with bay view from the promenade."
+      }
+    },
+    "zh": {
+      "name": "阿瓜杜尔塞海滩",
+      "history": "阿瓜杜尔塞位于巴兰科以南，是乔里约斯历史滨海区域的一部分。",
+      "features": "弧形沙岸与乔里约斯海湾",
+      "visit": "从开放入口抵达岸边。若计划下水，请先查看海况与现场告示。",
+      "route": "从爱情公园出发，可用地图导航至「乔里约斯下层入口」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「海滩边缘」朝「从步道看海湾」取景，并遵守场地的拍摄规定。",
+      "faq": "可以直接从上层海滨步道下到海滩吗？",
+      "answer": "请先核对哪条步行下坡道开放。目的地在绿海岸下层。",
+      "manager": "乔里约斯区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 07:00–20:00，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "乔里约斯下层入口",
+          "海滩边缘",
+          "从步道看海湾"
+        ],
+        "intro": "可从「乔里约斯下层入口」开始，沿途串联「海滩边缘」与「从步道看海湾」。"
+      }
+    }
+  },
+  {
+    "slug": "pantanos-de-villa",
+    "district": "Chorrillos",
+    "address": "Av. Hernando Lavalle S/N. Paradero Pantanos de Villa, Av. Defensores del Morro, ex Huaylas",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=2195",
+    "category": "south",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=373321",
+    "image": "/nearby/pantanos-de-villa.webp",
+    "width": 968,
+    "height": 647,
+    "name": "Pantanos de Villa",
+    "history": "Este humedal costero de Chorrillos conserva lagunas y vegetación que ofrecen hábitat a aves residentes y migratorias.",
+    "features": "Lagunas, totorales y observación de aves",
+    "visit": "Comprueba la programación antes de llegar y reserva tiempo para sendero habilitado.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Recepción de Hernando Lavalle. La referencia de llegada es Av. Hernando Lavalle S/N. Paradero Pantanos de Villa, Av. Defensores del Morro, ex Huaylas.",
+    "photoTip": "Prueba un encuadre desde sendero habilitado hacia observatorio indicado en el circuito. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Cómo organizo la visita si hay cambios de horario?",
+    "answer": "Consulta la programación del recinto. Conserva la parada exterior si no se puede entrar.",
+    "manager": "Municipalidad de Lima - Autoridad Municipal de Pantanos de Villa y el Servicio Nacional de Áreas Naturales Protegidas - SERNANP",
+    "extra": {
+      "hours": "El inventario turístico indica 08:30–17:00. Confirma antes de ir.",
+      "admission": "El inventario indica S/ 20 / 30 (adultos nacionales / extranjeros). Verifica descuentos y tarifas vigentes.",
+      "stops": [
+        "Recepción de Hernando Lavalle",
+        "sendero habilitado",
+        "observatorio indicado en el circuito"
+      ],
+      "intro": "Empieza en Recepción de Hernando Lavalle. El recorrido enlaza sendero habilitado con observatorio indicado en el circuito."
+    },
+    "en": {
+      "name": "Pantanos de Villa Wetlands",
+      "history": "This coastal wetland in Chorrillos preserves lagoons and vegetation that provide habitat for resident and migratory birds.",
+      "features": "Lagoons, reed beds and birdwatching",
+      "visit": "Check the program before visiting and leave time for open trail.",
+      "route": "From Love Park, use the directions to Hernando Lavalle reception. The arrival reference is Av. Hernando Lavalle S/N. Paradero Pantanos de Villa, Av. Defensores del Morro, ex Huaylas.",
+      "photoTip": "Try a view from open trail toward observation point on the designated circuit. Take photos only in areas open to visitors.",
+      "faq": "How should I plan for schedule changes?",
+      "answer": "Check the venue’s schedule. Keep the exterior stop if indoor access is unavailable.",
+      "manager": "Lima’s PROHVILLA wetland authority and SERNANP",
+      "extra": {
+        "hours": "The tourism inventory lists 08:30–17:00. Confirm before visiting.",
+        "admission": "Inventory price: S/ 20 / 30 (Peruvian adults / foreign visitors). Check current prices and discounts.",
+        "stops": [
+          "Hernando Lavalle reception",
+          "open trail",
+          "observation point on the designated circuit"
+        ],
+        "intro": "Begin at Hernando Lavalle reception. The route links open trail with observation point on the designated circuit."
+      }
+    },
+    "zh": {
+      "name": "比利亚湿地",
+      "history": "乔里约斯的这片滨海湿地保有潟湖和植被，为留鸟及候鸟提供栖息地。",
+      "features": "潟湖、芦苇带与观鸟点",
+      "visit": "到访前先查当期安排，并为「开放小径」留出时间。",
+      "route": "从爱情公园出发，可用地图导航至「埃尔南多·拉瓦列大道接待处」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「开放小径」朝「指定路线上的观鸟点」取景，并遵守场地的拍摄规定。",
+      "faq": "开放安排变化时，怎样调整行程？",
+      "answer": "先核对场馆安排，若室内暂不开放，可保留外观参观。",
+      "manager": "利马市比利亚湿地管理机构及秘鲁国家自然保护区管理局",
+      "extra": {
+        "hours": "旅游资源名录列为08:30–17:00，出发前请向管理方核对。",
+        "admission": "名录列出的票价为 S/ 20 / 30（秘鲁成人／外国游客）。请向管理方核对现行票价与优惠。",
+        "stops": [
+          "埃尔南多·拉瓦列大道接待处",
+          "开放小径",
+          "指定路线上的观鸟点"
+        ],
+        "intro": "可从「埃尔南多·拉瓦列大道接待处」开始，沿途串联「开放小径」与「指定路线上的观鸟点」。"
+      }
+    }
+  },
+  {
+    "slug": "parque-de-la-amistad",
+    "district": "Santiago de Surco",
+    "address": "Av. Caminos del Inca, cuadra 21",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4214",
+    "category": "south",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=547993",
+    "image": "/nearby/parque-de-la-amistad.webp",
+    "width": 1100,
+    "height": 734,
+    "name": "Parque de la Amistad",
+    "history": "El arco morisco de 29 metros es el emblema del parque y domina la composición del jardín de Surco.",
+    "features": "Arco morisco, laguna y conjunto ferroviario",
+    "visit": "Ve con luz natural y reserva tiempo para detenerte en plaza del arco.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Caminos del Inca. La referencia de llegada es Av. Caminos del Inca, cuadra 21.",
+    "photoTip": "Prueba un encuadre desde plaza del arco hacia paseo junto a la laguna. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Dónde empiezo un recorrido corto?",
+    "answer": "Empieza en Caminos del Inca y sigue hacia plaza del arco.",
+    "manager": "Empresa Municipal Santiago de Surco S. A. - EMUSS SA - Municipalidad de Surco",
+    "extra": {
+      "hours": "Según inventario: lunes a jueves y domingos 09:00–22:00, viernes y sábados 09:00–23:30.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Caminos del Inca",
+        "plaza del arco",
+        "paseo junto a la laguna"
+      ],
+      "intro": "Empieza en Caminos del Inca. El recorrido enlaza plaza del arco con paseo junto a la laguna."
+    },
+    "en": {
+      "name": "Friendship Park",
+      "history": "The 29-meter Moorish-style arch dominates the gardens and serves as the park’s landmark.",
+      "features": "Moorish arch, lagoon and railway features",
+      "visit": "Go in daylight and leave time for a stop at arch plaza.",
+      "route": "From Love Park, use the directions to Caminos del Inca. The arrival reference is Av. Caminos del Inca, cuadra 21.",
+      "photoTip": "Try a view from arch plaza toward lakeside walk. Take photos only in areas open to visitors.",
+      "faq": "Where should I start a short visit?",
+      "answer": "Start at Caminos del Inca and continue toward arch plaza.",
+      "manager": "Santiago de Surco municipal enterprise (EMUSS)",
+      "extra": {
+        "hours": "Inventory hours: Monday–Thursday and Sunday 09:00–22:00, Friday and Saturday 09:00–23:30.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Caminos del Inca",
+          "arch plaza",
+          "lakeside walk"
+        ],
+        "intro": "Begin at Caminos del Inca. The route links arch plaza with lakeside walk."
+      }
+    },
+    "zh": {
+      "name": "友谊公园",
+      "history": "29 米高的摩尔式拱门主导着苏尔科这座花园的景观，是公园的标志。",
+      "features": "摩尔式拱门、湖面与铁路设施",
+      "visit": "建议白天安排这处景点，并给「拱门广场」留出停留时间。",
+      "route": "从爱情公园出发，可用地图导航至「卡米诺斯德尔印卡大道」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「拱门广场」朝「湖边步道」取景，并遵守场地的拍摄规定。",
+      "faq": "短时间参观从哪里开始？",
+      "answer": "从「卡米诺斯德尔印卡大道」出发，再走到「拱门广场」。",
+      "manager": "圣地亚哥德苏尔科市政企业（EMUSS）",
+      "extra": {
+        "hours": "名录时段：周一至周四及周日 09:00–22:00，周五和周六 09:00–23:30。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "卡米诺斯德尔印卡大道",
+          "拱门广场",
+          "湖边步道"
+        ],
+        "intro": "可从「卡米诺斯德尔印卡大道」开始，沿途串联「拱门广场」与「湖边步道」。"
+      }
+    }
+  },
+  {
+    "slug": "loma-amarilla",
+    "district": "Santiago de Surco",
+    "address": "Intersección de la avenida Monte de los Olivos y el jirón Ismael Bielich",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13496",
+    "category": "south",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=505501",
+    "image": "/nearby/loma-amarilla.webp",
+    "width": 1024,
+    "height": 768,
+    "name": "Parque Ecológico Loma Amarilla",
+    "history": "El parque ecológico abrió en 2014 y aprovecha una loma urbana en Santiago de Surco.",
+    "features": "Senderos de ladera y vistas desde las cotas altas",
+    "visit": "Ve con luz natural y reserva tiempo para detenerte en sendero de subida autorizado.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Monte de los Olivos. La referencia de llegada es Intersección de la avenida Monte de los Olivos y el jirón Ismael Bielich.",
+    "photoTip": "Prueba un encuadre desde sendero de subida autorizado hacia parada en la parte alta. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Dónde empiezo un recorrido corto?",
+    "answer": "Empieza en Monte de los Olivos y sigue hacia sendero de subida autorizado.",
+    "manager": "Municipalidad Distrital de Santiago de Surco",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 06:00–21:00. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Monte de los Olivos",
+        "sendero de subida autorizado",
+        "parada en la parte alta"
+      ],
+      "intro": "Empieza en Monte de los Olivos. El recorrido enlaza sendero de subida autorizado con parada en la parte alta."
+    },
+    "en": {
+      "name": "Loma Amarilla Ecological Park",
+      "history": "The ecological park opened in 2014 and occupies an urban hill in Santiago de Surco.",
+      "features": "Hillside paths and views from higher ground",
+      "visit": "Go in daylight and leave time for a stop at designated uphill path.",
+      "route": "From Love Park, use the directions to Monte de los Olivos. The arrival reference is Intersección de la avenida Monte de los Olivos y el jirón Ismael Bielich.",
+      "photoTip": "Try a view from designated uphill path toward upper park stop. Take photos only in areas open to visitors.",
+      "faq": "Where should I start a short visit?",
+      "answer": "Start at Monte de los Olivos and continue toward designated uphill path.",
+      "manager": "Municipality of Santiago de Surco",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 06:00–21:00. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Monte de los Olivos",
+          "designated uphill path",
+          "upper park stop"
+        ],
+        "intro": "Begin at Monte de los Olivos. The route links designated uphill path with upper park stop."
+      }
+    },
+    "zh": {
+      "name": "洛马阿马里亚生态公园",
+      "history": "这座生态公园于 2014 年开放，利用了圣地亚哥德苏尔科城区的一处丘地。",
+      "features": "坡地小径与高处视野",
+      "visit": "建议白天安排这处景点，并给「开放的上坡小径」留出停留时间。",
+      "route": "从爱情公园出发，可用地图导航至「蒙特德洛索利沃斯大道」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「开放的上坡小径」朝「高处停留点」取景，并遵守场地的拍摄规定。",
+      "faq": "短时间参观从哪里开始？",
+      "answer": "从「蒙特德洛索利沃斯大道」出发，再走到「开放的上坡小径」。",
+      "manager": "圣地亚哥德苏尔科区政府",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 06:00–21:00，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "蒙特德洛索利沃斯大道",
+          "开放的上坡小径",
+          "高处停留点"
+        ],
+        "intro": "可从「蒙特德洛索利沃斯大道」开始，沿途串联「开放的上坡小径」与「高处停留点」。"
+      }
+    }
+  },
+  {
+    "slug": "museo-oro-del-peru",
+    "district": "Santiago de Surco",
+    "address": "Av. Alonso de Molina Nº 1100",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13632",
+    "category": "south",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=605154",
+    "image": "/nearby/museo-oro-del-peru.webp",
+    "width": 1100,
+    "height": 736,
+    "name": "Museo Oro del Perú y Armas del Mundo",
+    "history": "La institución abrió en 1966 a partir de las colecciones de Miguel Mujica Gallo.",
+    "features": "Salas de metalurgia andina y colección de armas",
+    "visit": "Comprueba la programación antes de llegar y reserva tiempo para colección de metalurgia.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Alonso de Molina 1100. La referencia de llegada es Av. Alonso de Molina Nº 1100.",
+    "photoTip": "Prueba un encuadre desde colección de metalurgia hacia salas de armas. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Cómo organizo la visita si hay cambios de horario?",
+    "answer": "Consulta la programación del recinto. Conserva la parada exterior si no se puede entrar.",
+    "manager": "Fundación Miguel Mujica Gallo",
+    "extra": {
+      "hours": "El inventario turístico indica 10:00–17:00. Confirma antes de ir.",
+      "admission": "El inventario indica S/ 40 (tarifa general de referencia). Verifica descuentos y tarifas vigentes.",
+      "stops": [
+        "Alonso de Molina 1100",
+        "colección de metalurgia",
+        "salas de armas"
+      ],
+      "intro": "Empieza en Alonso de Molina 1100. El recorrido enlaza colección de metalurgia con salas de armas."
+    },
+    "en": {
+      "name": "Gold of Peru and Arms of the World Museum",
+      "history": "The museum opened in 1966 around Miguel Mujica Gallo’s collections.",
+      "features": "Andean metalwork galleries and arms collection",
+      "visit": "Check the program before visiting and leave time for metalwork displays.",
+      "route": "From Love Park, use the directions to Alonso de Molina 1100. The arrival reference is Av. Alonso de Molina Nº 1100.",
+      "photoTip": "Try a view from metalwork displays toward arms galleries. Take photos only in areas open to visitors.",
+      "faq": "How should I plan for schedule changes?",
+      "answer": "Check the venue’s schedule. Keep the exterior stop if indoor access is unavailable.",
+      "manager": "Miguel Mujica Gallo Foundation",
+      "extra": {
+        "hours": "The tourism inventory lists 10:00–17:00. Confirm before visiting.",
+        "admission": "Inventory price: S/ 40 (indicative general admission). Check current prices and discounts.",
+        "stops": [
+          "Alonso de Molina 1100",
+          "metalwork displays",
+          "arms galleries"
+        ],
+        "intro": "Begin at Alonso de Molina 1100. The route links metalwork displays with arms galleries."
+      }
+    },
+    "zh": {
+      "name": "秘鲁黄金与世界武器博物馆",
+      "history": "博物馆于 1966 年开放，以米格尔·穆希卡·加略的收藏为基础。",
+      "features": "安第斯金属工艺展厅与武器藏品",
+      "visit": "到访前先查当期安排，并为「金属工艺展区」留出时间。",
+      "route": "从爱情公园出发，可用地图导航至「阿隆索·德莫利纳大道 1100 号」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「金属工艺展区」朝「武器展厅」取景，并遵守场地的拍摄规定。",
+      "faq": "开放安排变化时，怎样调整行程？",
+      "answer": "先核对场馆安排，若室内暂不开放，可保留外观参观。",
+      "manager": "米格尔·穆希卡·加略基金会",
+      "extra": {
+        "hours": "旅游资源名录列为10:00–17:00，出发前请向管理方核对。",
+        "admission": "名录列出的票价为 S/ 40（参考普通票）。请向管理方核对现行票价与优惠。",
+        "stops": [
+          "阿隆索·德莫利纳大道 1100 号",
+          "金属工艺展区",
+          "武器展厅"
+        ],
+        "intro": "可从「阿隆索·德莫利纳大道 1100 号」开始，沿途串联「金属工艺展区」与「武器展厅」。"
+      }
+    }
+  },
+  {
+    "slug": "gran-teatro-nacional",
+    "district": "San Borja",
+    "address": "Av. Javier Prado Este 2225",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11891",
+    "category": "south",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=479766",
+    "image": "/nearby/gran-teatro-nacional.webp",
+    "width": 944,
+    "height": 619,
+    "name": "Gran Teatro Nacional",
+    "history": "El teatro abrió al público en 2012 y funciona como sala de espectáculos del Ministerio de Cultura.",
+    "features": "Fachada contemporánea y explanada de acceso",
+    "visit": "Comprueba la programación antes de llegar y reserva tiempo para explanada de javier prado.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Estación La Cultura. La referencia de llegada es Av. Javier Prado Este 2225.",
+    "photoTip": "Prueba un encuadre desde explanada de Javier Prado hacia sala indicada en el boleto. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Cómo organizo la visita si hay cambios de horario?",
+    "answer": "Consulta la programación del recinto. Conserva la parada exterior si no se puede entrar.",
+    "manager": "Ministerio de Cultura - Gran Teatro Nacional",
+    "extra": {
+      "hours": "Según la cartelera oficial de cada función.",
+      "admission": "El precio depende del evento; revisa su ficha antes de comprar.",
+      "stops": [
+        "Estación La Cultura",
+        "explanada de Javier Prado",
+        "sala indicada en el boleto"
+      ],
+      "intro": "Empieza en Estación La Cultura. El recorrido enlaza explanada de javier prado con sala indicada en el boleto."
+    },
+    "en": {
+      "name": "Peru’s Grand National Theater",
+      "history": "The theater opened to the public in 2012 and serves as a performance venue of Peru’s Ministry of Culture.",
+      "features": "Contemporary façade and entrance plaza",
+      "visit": "Check the program before visiting and leave time for Javier Prado plaza.",
+      "route": "From Love Park, use the directions to La Cultura station. The arrival reference is Av. Javier Prado Este 2225.",
+      "photoTip": "Try a view from Javier Prado plaza toward auditorium named on your ticket. Take photos only in areas open to visitors.",
+      "faq": "How should I plan for schedule changes?",
+      "answer": "Check the venue’s schedule. Keep the exterior stop if indoor access is unavailable.",
+      "manager": "Ministry of Culture of Peru",
+      "extra": {
+        "hours": "See the official listing for each performance.",
+        "admission": "Prices depend on the event; check the listing before booking.",
+        "stops": [
+          "La Cultura station",
+          "Javier Prado plaza",
+          "auditorium named on your ticket"
+        ],
+        "intro": "Begin at La Cultura station. The route links Javier Prado plaza with auditorium named on your ticket."
+      }
+    },
+    "zh": {
+      "name": "秘鲁国家大剧院",
+      "history": "剧院于 2012 年向公众开放，由秘鲁文化部运营为演出场所。",
+      "features": "现代立面与入口广场",
+      "visit": "到访前先查当期安排，并为「哈维尔·普拉多大道广场」留出时间。",
+      "route": "从爱情公园出发，可用地图导航至「文化站」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「哈维尔·普拉多大道广场」朝「门票标示的演出厅」取景，并遵守场地的拍摄规定。",
+      "faq": "开放安排变化时，怎样调整行程？",
+      "answer": "先核对场馆安排，若室内暂不开放，可保留外观参观。",
+      "manager": "秘鲁文化部",
+      "extra": {
+        "hours": "演出时间以各场官方节目单为准。",
+        "admission": "票价按演出而定，请在购票前查询该场节目单。",
+        "stops": [
+          "文化站",
+          "哈维尔·普拉多大道广场",
+          "门票标示的演出厅"
+        ],
+        "intro": "可从「文化站」开始，沿途串联「哈维尔·普拉多大道广场」与「门票标示的演出厅」。"
+      }
+    }
+  },
+  {
+    "slug": "museo-nacional-arqueologia",
+    "district": "Pueblo Libre",
+    "address": "Plaza Bolívar s/n",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=1931",
+    "category": "city",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=510718",
+    "image": "/nearby/museo-nacional-arqueologia.webp",
+    "width": 1065,
+    "height": 800,
+    "name": "Museo Nacional de Arqueología, Antropología e Historia del Perú",
+    "history": "Fundado en 1822, el museo reúne la trayectoria de las colecciones nacionales y ocupa la Quinta de los Libertadores.",
+    "features": "Patios de la Quinta y salas arqueológicas habilitadas",
+    "visit": "Comprueba la programación antes de llegar y reserva tiempo para patio de la quinta.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Plaza Bolívar. La referencia de llegada es Plaza Bolívar s/n.",
+    "photoTip": "Prueba un encuadre desde patio de la Quinta hacia salas abiertas según programación. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Cómo organizo la visita si hay cambios de horario?",
+    "answer": "Consulta la programación del recinto. Conserva la parada exterior si no se puede entrar.",
+    "manager": "Ministerio de Cultura",
+    "extra": {
+      "hours": "El inventario turístico indica martes a domingo, con horario distinto el lunes, 09:00–19:00. Confirma antes de ir.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Plaza Bolívar",
+        "patio de la Quinta",
+        "salas abiertas según programación"
+      ],
+      "intro": "Empieza en Plaza Bolívar. El recorrido enlaza patio de la quinta con salas abiertas según programación."
+    },
+    "en": {
+      "name": "National Museum of Archaeology, Anthropology and History",
+      "history": "Founded in 1822, the museum traces the national collections and occupies the Quinta de los Libertadores.",
+      "features": "Quinta courtyards and open archaeology galleries",
+      "visit": "Check the program before visiting and leave time for Quinta courtyard.",
+      "route": "From Love Park, use the directions to Plaza Bolívar. The arrival reference is Plaza Bolívar s/n.",
+      "photoTip": "Try a view from Quinta courtyard toward galleries open that day. Take photos only in areas open to visitors.",
+      "faq": "How should I plan for schedule changes?",
+      "answer": "Check the venue’s schedule. Keep the exterior stop if indoor access is unavailable.",
+      "manager": "Ministry of Culture of Peru",
+      "extra": {
+        "hours": "The tourism inventory lists Tuesday–Sunday, with different Monday hours, 09:00–19:00. Confirm before visiting.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Plaza Bolívar",
+          "Quinta courtyard",
+          "galleries open that day"
+        ],
+        "intro": "Begin at Plaza Bolívar. The route links Quinta courtyard with galleries open that day."
+      }
+    },
+    "zh": {
+      "name": "秘鲁国家考古、人类学与历史博物馆",
+      "history": "博物馆创建于 1822 年，馆址为解放者宅邸，展示国家藏品的历史。",
+      "features": "宅邸庭院与开放的考古展厅",
+      "visit": "到访前先查当期安排，并为「宅邸庭院」留出时间。",
+      "route": "从爱情公园出发，可用地图导航至「玻利瓦尔广场」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「宅邸庭院」朝「当日开放展厅」取景，并遵守场地的拍摄规定。",
+      "faq": "开放安排变化时，怎样调整行程？",
+      "answer": "先核对场馆安排，若室内暂不开放，可保留外观参观。",
+      "manager": "秘鲁文化部",
+      "extra": {
+        "hours": "旅游资源名录列为周二至周日，周一开放时间另计 09:00–19:00，出发前请向管理方核对。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "玻利瓦尔广场",
+          "宅邸庭院",
+          "当日开放展厅"
+        ],
+        "intro": "可从「玻利瓦尔广场」开始，沿途串联「宅邸庭院」与「当日开放展厅」。"
+      }
+    }
+  },
+  {
+    "slug": "mateo-salado",
+    "district": "Cercado de Lima",
+    "address": "Av. Mariano Cornejo Cdras. 12 y 13",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4811",
+    "category": "city",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=627051",
+    "image": "/nearby/mateo-salado.webp",
+    "width": 683,
+    "height": 385,
+    "name": "Complejo Arqueológico Mateo Salado",
+    "history": "El conjunto fue construido por los ichma. Sus montículos conservan la escala de la arquitectura prehispánica dentro de Lima.",
+    "features": "Pirámides y caminos arqueológicos delimitados",
+    "visit": "Comprueba el acceso interior antes de ir. Observa los restos desde los senderos habilitados y evita tocar los muros.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Av. Mariano Cornejo. La referencia de llegada es Av. Mariano Cornejo Cdras. 12 y 13.",
+    "photoTip": "Prueba un encuadre desde acceso autorizado hacia circuito arqueológico guiado si está disponible. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Puedo recorrer las estructuras sin guía?",
+    "answer": "Sigue la ruta autorizada por el personal. Cuando no haya recorridos, limita la visita a los puntos exteriores permitidos.",
+    "manager": "Ministerio de Cultura - Programa Integral Mateo Salado",
+    "extra": {
+      "hours": "El inventario turístico indica miércoles a domingo, 09:00–15:30. Confirma antes de ir.",
+      "admission": "El inventario indica S/ 10 (tarifa general de referencia). Verifica descuentos y tarifas vigentes.",
+      "stops": [
+        "Av. Mariano Cornejo",
+        "acceso autorizado",
+        "circuito arqueológico guiado si está disponible"
+      ],
+      "intro": "Empieza en Av. Mariano Cornejo. El recorrido enlaza acceso autorizado con circuito arqueológico guiado si está disponible."
+    },
+    "en": {
+      "name": "Mateo Salado Archaeological Complex",
+      "history": "The complex was built by the Ichma. Its mounds preserve the scale of pre-Hispanic architecture within Lima.",
+      "features": "Pyramids and marked archaeological paths",
+      "visit": "Confirm interior access before going. Stay on visitor paths without touching the walls.",
+      "route": "From Love Park, use the directions to Avenida Mariano Cornejo. The arrival reference is Av. Mariano Cornejo Cdras. 12 y 13.",
+      "photoTip": "Try a view from approved entrance toward guided archaeological route if running. Take photos only in areas open to visitors.",
+      "faq": "Can I walk among the structures independently?",
+      "answer": "Follow the route authorized by staff. When tours are unavailable, use permitted exterior viewpoints.",
+      "manager": "Ministry of Culture of Peru",
+      "extra": {
+        "hours": "The tourism inventory lists Wednesday–Sunday, 09:00–15:30. Confirm before visiting.",
+        "admission": "Inventory price: S/ 10 (indicative general admission). Check current prices and discounts.",
+        "stops": [
+          "Avenida Mariano Cornejo",
+          "approved entrance",
+          "guided archaeological route if running"
+        ],
+        "intro": "Begin at Avenida Mariano Cornejo. The route links approved entrance with guided archaeological route if running."
+      }
+    },
+    "zh": {
+      "name": "马特奥·萨拉多考古遗址",
+      "history": "遗址群由伊奇马人建造，土筑台丘在现代利马城区中保留了前西班牙时期建筑的体量。",
+      "features": "土筑金字塔与划定的考古参观小径",
+      "visit": "出发前请核对是否可入内。沿指定参观小径观察，避免触碰遗墙。",
+      "route": "从爱情公园出发，可用地图导航至「马里亚诺·科尔内霍大道」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「获准开放的入口」朝「开放时参加遗址导览」取景，并遵守场地的拍摄规定。",
+      "faq": "可以自行走入遗构之间参观吗？",
+      "answer": "请遵循工作人员指定的路线。没有导览时，可在获准开放的外围观察点参观。",
+      "manager": "秘鲁文化部",
+      "extra": {
+        "hours": "旅游资源名录列为周三至周日 09:00–15:30，出发前请向管理方核对。",
+        "admission": "名录列出的票价为 S/ 10（参考普通票）。请向管理方核对现行票价与优惠。",
+        "stops": [
+          "马里亚诺·科尔内霍大道",
+          "获准开放的入口",
+          "开放时参加遗址导览"
+        ],
+        "intro": "可从「马里亚诺·科尔内霍大道」开始，沿途串联「获准开放的入口」与「开放时参加遗址导览」。"
+      }
+    }
+  },
+  {
+    "slug": "circuito-magico-del-agua",
+    "district": "Cercado de Lima",
+    "address": "Jr. Madre de Dios S/N. Urb. Santa Beatriz",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4033",
+    "category": "city",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=394005",
+    "image": "/nearby/circuito-magico-del-agua.webp",
+    "width": 1100,
+    "height": 741,
+    "name": "Circuito Mágico del Agua",
+    "history": "El Parque de la Reserva, inaugurado en 1929, alberga el Circuito Mágico del Agua.",
+    "features": "Fuentes monumentales y recorrido iluminado",
+    "visit": "Comprueba la programación antes de llegar y reserva tiempo para recorrido de fuentes.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Entrada señalizada. La referencia de llegada es Jr. Madre de Dios S/N. Urb. Santa Beatriz.",
+    "photoTip": "Prueba un encuadre desde recorrido de fuentes hacia salida por el acceso autorizado. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Cómo organizo la visita si hay cambios de horario?",
+    "answer": "Consulta la programación del recinto. Conserva la parada exterior si no se puede entrar.",
+    "manager": "Municipalidad Metropolitana de Lima - Servicio de Parques de Lima (SERPAR)",
+    "extra": {
+      "hours": "El inventario turístico indica 15:00–22:30. Confirma antes de ir.",
+      "admission": "El inventario indica S/ 5 (tarifa general de referencia). Verifica descuentos y tarifas vigentes.",
+      "stops": [
+        "Entrada señalizada",
+        "recorrido de fuentes",
+        "salida por el acceso autorizado"
+      ],
+      "intro": "Empieza en Entrada señalizada. El recorrido enlaza recorrido de fuentes con salida por el acceso autorizado."
+    },
+    "en": {
+      "name": "Magic Water Circuit",
+      "history": "Parque de la Reserva opened in 1929 and now houses the Magic Water Circuit.",
+      "features": "Monumental fountains and illuminated route",
+      "visit": "Check the program before visiting and leave time for fountain route.",
+      "route": "From Love Park, use the directions to Marked entrance. The arrival reference is Jr. Madre de Dios S/N. Urb. Santa Beatriz.",
+      "photoTip": "Try a view from fountain route toward exit via an open gate. Take photos only in areas open to visitors.",
+      "faq": "How should I plan for schedule changes?",
+      "answer": "Check the venue’s schedule. Keep the exterior stop if indoor access is unavailable.",
+      "manager": "Metropolitan Municipality of Lima, Parks Service (SERPAR)",
+      "extra": {
+        "hours": "The tourism inventory lists 15:00–22:30. Confirm before visiting.",
+        "admission": "Inventory price: S/ 5 (indicative general admission). Check current prices and discounts.",
+        "stops": [
+          "Marked entrance",
+          "fountain route",
+          "exit via an open gate"
+        ],
+        "intro": "Begin at Marked entrance. The route links fountain route with exit via an open gate."
+      }
+    },
+    "zh": {
+      "name": "魔幻水之回路公园",
+      "history": "保护区公园于 1929 年开放，如今设有魔幻水之回路喷泉群。",
+      "features": "大型喷泉与夜间灯光游线",
+      "visit": "到访前先查当期安排，并为「喷泉游线」留出时间。",
+      "route": "从爱情公园出发，可用地图导航至「标示入口」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「喷泉游线」朝「由开放的门离园」取景，并遵守场地的拍摄规定。",
+      "faq": "开放安排变化时，怎样调整行程？",
+      "answer": "先核对场馆安排，若室内暂不开放，可保留外观参观。",
+      "manager": "利马都会市政府公园管理局（SERPAR）",
+      "extra": {
+        "hours": "旅游资源名录列为15:00–22:30，出发前请向管理方核对。",
+        "admission": "名录列出的票价为 S/ 5（参考普通票）。请向管理方核对现行票价与优惠。",
+        "stops": [
+          "标示入口",
+          "喷泉游线",
+          "由开放的门离园"
+        ],
+        "intro": "可从「标示入口」开始，沿途串联「喷泉游线」与「由开放的门离园」。"
+      }
+    }
+  },
+  {
+    "slug": "parque-de-la-exposicion",
+    "district": "Cercado de Lima",
+    "address": "Ubicado entre las avenidas Garcilaso de la Vega, Paseo Colón, 28 de julio y Paseo de la República",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=4484",
+    "category": "city",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=589094",
+    "image": "/nearby/parque-de-la-exposicion.webp",
+    "width": 1100,
+    "height": 619,
+    "name": "Parque de la Exposición",
+    "history": "El parque se inauguró en 1872. Sus jardines y pabellones forman parte del legado de la exposición de Lima.",
+    "features": "Pabellones y jardines alrededor del Palacio de la Exposición",
+    "visit": "Ve con luz natural y reserva tiempo para detenerte en jardines y pabellones.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Paseo Colón. La referencia de llegada es Ubicado entre las avenidas Garcilaso de la Vega, Paseo Colón, 28 de julio y Paseo de la República.",
+    "photoTip": "Prueba un encuadre desde jardines y pabellones hacia explanada del MALI. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Dónde empiezo un recorrido corto?",
+    "answer": "Empieza en Paseo Colón y sigue hacia jardines y pabellones.",
+    "manager": "Municipalidad Metropolitana de Lima - Empresa Municipal Inmobiliariaria de Lima (EMILIMA)",
+    "extra": {
+      "hours": "Franja de visita del inventario turístico: 07:00–19:00. Respeta los cierres señalizados.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Paseo Colón",
+        "jardines y pabellones",
+        "explanada del MALI"
+      ],
+      "intro": "Empieza en Paseo Colón. El recorrido enlaza jardines y pabellones con explanada del mali."
+    },
+    "en": {
+      "name": "Exhibition Park",
+      "history": "Opened in 1872, the gardens and pavilions are part of the legacy of Lima’s exhibition.",
+      "features": "Pavilions and gardens around the Exhibition Palace",
+      "visit": "Go in daylight and leave time for a stop at gardens and pavilions.",
+      "route": "From Love Park, use the directions to Paseo Colón. The arrival reference is Ubicado entre las avenidas Garcilaso de la Vega, Paseo Colón, 28 de julio y Paseo de la República.",
+      "photoTip": "Try a view from gardens and pavilions toward MALI forecourt. Take photos only in areas open to visitors.",
+      "faq": "Where should I start a short visit?",
+      "answer": "Start at Paseo Colón and continue toward gardens and pavilions.",
+      "manager": "Metropolitan Municipality of Lima, EMILIMA",
+      "extra": {
+        "hours": "Tourism inventory visiting window: 07:00–19:00. Follow closure signs.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Paseo Colón",
+          "gardens and pavilions",
+          "MALI forecourt"
+        ],
+        "intro": "Begin at Paseo Colón. The route links gardens and pavilions with MALI forecourt."
+      }
+    },
+    "zh": {
+      "name": "利马博览会公园",
+      "history": "公园于 1872 年开放，园地与展亭是利马博览会留下的城市景观。",
+      "features": "博览宫周边的展亭与花园",
+      "visit": "建议白天安排这处景点，并给「花园与展亭」留出停留时间。",
+      "route": "从爱情公园出发，可用地图导航至「科隆大道」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「花园与展亭」朝「利马艺术博物馆前广场」取景，并遵守场地的拍摄规定。",
+      "faq": "短时间参观从哪里开始？",
+      "answer": "从「科隆大道」出发，再走到「花园与展亭」。",
+      "manager": "利马都会市政府市政资产管理机构（EMILIMA）",
+      "extra": {
+        "hours": "旅游资源名录列出的游览时段为 07:00–19:00，请遵守现场封闭标示。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "科隆大道",
+          "花园与展亭",
+          "利马艺术博物馆前广场"
+        ],
+        "intro": "可从「科隆大道」开始，沿途串联「花园与展亭」与「利马艺术博物馆前广场」。"
+      }
+    }
+  },
+  {
+    "slug": "mali-lima",
+    "district": "Cercado de Lima",
+    "address": "Av. Paseo Colón 125, Parque de la Exposición",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=1360",
+    "category": "city",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=570540",
+    "image": "/nearby/mali-lima.webp",
+    "width": 867,
+    "height": 516,
+    "name": "Museo de Arte de Lima (MALI)",
+    "history": "El museo ocupa el Palacio de la Exposición, un edificio republicano de arquitectura ecléctica.",
+    "features": "Palacio republicano y colecciones de arte peruano",
+    "visit": "Comprueba la programación antes de llegar y reserva tiempo para fachada y vestíbulo.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Paseo Colón 125. La referencia de llegada es Av. Paseo Colón 125, Parque de la Exposición.",
+    "photoTip": "Prueba un encuadre desde fachada y vestíbulo hacia galerías abiertas. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Cómo organizo la visita si hay cambios de horario?",
+    "answer": "Consulta la programación del recinto. Conserva la parada exterior si no se puede entrar.",
+    "manager": "Asociación Museo de Arte de Lima",
+    "extra": {
+      "hours": "Martes a domingo, 10:00–18:00. Sábados hasta las 17:00.",
+      "admission": "Consulta la tarifa vigente y los descuentos en la página oficial de entradas.",
+      "stops": [
+        "Paseo Colón 125",
+        "fachada y vestíbulo",
+        "galerías abiertas"
+      ],
+      "intro": "Empieza en Paseo Colón 125. El recorrido enlaza fachada y vestíbulo con galerías abiertas.",
+      "source": "https://mali.pe/es/entradas/"
+    },
+    "en": {
+      "name": "Lima Museum of Art (MALI)",
+      "history": "The museum occupies the Exhibition Palace, an eclectic building from the republican era.",
+      "features": "Republican-era palace and Peruvian art collections",
+      "visit": "Check the program before visiting and leave time for façade and foyer.",
+      "route": "From Love Park, use the directions to Paseo Colón 125. The arrival reference is Av. Paseo Colón 125, Parque de la Exposición.",
+      "photoTip": "Try a view from façade and foyer toward open galleries. Take photos only in areas open to visitors.",
+      "faq": "How should I plan for schedule changes?",
+      "answer": "Check the venue’s schedule. Keep the exterior stop if indoor access is unavailable.",
+      "manager": "Lima Museum of Art Association",
+      "extra": {
+        "hours": "Tuesday–Sunday, 10:00–18:00. Saturdays until 17:00.",
+        "admission": "See the official ticket page for current admission and discounts.",
+        "stops": [
+          "Paseo Colón 125",
+          "façade and foyer",
+          "open galleries"
+        ],
+        "intro": "Begin at Paseo Colón 125. The route links façade and foyer with open galleries.",
+        "source": "https://mali.pe/es/entradas/"
+      }
+    },
+    "zh": {
+      "name": "利马艺术博物馆",
+      "history": "博物馆位于博览宫，建筑为秘鲁共和国时期的折衷主义风格。",
+      "features": "共和国时期宫殿与秘鲁艺术馆藏",
+      "visit": "到访前先查当期安排，并为「建筑立面与门厅」留出时间。",
+      "route": "从爱情公园出发，可用地图导航至「科隆大道 125 号」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「建筑立面与门厅」朝「开放展厅」取景，并遵守场地的拍摄规定。",
+      "faq": "开放安排变化时，怎样调整行程？",
+      "answer": "先核对场馆安排，若室内暂不开放，可保留外观参观。",
+      "manager": "利马艺术博物馆协会",
+      "extra": {
+        "hours": "周二至周日 10:00–18:00，周六开放至 17:00。",
+        "admission": "当前票价及优惠资格请查官方购票页。",
+        "stops": [
+          "科隆大道 125 号",
+          "建筑立面与门厅",
+          "开放展厅"
+        ],
+        "intro": "可从「科隆大道 125 号」开始，沿途串联「建筑立面与门厅」与「开放展厅」。",
+        "source": "https://mali.pe/es/entradas/"
+      }
+    }
+  },
+  {
+    "slug": "museo-de-arte-italiano",
+    "district": "Cercado de Lima",
+    "address": "Av. Paseo de la República Nº 250",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=11122",
+    "category": "city",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=413310",
+    "image": "/nearby/museo-de-arte-italiano.webp",
+    "width": 1000,
+    "height": 700,
+    "name": "Museo de Arte Italiano",
+    "history": "La comunidad italiana entregó el edificio de inspiración renacentista al Perú como parte de las conmemoraciones de la independencia.",
+    "features": "Mosaicos exteriores y colección de pintura y escultura",
+    "visit": "Comprueba la programación antes de llegar y reserva tiempo para fachada con mosaicos.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Paseo de la República. La referencia de llegada es Av. Paseo de la República Nº 250.",
+    "photoTip": "Prueba un encuadre desde fachada con mosaicos hacia galerías habilitadas. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Cómo organizo la visita si hay cambios de horario?",
+    "answer": "Consulta la programación del recinto. Conserva la parada exterior si no se puede entrar.",
+    "manager": "Ministerio de Cultura - Dirección General de Museos",
+    "extra": {
+      "hours": "El inventario turístico indica martes a sábado, 10:00–17:00. Confirma antes de ir.",
+      "admission": "El inventario indica S/ 6 (tarifa general de referencia). Verifica descuentos y tarifas vigentes.",
+      "stops": [
+        "Paseo de la República",
+        "fachada con mosaicos",
+        "galerías habilitadas"
+      ],
+      "intro": "Empieza en Paseo de la República. El recorrido enlaza fachada con mosaicos con galerías habilitadas."
+    },
+    "en": {
+      "name": "Museum of Italian Art",
+      "history": "The Italian community presented the Renaissance-inspired building to Peru as part of independence commemorations.",
+      "features": "Exterior mosaics and painting and sculpture collection",
+      "visit": "Check the program before visiting and leave time for mosaic façade.",
+      "route": "From Love Park, use the directions to Paseo de la República. The arrival reference is Av. Paseo de la República Nº 250.",
+      "photoTip": "Try a view from mosaic façade toward open galleries. Take photos only in areas open to visitors.",
+      "faq": "How should I plan for schedule changes?",
+      "answer": "Check the venue’s schedule. Keep the exterior stop if indoor access is unavailable.",
+      "manager": "Ministry of Culture of Peru",
+      "extra": {
+        "hours": "The tourism inventory lists Tuesday–Saturday, 10:00–17:00. Confirm before visiting.",
+        "admission": "Inventory price: S/ 6 (indicative general admission). Check current prices and discounts.",
+        "stops": [
+          "Paseo de la República",
+          "mosaic façade",
+          "open galleries"
+        ],
+        "intro": "Begin at Paseo de la República. The route links mosaic façade with open galleries."
+      }
+    },
+    "zh": {
+      "name": "意大利艺术博物馆",
+      "history": "意大利社群在秘鲁独立纪念活动中将这座文艺复兴风格建筑赠予秘鲁。",
+      "features": "外墙马赛克与绘画、雕塑藏品",
+      "visit": "到访前先查当期安排，并为「马赛克立面」留出时间。",
+      "route": "从爱情公园出发，可用地图导航至「共和国大道」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「马赛克立面」朝「开放展厅」取景，并遵守场地的拍摄规定。",
+      "faq": "开放安排变化时，怎样调整行程？",
+      "answer": "先核对场馆安排，若室内暂不开放，可保留外观参观。",
+      "manager": "秘鲁文化部",
+      "extra": {
+        "hours": "旅游资源名录列为周二至周六 10:00–17:00，出发前请向管理方核对。",
+        "admission": "名录列出的票价为 S/ 6（参考普通票）。请向管理方核对现行票价与优惠。",
+        "stops": [
+          "共和国大道",
+          "马赛克立面",
+          "开放展厅"
+        ],
+        "intro": "可从「共和国大道」开始，沿途串联「马赛克立面」与「开放展厅」。"
+      }
+    }
+  },
+  {
+    "slug": "museo-metropolitano-lima",
+    "district": "Cercado de Lima",
+    "address": "Av. 28 de julio 800 con Av. Petit Thouars",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=10931",
+    "category": "city",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=353258",
+    "image": "/nearby/museo-metropolitano-lima.webp",
+    "width": 1000,
+    "height": 700,
+    "name": "Museo Metropolitano de Lima",
+    "history": "El museo ocupa un antiguo edificio ministerial junto al Parque de la Exposición y aborda la historia de la ciudad.",
+    "features": "Fachada institucional y espacios de interpretación audiovisual",
+    "visit": "Comprueba la programación antes de llegar y reserva tiempo para fachada.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Avenida 28 de Julio. La referencia de llegada es Av. 28 de julio 800 con Av. Petit Thouars.",
+    "photoTip": "Prueba un encuadre desde fachada hacia recorrido disponible en el museo. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Cómo organizo la visita si hay cambios de horario?",
+    "answer": "Consulta la programación del recinto. Conserva la parada exterior si no se puede entrar.",
+    "manager": "Municipalidad Metropolitana de Lima - Gerencia de Cultura",
+    "extra": {
+      "hours": "El inventario turístico indica 10:00–18:00. Confirma antes de ir.",
+      "admission": "El inventario indica S/ 4 (tarifa general de referencia). Verifica descuentos y tarifas vigentes.",
+      "stops": [
+        "Avenida 28 de Julio",
+        "fachada",
+        "recorrido disponible en el museo"
+      ],
+      "intro": "Empieza en Avenida 28 de Julio. El recorrido enlaza fachada con recorrido disponible en el museo."
+    },
+    "en": {
+      "name": "Metropolitan Museum of Lima",
+      "history": "The museum occupies a former ministry building beside Exhibition Park and interprets the city’s history.",
+      "features": "Institutional frontage and audiovisual interpretation spaces",
+      "visit": "Check the program before visiting and leave time for frontage.",
+      "route": "From Love Park, use the directions to Avenida 28 de Julio. The arrival reference is Av. 28 de julio 800 con Av. Petit Thouars.",
+      "photoTip": "Try a view from frontage toward museum route available that day. Take photos only in areas open to visitors.",
+      "faq": "How should I plan for schedule changes?",
+      "answer": "Check the venue’s schedule. Keep the exterior stop if indoor access is unavailable.",
+      "manager": "Metropolitan Municipality of Lima, Department of Culture",
+      "extra": {
+        "hours": "The tourism inventory lists 10:00–18:00. Confirm before visiting.",
+        "admission": "Inventory price: S/ 4 (indicative general admission). Check current prices and discounts.",
+        "stops": [
+          "Avenida 28 de Julio",
+          "frontage",
+          "museum route available that day"
+        ],
+        "intro": "Begin at Avenida 28 de Julio. The route links frontage with museum route available that day."
+      }
+    },
+    "zh": {
+      "name": "利马都会博物馆",
+      "history": "博物馆使用博览会公园旁的原政府部委建筑，展览围绕利马城市史。",
+      "features": "原政府建筑立面与视听展示区",
+      "visit": "到访前先查当期安排，并为「建筑正面」留出时间。",
+      "route": "从爱情公园出发，可用地图导航至「七月二十八日大道」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「建筑正面」朝「当日开放路线」取景，并遵守场地的拍摄规定。",
+      "faq": "开放安排变化时，怎样调整行程？",
+      "answer": "先核对场馆安排，若室内暂不开放，可保留外观参观。",
+      "manager": "利马都会市政府文化部门",
+      "extra": {
+        "hours": "旅游资源名录列为10:00–18:00，出发前请向管理方核对。",
+        "admission": "名录列出的票价为 S/ 4（参考普通票）。请向管理方核对现行票价与优惠。",
+        "stops": [
+          "七月二十八日大道",
+          "建筑正面",
+          "当日开放路线"
+        ],
+        "intro": "可从「七月二十八日大道」开始，沿途串联「建筑正面」与「当日开放路线」。"
+      }
+    }
+  },
+  {
+    "slug": "museo-historia-natural-lima",
+    "district": "Jesús María",
+    "address": "Av. Arenales Nº 1256",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=13634",
+    "category": "city",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=601688",
+    "image": "/nearby/museo-historia-natural-lima.webp",
+    "width": 1100,
+    "height": 618,
+    "name": "Museo de Historia Natural de San Marcos",
+    "history": "La Universidad Nacional Mayor de San Marcos fundó el museo en 1918 para la investigación y difusión de la historia natural.",
+    "features": "Colecciones de fauna, fósiles y diversidad natural",
+    "visit": "Comprueba la programación antes de llegar y reserva tiempo para salas de fauna.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Arenales 1256. La referencia de llegada es Av. Arenales Nº 1256.",
+    "photoTip": "Prueba un encuadre desde salas de fauna hacia exposiciones de fósiles abiertas. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Cómo organizo la visita si hay cambios de horario?",
+    "answer": "Consulta la programación del recinto. Conserva la parada exterior si no se puede entrar.",
+    "manager": "Universidad Nacional Mayor de San Marcos",
+    "extra": {
+      "hours": "El inventario turístico indica martes a viernes, con horario distinto el sábado, 09:00–17:00. Confirma antes de ir.",
+      "admission": "El inventario indica S/ 10 (tarifa general de referencia). Verifica descuentos y tarifas vigentes.",
+      "stops": [
+        "Arenales 1256",
+        "salas de fauna",
+        "exposiciones de fósiles abiertas"
+      ],
+      "intro": "Empieza en Arenales 1256. El recorrido enlaza salas de fauna con exposiciones de fósiles abiertas."
+    },
+    "en": {
+      "name": "San Marcos Natural History Museum",
+      "history": "The National University of San Marcos founded the museum in 1918 for natural history research and public education.",
+      "features": "Fauna, fossils and natural diversity collections",
+      "visit": "Check the program before visiting and leave time for fauna galleries.",
+      "route": "From Love Park, use the directions to Arenales 1256. The arrival reference is Av. Arenales Nº 1256.",
+      "photoTip": "Try a view from fauna galleries toward open fossil displays. Take photos only in areas open to visitors.",
+      "faq": "How should I plan for schedule changes?",
+      "answer": "Check the venue’s schedule. Keep the exterior stop if indoor access is unavailable.",
+      "manager": "National University of San Marcos",
+      "extra": {
+        "hours": "The tourism inventory lists Tuesday–Friday, with different Saturday hours, 09:00–17:00. Confirm before visiting.",
+        "admission": "Inventory price: S/ 10 (indicative general admission). Check current prices and discounts.",
+        "stops": [
+          "Arenales 1256",
+          "fauna galleries",
+          "open fossil displays"
+        ],
+        "intro": "Begin at Arenales 1256. The route links fauna galleries with open fossil displays."
+      }
+    },
+    "zh": {
+      "name": "圣马科斯自然历史博物馆",
+      "history": "圣马科斯国立大学于 1918 年创办此馆，用于自然史研究与公众教育。",
+      "features": "动物、化石与自然多样性藏品",
+      "visit": "到访前先查当期安排，并为「动物展厅」留出时间。",
+      "route": "从爱情公园出发，可用地图导航至「阿雷纳莱斯大道 1256 号」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「动物展厅」朝「开放的化石展区」取景，并遵守场地的拍摄规定。",
+      "faq": "开放安排变化时，怎样调整行程？",
+      "answer": "先核对场馆安排，若室内暂不开放，可保留外观参观。",
+      "manager": "圣马科斯国立大学",
+      "extra": {
+        "hours": "旅游资源名录列为周二至周五，周六开放时间另计 09:00–17:00，出发前请向管理方核对。",
+        "admission": "名录列出的票价为 S/ 10（参考普通票）。请向管理方核对现行票价与优惠。",
+        "stops": [
+          "阿雷纳莱斯大道 1256 号",
+          "动物展厅",
+          "开放的化石展区"
+        ],
+        "intro": "可从「阿雷纳莱斯大道 1256 号」开始，沿途串联「动物展厅」与「开放的化石展区」。"
+      }
+    }
+  },
+  {
+    "slug": "museo-cultura-peruana",
+    "district": "Cercado de Lima",
+    "address": "Av. Alfonso Ugarte 650",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=1981",
+    "category": "city",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=546588",
+    "image": "/nearby/museo-cultura-peruana.webp",
+    "width": 1100,
+    "height": 619,
+    "name": "Museo Nacional de la Cultura Peruana",
+    "history": "Fundado en 1946, el museo se formó en torno al estudio de las tradiciones y el arte popular peruano.",
+    "features": "Arte popular y motivos del edificio de Alfonso Ugarte",
+    "visit": "Comprueba la programación antes de llegar y reserva tiempo para fachada.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Alfonso Ugarte 650. La referencia de llegada es Av. Alfonso Ugarte 650.",
+    "photoTip": "Prueba un encuadre desde fachada hacia colección de arte popular. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Cómo organizo la visita si hay cambios de horario?",
+    "answer": "Consulta la programación del recinto. Conserva la parada exterior si no se puede entrar.",
+    "manager": "Ministerio de Cultura",
+    "extra": {
+      "hours": "El inventario turístico indica martes a sábado, 10:00–16:30. Confirma antes de ir.",
+      "admission": "El inventario indica S/ 6 (tarifa general de referencia). Verifica descuentos y tarifas vigentes.",
+      "stops": [
+        "Alfonso Ugarte 650",
+        "fachada",
+        "colección de arte popular"
+      ],
+      "intro": "Empieza en Alfonso Ugarte 650. El recorrido enlaza fachada con colección de arte popular."
+    },
+    "en": {
+      "name": "National Museum of Peruvian Culture",
+      "history": "Founded in 1946, the museum grew from research into Peruvian traditions and folk art.",
+      "features": "Folk art and motifs on the Alfonso Ugarte building",
+      "visit": "Check the program before visiting and leave time for façade.",
+      "route": "From Love Park, use the directions to Alfonso Ugarte 650. The arrival reference is Av. Alfonso Ugarte 650.",
+      "photoTip": "Try a view from façade toward folk art collection. Take photos only in areas open to visitors.",
+      "faq": "How should I plan for schedule changes?",
+      "answer": "Check the venue’s schedule. Keep the exterior stop if indoor access is unavailable.",
+      "manager": "Ministry of Culture of Peru",
+      "extra": {
+        "hours": "The tourism inventory lists Tuesday–Saturday, 10:00–16:30. Confirm before visiting.",
+        "admission": "Inventory price: S/ 6 (indicative general admission). Check current prices and discounts.",
+        "stops": [
+          "Alfonso Ugarte 650",
+          "façade",
+          "folk art collection"
+        ],
+        "intro": "Begin at Alfonso Ugarte 650. The route links façade with folk art collection."
+      }
+    },
+    "zh": {
+      "name": "秘鲁国家文化博物馆",
+      "history": "博物馆创立于 1946 年，源于对秘鲁传统与民间艺术的研究。",
+      "features": "民间艺术与阿方索·乌加特大道馆舍的纹饰",
+      "visit": "到访前先查当期安排，并为「建筑立面」留出时间。",
+      "route": "从爱情公园出发，可用地图导航至「阿方索·乌加特大道 650 号」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「建筑立面」朝「民间艺术藏品」取景，并遵守场地的拍摄规定。",
+      "faq": "开放安排变化时，怎样调整行程？",
+      "answer": "先核对场馆安排，若室内暂不开放，可保留外观参观。",
+      "manager": "秘鲁文化部",
+      "extra": {
+        "hours": "旅游资源名录列为周二至周六 10:00–16:30，出发前请向管理方核对。",
+        "admission": "名录列出的票价为 S/ 6（参考普通票）。请向管理方核对现行票价与优惠。",
+        "stops": [
+          "阿方索·乌加特大道 650 号",
+          "建筑立面",
+          "民间艺术藏品"
+        ],
+        "intro": "可从「阿方索·乌加特大道 650 号」开始，沿途串联「建筑立面」与「民间艺术藏品」。"
+      }
+    }
+  },
+  {
+    "slug": "huaca-la-luz",
+    "district": "Cercado de Lima",
+    "address": "Jr. Venus con Calle Marte, Urb. La Luz",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=12397",
+    "category": "city",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=501735",
+    "image": "/nearby/huaca-la-luz.webp",
+    "width": 1100,
+    "height": 619,
+    "name": "Huaca La Luz",
+    "history": "El sitio conserva vestigios del Intermedio Tardío en el entorno residencial de la urbanización La Luz.",
+    "features": "Estructuras de tierra en un entorno residencial",
+    "visit": "Comprueba el acceso interior antes de ir. Observa los restos desde los senderos habilitados y evita tocar los muros.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Jirón Venus. La referencia de llegada es Jr. Venus con Calle Marte, Urb. La Luz.",
+    "photoTip": "Prueba un encuadre desde cruce con Calle Marte hacia vista desde el perímetro público. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Puedo recorrer las estructuras sin guía?",
+    "answer": "Sigue la ruta autorizada por el personal. Cuando no haya recorridos, limita la visita a los puntos exteriores permitidos.",
+    "manager": "Municipalidad Metropolitana de Lima - PROLIMA",
+    "extra": {
+      "hours": "El inventario turístico indica lunes a viernes, 09:00–17:00. Confirma antes de ir.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Jirón Venus",
+        "cruce con Calle Marte",
+        "vista desde el perímetro público"
+      ],
+      "intro": "Empieza en Jirón Venus. El recorrido enlaza cruce con calle marte con vista desde el perímetro público."
+    },
+    "en": {
+      "name": "La Luz Archaeological Site",
+      "history": "The site preserves Late Intermediate Period remains within the residential La Luz neighborhood.",
+      "features": "Earthen structures in a residential setting",
+      "visit": "Confirm interior access before going. Stay on visitor paths without touching the walls.",
+      "route": "From Love Park, use the directions to Jirón Venus. The arrival reference is Jr. Venus con Calle Marte, Urb. La Luz.",
+      "photoTip": "Try a view from Calle Marte junction toward view from the public perimeter. Take photos only in areas open to visitors.",
+      "faq": "Can I walk among the structures independently?",
+      "answer": "Follow the route authorized by staff. When tours are unavailable, use permitted exterior viewpoints.",
+      "manager": "Metropolitan Municipality of Lima, PROLIMA",
+      "extra": {
+        "hours": "The tourism inventory lists Monday–Friday, 09:00–17:00. Confirm before visiting.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Jirón Venus",
+          "Calle Marte junction",
+          "view from the public perimeter"
+        ],
+        "intro": "Begin at Jirón Venus. The route links Calle Marte junction with view from the public perimeter."
+      }
+    },
+    "zh": {
+      "name": "拉卢斯考古遗址",
+      "history": "遗址在拉卢斯住宅区内保留了中间晚期的遗迹。",
+      "features": "住宅环境中的土筑遗构",
+      "visit": "出发前请核对是否可入内。沿指定参观小径观察，避免触碰遗墙。",
+      "route": "从爱情公园出发，可用地图导航至「金星街」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「火星街交会处」朝「从公共外围观察」取景，并遵守场地的拍摄规定。",
+      "faq": "可以自行走入遗构之间参观吗？",
+      "answer": "请遵循工作人员指定的路线。没有导览时，可在获准开放的外围观察点参观。",
+      "manager": "利马都会市政府历史中心管理机构（PROLIMA）",
+      "extra": {
+        "hours": "旅游资源名录列为周一至周五 09:00–17:00，出发前请向管理方核对。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "金星街",
+          "火星街交会处",
+          "从公共外围观察"
+        ],
+        "intro": "可从「金星街」开始，沿途串联「火星街交会处」与「从公共外围观察」。"
+      }
+    }
+  },
+  {
+    "slug": "huaca-huantille",
+    "district": "Magdalena del Mar",
+    "address": "Jr. Mariscal Castilla 1211",
+    "source": "https://consultasenlinea.mincetur.gob.pe/fichaInventario/index.aspx?cod_Ficha=6008",
+    "category": "city",
+    "imageSource": "https://consultasenlinea.mincetur.gob.pe/fichaInventario//foto.aspx?cod=344909",
+    "image": "/nearby/huaca-huantille.webp",
+    "width": 1100,
+    "height": 613,
+    "name": "Huaca Huantille",
+    "history": "La huaca fue edificada durante el Intermedio Tardío y se vincula al señorío Ychsma.",
+    "features": "Volumen de adobe y contraste con el barrio moderno",
+    "visit": "Comprueba el acceso interior antes de ir. Observa los restos desde los senderos habilitados y evita tocar los muros.",
+    "route": "Desde Parque del Amor, usa el mapa hasta Mariscal Castilla 1211. La referencia de llegada es Jr. Mariscal Castilla 1211.",
+    "photoTip": "Prueba un encuadre desde perímetro autorizado hacia salida hacia el Mercado Modelo. Fotografía desde zonas abiertas al público.",
+    "faq": "¿Puedo recorrer las estructuras sin guía?",
+    "answer": "Sigue la ruta autorizada por el personal. Cuando no haya recorridos, limita la visita a los puntos exteriores permitidos.",
+    "manager": "Municipalidad de Magdalena del Mar - Gerencia de Desarrollo Humano, Educación, Cultura, Deporte y Recreación",
+    "extra": {
+      "hours": "El inventario turístico indica lunes a viernes, 09:00–17:00. Confirma antes de ir.",
+      "admission": "El inventario indica acceso gratuito.",
+      "stops": [
+        "Mariscal Castilla 1211",
+        "perímetro autorizado",
+        "salida hacia el Mercado Modelo"
+      ],
+      "intro": "Empieza en Mariscal Castilla 1211. El recorrido enlaza perímetro autorizado con salida hacia el mercado modelo."
+    },
+    "en": {
+      "name": "Huantille Archaeological Site",
+      "history": "The huaca was built during the Late Intermediate Period and is associated with the Ychsma polity.",
+      "features": "Adobe massing and contrast with the modern neighborhood",
+      "visit": "Confirm interior access before going. Stay on visitor paths without touching the walls.",
+      "route": "From Love Park, use the directions to Mariscal Castilla 1211. The arrival reference is Jr. Mariscal Castilla 1211.",
+      "photoTip": "Try a view from authorized perimeter toward exit toward Mercado Modelo. Take photos only in areas open to visitors.",
+      "faq": "Can I walk among the structures independently?",
+      "answer": "Follow the route authorized by staff. When tours are unavailable, use permitted exterior viewpoints.",
+      "manager": "Municipality of Magdalena del Mar",
+      "extra": {
+        "hours": "The tourism inventory lists Monday–Friday, 09:00–17:00. Confirm before visiting.",
+        "admission": "The tourism inventory lists free admission.",
+        "stops": [
+          "Mariscal Castilla 1211",
+          "authorized perimeter",
+          "exit toward Mercado Modelo"
+        ],
+        "intro": "Begin at Mariscal Castilla 1211. The route links authorized perimeter with exit toward Mercado Modelo."
+      }
+    },
+    "zh": {
+      "name": "万蒂列考古遗址",
+      "history": "遗址建于中间晚期，与伊奇马政权有关。",
+      "features": "土坯遗址体量与现代街区的对比",
+      "visit": "出发前请核对是否可入内。沿指定参观小径观察，避免触碰遗墙。",
+      "route": "从爱情公园出发，可用地图导航至「马里斯卡尔卡斯蒂利亚街 1211 号」。到达时以页面所列的当地地址为准。",
+      "photoTip": "可从「允许参观的外围」朝「朝示范市场方向离开」取景，并遵守场地的拍摄规定。",
+      "faq": "可以自行走入遗构之间参观吗？",
+      "answer": "请遵循工作人员指定的路线。没有导览时，可在获准开放的外围观察点参观。",
+      "manager": "马格达莱纳德尔马区政府",
+      "extra": {
+        "hours": "旅游资源名录列为周一至周五 09:00–17:00，出发前请向管理方核对。",
+        "admission": "旅游资源名录列为免费进入。",
+        "stops": [
+          "马里斯卡尔卡斯蒂利亚街 1211 号",
+          "允许参观的外围",
+          "朝示范市场方向离开"
+        ],
+        "intro": "可从「马里斯卡尔卡斯蒂利亚街 1211 号」开始，沿途串联「允许参观的外围」与「朝示范市场方向离开」。"
+      }
+    }
   }
 ]
