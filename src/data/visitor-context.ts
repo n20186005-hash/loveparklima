@@ -123,5 +123,9 @@ export const visitorLabels = {
       city: "住科隆大道一带，便于步行串联博览会公园周边博物馆。若还要去普韦布洛利夫雷或马格达莱纳，订房前请分别估算这两段交通。",
     } as Partial<Record<string, string>>,
   },
-  qu: { category: "Watukuy laya", duration: "Hayk'a unay", start: "Qallariy k'uchu", observation: "Ima qhawanapaq", stays: {} as Partial<Record<string, string>> },
+  qu: { category: "Watukuy laya", duration: "Hayk'a unay", start: "Qallariy k'uchu", observation: "Ima qhawanapaq", stays: {
+    "near-north": "El Olivar qayllanpi samana wasita maskay, sach'a sach'amanta Huallamarcaman chakillawan rinaykipaq.",
+    south: "Surco utaq San Borjapi achka watukuy kaptin, qhipa watuna qayllanpi samana wasita maskay.",
+    city: "Paseo Colón qayllanmanta Exposición pampapa museo wasinkunaman chakillawan riyta atinki. Pueblo Libre, Magdalena ñankunata sapaqta tupuy.",
+  } as Partial<Record<string, string>> },
 };

@@ -567,6 +567,12 @@ function Gallery() {
     }
   }, [lightboxIndex, galleryImages.length]);
 
+  const controls = {
+    en: ["Close gallery", "Previous photo", "Next photo"],
+    es: ["Cerrar galería", "Foto anterior", "Foto siguiente"],
+    zh: ["关闭图库", "上一张照片", "下一张照片"],
+    qu: ["Rikuchinata wisq'ay", "Ñawpaq rikch'ay", "Qatiq rikch'ay"],
+  }[locale];
   const currentImage = lightboxIndex !== null ? galleryImages[lightboxIndex] : null;
   const currentCaption = currentImage?.caption?.[locale] || "";
   const currentStory = currentImage?.story?.[locale] || "";
@@ -604,10 +610,10 @@ function Gallery() {
       </ScrollReveal>
       {lightboxIndex !== null && galleryImages.length > 0 && (
         <div className="lightbox" onClick={() => setLightboxIndex(null)}>
-          <button className="lightbox-close" onClick={() => setLightboxIndex(null)}>×</button>
-          <button className="lightbox-prev" onClick={(e) => { e.stopPropagation(); setLightboxIndex((lightboxIndex - 1 + galleryImages.length) % galleryImages.length); }}>‹</button>
+          <button className="lightbox-close" aria-label={controls[0]} onClick={() => setLightboxIndex(null)}>×</button>
+          <button className="lightbox-prev" aria-label={controls[1]} onClick={(e) => { e.stopPropagation(); setLightboxIndex((lightboxIndex - 1 + galleryImages.length) % galleryImages.length); }}>‹</button>
           <img src={galleryImages[lightboxIndex].src} alt={currentCaption || `${t.gallery.title} ${lightboxIndex + 1}`} className="lightbox-img" />
-          <button className="lightbox-next" onClick={(e) => { e.stopPropagation(); setLightboxIndex((lightboxIndex + 1) % galleryImages.length); }}>›</button>
+          <button className="lightbox-next" aria-label={controls[2]} onClick={(e) => { e.stopPropagation(); setLightboxIndex((lightboxIndex + 1) % galleryImages.length); }}>›</button>
           {(currentCaption || currentStory) && (
             <div className="lightbox-info">
               {currentCaption && <p className="lightbox-caption">{currentCaption}</p>}

@@ -1,6 +1,6 @@
+import LocaleLinks from "@/components/LocaleLinks";
 import Image from "next/image";
 import Link from "next/link";
-import { guideLocales } from "@/i18n/guides";
 import type { AttractionLocale } from "@/data/attractions";
 
 export default function TravelHero({ locale, path, home, title, subtitle, region, hours, map, mapLabel, reviewMap, reviews, image, alt, photoSource, photoLabel }: {
@@ -23,16 +23,8 @@ export default function TravelHero({ locale, path, home, title, subtitle, region
   return (
     <>
       <nav className="site-nav scrolled travel-nav" aria-label={home}>
-        <Link href={`/${locale}#nearby`}>{home}</Link>
-        <div className="lang-switcher">
-          {guideLocales.map((language) => (
-            <Link key={language} href={`/${language}${path}`} hrefLang={language} lang={language}
-              aria-current={language === locale ? "page" : undefined}
-              className={`lang-btn${language === locale ? " active" : ""}`}>
-              {{ es: "ES", en: "EN", zh: "中文", qu: "QU" }[language]}
-            </Link>
-          ))}
-        </div>
+        <Link className="travel-brand" href={`/${locale}`}>{home}</Link>
+        <LocaleLinks locale={locale} path={path} />
       </nav>
       <header className="hero travel-hero">
         <div className="hero-bg travel-hero-bg"><Image src={image} alt={alt} fill unoptimized loading="eager" /></div>
