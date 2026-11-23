@@ -196,7 +196,7 @@ function Hero() {
         <div className="hero-meta">
           <div className="hero-rating">4.5</div>
           <div className="hero-stars">★ ★ ★ ★ ☆</div>
-          <div className="hero-reviews">30,966 {t.rating.reviews} · {t.rating.source}</div>
+          <div className="hero-reviews">30,977 {t.rating.reviews} · {t.rating.source}</div>
         </div>
       </a>
     </section>
