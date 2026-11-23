@@ -93,24 +93,26 @@ export default async function GuidePage({ params }: Props) {
             <dt>{details.admission}</dt><dd>{admission}</dd>
           </dl>
         </section>
-        <section className="attraction-block">
-          <h2>{details.hours}</h2><p>{hours}</p>
-          <a href={access.source}>{sections.verify}</a>
-        </section>
-        <section className="attraction-block">
-          <h2>{details.admission}</h2><p>{admission}</p>
-        </section>
-        <section className="attraction-block">
+        <div className="travel-essentials">
+          <section className="attraction-block travel-panel travel-essential">
+            <h2>{details.hours}</h2><p>{hours}</p>
+            <a href={access.source}>{sections.verify}</a>
+          </section>
+          <section className="attraction-block travel-panel travel-essential">
+            <h2>{details.admission}</h2><p>{admission}</p>
+          </section>
+        </div>
+        <section className="attraction-block travel-panel travel-transport">
           <h2>{details.transport}</h2>
           <p>{sculpture ? details.parkTransit : first[1]}</p>
           <a href={map}>{labels.map}</a>
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-discovery">
           <h2>{sections.discover}</h2>
           <h3>{sculpture ? first[0] : third[0]}</h3>
           <p>{sculpture ? first[1] : third[1]}</p>
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-itinerary">
           <h2>{sections.route}</h2>
           <ol className="attraction-steps">
             {stops.map((stop, i) => (
@@ -118,24 +120,24 @@ export default async function GuidePage({ params }: Props) {
             ))}
           </ol>
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-notes">
           <h2>{sections.notes}</h2>
           <p>{sections.weather}</p>
           {!sculpture && <details className="faq-item"><summary>{fifth[0]}</summary><p>{fifth[1]}</p></details>}
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-photo">
           <h2>{details.photo}</h2>
           <p>{sculpture ? fourth[1] : sections.walkPhoto}</p>
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-stay">
           <h2>{sections.stay}</h2><p>{stayAdvice(locale, "coast")}</p>
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-reviews">
           <h2>{details.reviews}</h2>
           <p><a href={parkMap}>{details.parkRating}</a></p>
           <p>{details.ratingContext}</p>
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-location">
           <h2>{sections.location}</h2>
           <p>{sculpture ? third[1] : details.walkRoute}</p>
           <p>{details.parkAddress}</p>
@@ -143,7 +145,7 @@ export default async function GuidePage({ params }: Props) {
         </section>
         <p><a href={slug === "el-beso" ? municipalPlan : municipalRoutes}>{labels.source}</a></p>
       </article>
-      <aside style={{ marginTop: "2rem" }}>
+      <aside className="attraction-block travel-nearby">
         <p><Link href={`/${locale}#nearby`}>{details.nearby}</Link></p>
         <Link href={`/${locale}/guide/${related}`}>{guides[locale][related].title}</Link>
         <ul className="attraction-block">
