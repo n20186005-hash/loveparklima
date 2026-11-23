@@ -1,3 +1,4 @@
+import { nearbyRouteLabels, relatedStops, visitPlanning } from "@/data/nearby-routes";
 import type { Metadata } from "next";
 import TravelFooter from "@/components/TravelFooter";
 import TravelHero from "@/components/TravelHero";
@@ -57,7 +58,16 @@ export default async function AttractionPage({ params }: Props) {
     origin: "Parque del Amor, Malecón Cisneros, Miraflores, Lima",
     destination: `${attraction.name}, ${address}`,
   });
-  const related = attractions.filter((place) => place.category === attraction.category && place.slug !== attraction.slug).slice(0, 3);
+  const routeLabels = nearbyRouteLabels[locale];
+  const planning = visitPlanning(attraction.slug, locale);
+  const related = relatedStops(attraction.slug).flatMap((slug) => {
+    const place = attractions.find((item) => item.slug === slug);
+    return place ? [place] : [];
+  });
+  const additional = attractions
+    .filter((item) => item.category === attraction.category && item.slug !== attraction.slug)
+    .slice(0, 3)
+    .filter((item) => !related.includes(item));
   return (
     <>
     <main className="section attraction-page travel-page">
@@ -74,6 +84,7 @@ export default async function AttractionPage({ params }: Props) {
         <section className="attraction-block">
           <h2>{labels.visit}</h2>
           <p>{copy.visit}</p>
+          {planning && <p>{planning}</p>}
           {context?.duration && <p><strong>{visitor.duration}</strong> · {context.duration}</p>}
         </section>
         <section className="attraction-block">
@@ -97,6 +108,8 @@ export default async function AttractionPage({ params }: Props) {
             <dt>{labels.manager}</dt><dd>{copy.manager}</dd>
             <dt>{labels.hours}</dt><dd>{details.hours}</dd>
             <dt>{labels.admission}</dt><dd>{details.admission}</dd>
+            <dt>{routeLabels.visit}</dt><dd>{tagline}</dd>
+            <dt>{routeLabels.map}</dt><dd><a href={map}>{labels.map}</a></dd>
             <dt>{labels.source}</dt><dd><a href={details.source}>{sections.verify}</a></dd>
           </dl>
         </section>
@@ -108,6 +121,7 @@ export default async function AttractionPage({ params }: Props) {
         <section className="attraction-block">
           <h2>{labels.admission}</h2>
           <p>{details.admission}</p>
+          <a href={details.source}>{routeLabels.admission}</a>
         </section>
         <section className="attraction-block">
           <h2>{labels.transport}</h2>
@@ -147,12 +161,14 @@ export default async function AttractionPage({ params }: Props) {
         </section>
         <section className="attraction-block">
           <h2>{labels.reviews}</h2>
+          <p>{routeLabels.reviews}</p>
           <a href={map}>{labels.reviewLink}</a>
         </section>
         <section className="attraction-block">
           <h2>{sections.location}</h2>
           <p>{address}</p>
           <a href={map}>{labels.map}</a>
+          <p><a href={`https://www.google.com/maps/dir/?${directions}`}>{routeLabels.arrival}</a></p>
         </section>
         <section className="attraction-block">
           <h2>{labels.source}</h2>
@@ -161,9 +177,31 @@ export default async function AttractionPage({ params }: Props) {
       </article>
       <aside className="attraction-block">
         <h2>{labels.other}</h2>
-        <ul>{related.map((place) => (
+        {related.length > 0 && <>
+          <h3>{routeLabels.title}</h3>
+          <p>{routeLabels.note}</p>
+          <div className="info-grid">
+            {related.map((place) => {
+              const nearby = attractionCopy(place, locale);
+              const query = new URLSearchParams({
+                api: "1",
+                origin: `${attraction.name}, ${address}`,
+                destination: `${place.name}, ${attractionAddress(place)}`,
+              });
+              return (
+                <div key={place.slug} className="info-card">
+                  <h3><Link href={`/${locale}/explore/${place.slug}`}>{nearby.name}</Link></h3>
+                  <p>{attractionAddress(place)}</p>
+                  <p>{nearby.features}</p>
+                  <a href={`https://www.google.com/maps/dir/?${query}`}>{routeLabels.directions}</a>
+                </div>
+              );
+            })}
+          </div>
+        </>}
+        {additional.length > 0 && <ul>{additional.map((place) => (
           <li key={place.slug}><Link href={`/${locale}/explore/${place.slug}`}>{attractionCopy(place, locale).name}</Link></li>
-        ))}</ul>
+        ))}</ul>}
       </aside>
     </main>
     <TravelFooter locale={locale} />

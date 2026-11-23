@@ -1246,3 +1246,25 @@ body {
 .travel-page .travel-hero a.hero-cta:not(.travel-review) { color: #1a2e1a; }
 .travel-hero .hero-cta { overflow-wrap: anywhere; padding-inline: 1.25rem; }
 .policy-list { list-style: disc; padding-inline-start: 1.5rem; }
+
+.travel-brand {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.travel-page article,
+.travel-page > aside {
+  max-width: 54rem;
+  margin-inline: auto;
+}
+
+.travel-page article > section:first-child { margin-top: clamp(2rem, 6vw, 4rem); }
+
+@media (max-width: 480px) {
+  .travel-nav { gap: .5rem; }
+  .travel-nav .lang-btn { padding-inline: .42rem; }
+  .travel-hero { min-height: 65svh; padding-top: 6rem; }
+  .travel-hero .hero-title { overflow-wrap: anywhere; }
+  .travel-photo-credit { align-self: start; }
+}

@@ -1,3 +1,4 @@
+import LocaleLinks from "@/components/LocaleLinks";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import TravelFooter from "@/components/TravelFooter";
@@ -34,15 +35,7 @@ export default async function PolicyPage({ params }: Props) {
     <>
       <nav className="site-nav scrolled travel-nav" aria-label={labels.home}>
         <Link href={`/${locale}`}>{labels.home}</Link>
-        <div className="lang-switcher">
-          {guideLocales.map((language) => (
-            <Link key={language} href={`/${language}/${policy}`} hrefLang={language} lang={language}
-              aria-current={language === locale ? "page" : undefined}
-              className={`lang-btn${language === locale ? " active" : ""}`}>
-              {{ es: "ES", en: "EN", zh: "中文", qu: "QU" }[language]}
-            </Link>
-          ))}
-        </div>
+        <LocaleLinks locale={locale} path={`/${policy}`} />
       </nav>
       <main className="section policy-page">
         {policy === "cookies" ? <CookiesClient locale={locale} /> : locale === "zh" ? (
