@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { nearbyRouteLabels, relatedStops, visitPlanning } from "@/data/nearby-routes";
 import type { Metadata } from "next";
 import TravelFooter from "@/components/TravelFooter";
@@ -113,26 +114,28 @@ export default async function AttractionPage({ params }: Props) {
             <dt>{labels.source}</dt><dd><a href={details.source}>{sections.verify}</a></dd>
           </dl>
         </section>
-        <section className="attraction-block">
-          <h2>{labels.hours}</h2>
-          <p>{details.hours}</p>
-          <a href={details.source}>{sections.verify}</a>
-        </section>
-        <section className="attraction-block">
-          <h2>{labels.admission}</h2>
-          <p>{details.admission}</p>
-          <a href={details.source}>{routeLabels.admission}</a>
-        </section>
-        <section className="attraction-block">
+        <div className="travel-essentials">
+          <section className="attraction-block travel-panel travel-essential">
+            <h2>{labels.hours}</h2>
+            <p>{details.hours}</p>
+            <a href={details.source}>{sections.verify}</a>
+          </section>
+          <section className="attraction-block travel-panel travel-essential">
+            <h2>{labels.admission}</h2>
+            <p>{details.admission}</p>
+            <a href={details.source}>{routeLabels.admission}</a>
+          </section>
+        </div>
+        <section className="attraction-block travel-panel travel-transport">
           <h2>{labels.transport}</h2>
           <p>{copy.route}</p>
-          <ul>
+          <ul className="travel-transport-links">
             <li><a href={`https://www.google.com/maps/dir/?${directions}&travelmode=walking`}>{labels.walking}</a></li>
             <li><a href={`https://www.google.com/maps/dir/?${directions}&travelmode=transit`}>{labels.transit}</a></li>
             <li><a href={`https://www.google.com/maps/dir/?${directions}&travelmode=driving`}>{labels.driving}</a></li>
           </ul>
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-discovery">
           <h2>{sections.discover}</h2>
           <h3>{labels.history}</h3>
           <p>{copy.history}</p>
@@ -141,30 +144,30 @@ export default async function AttractionPage({ params }: Props) {
             <p>{context.observation}</p>
           </>}
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-itinerary">
           <h2>{sections.route}</h2>
           <ol className="attraction-steps">{stops.map((stop) => <li key={stop}>{stop}</li>)}</ol>
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-notes">
           <h2>{sections.notes}</h2>
           <p>{details.notes ?? (attraction.category === "coast" ? sections.weather : sections.heritage)}</p>
           <details className="faq-item"><summary>{copy.faq}</summary><p>{copy.answer}</p></details>
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-photo">
           <h2>{labels.photo}</h2>
           <p>{copy.photoTip}</p>
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-stay">
           <h2>{sections.stay}</h2>
           {areaStay && <p>{areaStay}</p>}
           <p>{stayAdvice(locale, attraction.category)}</p>
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-reviews">
           <h2>{labels.reviews}</h2>
           <p>{routeLabels.reviews}</p>
           <a href={map}>{labels.reviewLink}</a>
         </section>
-        <section className="attraction-block">
+        <section className="attraction-block travel-panel travel-location">
           <h2>{sections.location}</h2>
           <p>{address}</p>
           <a href={map}>{labels.map}</a>
@@ -175,12 +178,12 @@ export default async function AttractionPage({ params }: Props) {
           <a href={attraction.source}>{new URL(attraction.source).hostname.replace(/^www\./, "")}</a>
         </section>
       </article>
-      <aside className="attraction-block">
+      <aside className="attraction-block travel-nearby">
         <h2>{labels.other}</h2>
         {related.length > 0 && <>
           <h3>{routeLabels.title}</h3>
           <p>{routeLabels.note}</p>
-          <div className="info-grid">
+          <div className="info-grid travel-nearby-grid">
             {related.map((place) => {
               const nearby = attractionCopy(place, locale);
               const query = new URLSearchParams({
@@ -189,11 +192,14 @@ export default async function AttractionPage({ params }: Props) {
                 destination: `${place.name}, ${attractionAddress(place)}`,
               });
               return (
-                <div key={place.slug} className="info-card">
+                <div key={place.slug} className="info-card travel-nearby-card">
+                  <Image src={place.image} alt="" width={place.width} height={place.height} unoptimized className="travel-nearby-image" />
+                  <div className="travel-nearby-body">
                   <h3><Link href={`/${locale}/explore/${place.slug}`}>{nearby.name}</Link></h3>
                   <p>{attractionAddress(place)}</p>
                   <p>{nearby.features}</p>
                   <a href={`https://www.google.com/maps/dir/?${query}`}>{routeLabels.directions}</a>
+                  </div>
                 </div>
               );
             })}
